@@ -7216,7 +7216,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd ${SRCROOT}/x264\nmake clean\nif [ -f config.mak ]; then\n    rm config.mak\nfi\n./configure --enable-static --disable-asm\nmake\ncd ../ffmpeg\nsh restart.sh ../x264\nmake\nexecPath=\"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\nif [ -f \"$execPath\" ]; then\n    rm \"$execPath\"\nfi\ncp ffmpeg \"$execPath\"";
+			shellScript = "cd ${SRCROOT}/x264\nmake clean\nif [ -f config.mak ]; then\n    rm config.mak\nfi\n./configure --enable-static --disable-asm\nmake\ncd ../ffmpeg\nsh restart.sh ../x264\nmake\nexecPath=\"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\nif [ -f \"$execPath\" ]; then\n    rm \"$execPath\"\nfi\nif [ ! -d \"${CONFIGURATION_BUILD_DIR}\" ]; then\n    mkdir \"${CONFIGURATION_BUILD_DIR}\"\nfi\ncp ffmpeg \"$execPath\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -7353,6 +7353,7 @@
 				FA45048615892B6E00659C9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FABB6F531588E31800BF5320 /* Build configuration list for PBXProject "VideoConverter" */ = {
 			isa = XCConfigurationList;

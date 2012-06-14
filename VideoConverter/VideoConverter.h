@@ -17,18 +17,31 @@
  - search output for duration
  - search output for status updates
  - send delegate nice callback info
- - convert function should use NSRunLoop, etc.
  - fallback tasks (for different encoding options on error)
  
  */
 
 @interface VideoConverter : ACConverter {
     NSTask * converterTask;
-    NSPipe * errorPipe;
-    NSPipe * readPipe;
-    NSPipe * writePipe;
+    NSString * launchPath;
+    NSString * tempSource;
+    __unsafe_unretained ACConverterCallback callback;
+    NSTimeInterval totalDuration;
+    NSTimeInterval completed;
+    BOOL hasDuration;
 }
 
 + (NSError *)errorWithCode:(NSInteger)code message:(NSString *)msg;
+
+- (void)removeTempSource;
+
+- (BOOL)encodePreservingCodecs;
+- (BOOL)encodeUsingH264;
+- (BOOL)encoderTask;
+
+- (BOOL)processOutputLine:(NSString *)line;
+- (NSTimeInterval)extractDurationFromLine:(NSString *)output;
+- (NSTimeInterval)extractTimestampFromLine:(NSString *)output;
+- (NSTimeInterval)processTimeString:(NSString *)timeString;
 
 @end
