@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		FA4504701588F4E200659C9E /* VideoConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA45046F1588F4E200659C9E /* VideoConverter.m */; };
 		FA45048915892DE300659C9E /* ffmpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA45047D15892B6E00659C9E /* ffmpeg */; };
-		FA5D53A8158B6C0A001307AD /* ACPlugIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5D53A7158B6C0A001307AD /* ACPlugIn.framework */; };
+		FA5D5B0F158BA9D8001307AD /* ACPlugIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5D5B0E158BA9D8001307AD /* ACPlugIn.framework */; };
 		FABB6F5D1588E31800BF5320 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABB6F5C1588E31800BF5320 /* Cocoa.framework */; };
 		FABB6F671588E31800BF5320 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FABB6F651588E31800BF5320 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
@@ -305,7 +305,6 @@
 		FA4505841589301300659C9E /* x264cli.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = x264cli.h; sourceTree = "<group>"; };
 		FA4505851589301300659C9E /* x264dll.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x264dll.c; sourceTree = "<group>"; };
 		FA4505861589301300659C9E /* x264res.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = x264res.rc; sourceTree = "<group>"; };
-		FA5D53A7158B6C0A001307AD /* ACPlugIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ACPlugIn.framework; sourceTree = "<group>"; };
 		FA5D53AA158B7566001307AD /* aclocal.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = aclocal.m4; sourceTree = "<group>"; };
 		FA5D53AB158B7566001307AD /* AUTHORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
 		FA5D53AC158B7566001307AD /* CHANGES */ = {isa = PBXFileReference; lastKnownFileType = text; path = CHANGES; sourceTree = "<group>"; };
@@ -1040,6 +1039,7 @@
 		FA5D5AED158B983F001307AD /* libtheoraenc80d.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheoraenc80d.rc; sourceTree = "<group>"; };
 		FA5D5AEE158B983F001307AD /* libtheoraencd.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheoraencd.rc; sourceTree = "<group>"; };
 		FA5D5AEF158B983F001307AD /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		FA5D5B0E158BA9D8001307AD /* ACPlugIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ACPlugIn.framework; sourceTree = "<group>"; };
 		FABB6F591588E31800BF5320 /* VideoConverter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoConverter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABB6F5C1588E31800BF5320 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FABB6F5F1588E31800BF5320 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -4051,7 +4051,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FABB6F5D1588E31800BF5320 /* Cocoa.framework in Frameworks */,
-				FA5D53A8158B6C0A001307AD /* ACPlugIn.framework in Frameworks */,
+				FA5D5B0F158BA9D8001307AD /* ACPlugIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5726,7 +5726,7 @@
 		FABB6F5B1588E31800BF5320 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FA5D53A7158B6C0A001307AD /* ACPlugIn.framework */,
+				FA5D5B0E158BA9D8001307AD /* ACPlugIn.framework */,
 				FABB6F5C1588E31800BF5320 /* Cocoa.framework */,
 				FABB6F5E1588E31800BF5320 /* Other Frameworks */,
 			);
@@ -9303,7 +9303,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# compile libogg\necho \"Compiling libogg\" >&2\nlibogg_path=\"${SRCROOT}/libogg-1.3.0\"\ncd \"$libogg_path\"\nif [ -d lib ]; then\n    rm -rf lib\nfi\nmkdir lib\n./configure \"--libdir=${libogg_path}/lib\" \"--includedir=${libogg_path}/lib\"\nmake clean\nmake\nmake install\n\n# compile libvorbis\necho \"Compiling libvorbis\" >&2\nlibvorbis_path=\"${SRCROOT}/vorbis\"\nif [ ! -d \"${libvorbis_path}/libs\" ]; then\n    mkdir \"${libvorbis_path}/libs\"\nelse\n    rm -rf \"${libvorbis_path}/libs/*\"\nfi\ncd \"$libvorbis_path\"\n./configure  --build=x86_64\n./configure \"--with-ogg=${libogg_path}\" \"--with-ogg-includes=${libogg_path}/lib\" --build=x86_64 --enable-static \"--libdir=${libvorbis_path}/libs\"\nmake clean\nmake install\n\n# compile libtheora :'(\necho \"Compiling libtheora\" >&2\nlibtheora_path=\"${SRCROOT}/libtheora-1.1.1\"\nif [ ! -d \"${libtheora_path}/output\" ]; then\n    mkdir \"${libtheora_path}/output\"\nelse\n    rm -rf \"${libtheora_path}/output/*\"\nfi\ncd \"$libtheora_path\"\n./configure --enable-static \"--with-vorbis-includes=${libvorbis_path}/include\" \"--with-vorbis-libraries=${libvorbis_path}/libs\" \"--with-ogg-includes=${libogg_path}/lib\" \"--with-ogg-libraries=${libogg_path}/lib\" \"--libdir=${libtheora_path}/output\" \"--includedir=${libtheora_path}/output\" --build=x86_64\nmake install\n\n# compile x264\necho \"Compiling x264\" >&2\ncd \"${SRCROOT}/x264\"\nmake clean\nif [ -f config.mak ]; then\n    rm config.mak\nfi\n./configure --enable-static --disable-asm\nmake\n\n# compile ffmpeg\necho \"Compiling FFMpeg\" >&2\ncd \"${SRCROOT}/ffmpeg\"\nsh restart.sh ../x264 ../libvorbis ../libogg-1.3.0/lib \"${libtheora_path}/output\"\nmake\nexecPath=\"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\nif [ -f \"$execPath\" ]; then\n    rm \"$execPath\"\nfi\nif [ ! -d \"${CONFIGURATION_BUILD_DIR}\" ]; then\n    mkdir \"${CONFIGURATION_BUILD_DIR}\"\nfi\ncp ffmpeg \"$execPath\"";
+			shellScript = "# compile libogg\necho \"Compiling libogg\" >&2\nlibogg_path=\"${SRCROOT}/libogg-1.3.0\"\ncd \"$libogg_path\"\nif [ -d lib ]; then\n    rm -rf lib\nfi\nmkdir lib\n./configure \"--libdir=${libogg_path}/lib\" \"--includedir=${libogg_path}/lib\" --disable-shared\nmake clean\nmake\nmake install\n\n# compile libvorbis\necho \"Compiling libvorbis\" >&2\nlibvorbis_path=\"${SRCROOT}/vorbis\"\nif [ ! -d \"${libvorbis_path}/libs\" ]; then\n    mkdir \"${libvorbis_path}/libs\"\nelse\n    rm -rf \"${libvorbis_path}/libs/*\"\nfi\ncd \"$libvorbis_path\"\n./configure  --build=x86_64\n./configure \"--with-ogg=${libogg_path}\" \"--with-ogg-includes=${libogg_path}/lib\" --build=x86_64 --enable-static \"--libdir=${libvorbis_path}/libs\"\nmake clean\nmake install\n\n# compile libtheora :'(\necho \"Compiling libtheora\" >&2\nlibtheora_path=\"${SRCROOT}/libtheora-1.1.1\"\nif [ ! -d \"${libtheora_path}/output\" ]; then\n    mkdir \"${libtheora_path}/output\"\nelse\n    rm -rf \"${libtheora_path}/output/*\"\nfi\ncd \"$libtheora_path\"\n./configure --enable-static \"--with-vorbis-includes=${libvorbis_path}/include\" \"--with-vorbis-libraries=${libvorbis_path}/libs\" \"--with-ogg-includes=${libogg_path}/lib\" \"--with-ogg-libraries=${libogg_path}/lib\" \"--libdir=${libtheora_path}/output\" \"--includedir=${libtheora_path}/output\" --build=x86_64\nmake install\n\n# compile x264\necho \"Compiling x264\" >&2\ncd \"${SRCROOT}/x264\"\nmake clean\nif [ -f config.mak ]; then\n    rm config.mak\nfi\n./configure --enable-static --disable-asm\nmake\n\n# compile ffmpeg\necho \"Compiling FFMpeg\" >&2\ncd \"${SRCROOT}/ffmpeg\"\nsh restart.sh ../x264 ../vorbis ../libogg-1.3.0/lib \"${libtheora_path}/output\"\nmake\nexecPath=\"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\nif [ -f \"$execPath\" ]; then\n    rm \"$execPath\"\nfi\nif [ ! -d \"${CONFIGURATION_BUILD_DIR}\" ]; then\n    mkdir \"${CONFIGURATION_BUILD_DIR}\"\nfi\ncp ffmpeg \"$execPath\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 

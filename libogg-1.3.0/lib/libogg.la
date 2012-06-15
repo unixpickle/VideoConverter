@@ -5,10 +5,10 @@
 # It is necessary for linking the library.
 
 # The name that we can dlopen(3).
-dlname='libogg.0.dylib'
+dlname=''
 
 # Names of this library.
-library_names='libogg.0.dylib libogg.dylib'
+library_names=''
 
 # The name of the static archive.
 old_library='libogg.a'

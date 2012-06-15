@@ -37,6 +37,7 @@
 
 - (BOOL)encodePreservingCodecs;
 - (BOOL)encodeUsingH264;
+- (BOOL)encodeUsingOGGVorbis;
 - (BOOL)encoderTask;
 
 - (BOOL)processOutputLine:(NSString *)line;

@@ -17,8 +17,10 @@
 }
 
 + (BOOL)supportsExtension:(NSString *)oldExt toExtension:(NSString *)newExt {
-    NSArray * supportedSource = [NSArray arrayWithObjects:@"mp4", @"mov", @"flv", @"avi", @"mkv", nil];
-    NSArray * supportedDestination = [NSArray arrayWithObjects:@"mp4", @"mov", @"flv", @"avi", @"mkv", nil];
+    NSArray * supportedSource = [NSArray arrayWithObjects:@"mp4", @"mov", @"flv",
+                                 @"avi", @"mkv", @"ogg", @"ogv", nil];
+    NSArray * supportedDestination = [NSArray arrayWithObjects:@"mp4", @"mov", @"flv",
+                                      @"avi", @"mkv", @"ogg", @"ogv",  nil];
     if ([supportedSource containsObject:oldExt]) {
         if ([supportedDestination containsObject:newExt]) {
             return YES;
@@ -80,10 +82,17 @@
         return;
     }
     
-    if (![self encodeUsingH264]) {
+    BOOL encodingResult = NO;
+    if ([destExtension isEqualToString:@"ogg"] || [destExtension isEqualToString:@"ogv"]) {
+        encodingResult = [self encodeUsingOGGVorbis];
+    } else {
+        encodingResult = [self encodeUsingH264];
+    }
+    
+    if (!encodingResult) {
         [self removeTempSource];
         if ([[NSThread currentThread] isCancelled]) return;
-
+        
         callback(ACConverterCallbackTypeError, 0, [[self class] errorWithCode:2 message:@"No presets worked"]);
         return;
     }
@@ -132,6 +141,23 @@
     return [self encoderTask];
 }
 
+- (BOOL)encodeUsingOGGVorbis {
+    NSPipe * readPipe = [NSPipe pipe];
+    NSPipe * writePipe = [NSPipe pipe];
+    
+    converterTask = [[NSTask alloc] init];
+    [converterTask setLaunchPath:launchPath];
+    [converterTask setArguments:[NSArray arrayWithObjects:@"-stats",
+                                 @"-i", tempSource,
+                                 @"-acodec", @"libvorbis", @"-vcodec", @"libtheora",
+                                 @"-b:v", @"400k", /*@"-b:a", @"44100",*/
+                                 tempFile, nil]];
+    [converterTask setStandardError:readPipe];
+    [converterTask setStandardOutput:readPipe];
+    [converterTask setStandardInput:writePipe];
+    return [self encoderTask];
+}
+
 - (BOOL)encoderTask {
     [converterTask launch];
     NSFileHandle * readHandle = [[converterTask standardOutput] fileHandleForReading];
@@ -149,7 +175,7 @@
         @autoreleasepool {
             NSData * someData = [readHandle availableData];
             if ([someData length] != 0) [outputString appendString:[[NSString alloc] initWithData:someData encoding:NSUTF8StringEncoding]];
-                        
+                                    
             if ([outputString hasSuffix:@"[y/N] "]) {
                 [writeHandle writeData:[@"y\n" dataUsingEncoding:NSASCIIStringEncoding]];
                 [outputString deleteCharactersInRange:NSMakeRange(0, [outputString length])];

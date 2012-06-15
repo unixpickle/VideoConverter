@@ -30,8 +30,8 @@ Kernel configured for up to 2 processors.
 Processor type: i486 (Intel 80486)
 Processors active: 0 1
 Primary memory available: 4.00 gigabytes
-Default processor set: 125 tasks, 579 threads, 2 processors
-Load average: 1.56, Mach factor: 1.13
+Default processor set: 118 tasks, 561 threads, 2 processors
+Load average: 2.01, Mach factor: 0.84
 /bin/machine           = unknown
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
@@ -735,6 +735,7 @@ config.status:1054: creating theoradec-uninstalled.pc
 config.status:1054: creating theoraenc.pc
 config.status:1054: creating theoraenc-uninstalled.pc
 config.status:1054: creating config.h
+config.status:1270: config.h is unchanged
 config.status:1288: executing depfiles commands
 config.status:1288: executing libtool commands
 configure:16463: result:
