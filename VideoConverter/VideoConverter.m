@@ -212,11 +212,11 @@
     if ([line hasSuffix:@"[y/N] "] || [line hasSuffix:@"[y/N]"]) {
         [writeHandle writeData:[@"y\n" dataUsingEncoding:NSASCIIStringEncoding]];
     } else if ([line rangeOfString:@"Duration:"].location != NSNotFound) {
-        NSLog(@"duration: %@", line);
+        // NSLog(@"duration: %@", line);
         hasDuration = YES;
         totalDuration = [self extractDurationFromLine:line];
     } else if ([line rangeOfString:@"time="].location != NSNotFound) {
-        NSLog(@"timestamp: %@", line);
+        // NSLog(@"timestamp: %@", line);
         completed = [self extractTimestampFromLine:line];
         if (hasDuration) {
             callback(ACConverterCallbackTypeProgress, completed / totalDuration, nil);
