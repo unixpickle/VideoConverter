@@ -34,6 +34,9 @@ typedef void (^ACConverterCallback)(ACConverterCallbackType type, double progres
     __weak id<ACConverterDelegate> delegate;
     NSThread * backgroundThread;
     dispatch_queue_t mainQueue;
+    
+    NSDate * startDate;
+    float _progress;
 }
 
 @property (readonly) NSString * file;
@@ -51,5 +54,6 @@ typedef void (^ACConverterCallback)(ACConverterCallbackType type, double progres
 
 - (void)convertSynchronously:(ACConverterCallback)callback;
 - (NSString *)conversionTitle;
+- (NSString *)conversionSubtitle;
 
 @end
