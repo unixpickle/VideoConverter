@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/17025/trunk/vorbis/lib/books/coupled
+END
+res_books_51.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/16962/trunk/vorbis/lib/books/coupled/res_books_51.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/16962/trunk/vorbis/lib/books/coupled/Makefile.am
+END
+res_books_stereo.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/17025/trunk/vorbis/lib/books/coupled/res_books_stereo.h
+END

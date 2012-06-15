@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/!svn/ver/16037/trunk/vorbis/macos
+END
+libvorbisenc.mcp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/7187/trunk/vorbis/macos/libvorbisenc.mcp
+END
+vorbis.mcp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/7187/trunk/vorbis/macos/vorbis.mcp
+END
+libvorbis.mcp.exp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/7187/trunk/vorbis/macos/libvorbis.mcp.exp
+END
+libvorbisfile.mcp.exp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/7187/trunk/vorbis/macos/libvorbisfile.mcp.exp
+END
+encoder_example.mcp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/7187/trunk/vorbis/macos/encoder_example.mcp
+END
+libvorbis.mcp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/7187/trunk/vorbis/macos/libvorbis.mcp
+END
+libvorbisfile.mcp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/7187/trunk/vorbis/macos/libvorbisfile.mcp
+END
+libvorbisenc.mcp.exp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/7187/trunk/vorbis/macos/libvorbisenc.mcp.exp
+END
+decoder_example.mcp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/7187/trunk/vorbis/macos/decoder_example.mcp
+END

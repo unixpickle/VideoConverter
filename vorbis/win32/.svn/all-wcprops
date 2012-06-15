@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/!svn/ver/17772/trunk/vorbis/win32
+END
+vorbis.def
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/16335/trunk/vorbis/win32/vorbis.def
+END
+vorbisfile.def
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/15566/trunk/vorbis/win32/vorbisfile.def
+END
+vorbisenc.def
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/7187/trunk/vorbis/win32/vorbisenc.def
+END

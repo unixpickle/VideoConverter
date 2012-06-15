@@ -1,0 +1,281 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/18075/trunk/vorbis/doc/libvorbis
+END
+vorbis_synthesis.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_synthesis.html
+END
+vorbis_block.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_block.html
+END
+vorbis_synthesis_blockin.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_synthesis_blockin.html
+END
+vorbis_info.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_info.html
+END
+vorbis_comment_query_count.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_comment_query_count.html
+END
+style.css
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/style.css
+END
+vorbis_comment.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_comment.html
+END
+vorbis_analysis_wrote.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_analysis_wrote.html
+END
+vorbis_analysis_init.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_analysis_init.html
+END
+reference.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/reference.html
+END
+vorbis_granule_time.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_granule_time.html
+END
+vorbis_packet_blocksize.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_packet_blocksize.html
+END
+vorbis_block_init.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_block_init.html
+END
+vorbis_synthesis_lapout.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_synthesis_lapout.html
+END
+vorbis_synthesis_idheader.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_synthesis_idheader.html
+END
+vorbis_synthesis_trackonly.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_synthesis_trackonly.html
+END
+vorbis_synthesis_pcmout.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_synthesis_pcmout.html
+END
+vorbis_analysis.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_analysis.html
+END
+vorbis_analysis_headerout.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_analysis_headerout.html
+END
+vorbis_comment_init.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_comment_init.html
+END
+vorbis_dsp_state.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_dsp_state.html
+END
+vorbis_synthesis_headerin.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_synthesis_headerin.html
+END
+return.html
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/return.html
+END
+vorbis_dsp_clear.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_dsp_clear.html
+END
+vorbis_synthesis_restart.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_synthesis_restart.html
+END
+vorbis_synthesis_halfrate.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_synthesis_halfrate.html
+END
+vorbis_info_blocksize.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_info_blocksize.html
+END
+vorbis_block_clear.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_block_clear.html
+END
+vorbis_info_clear.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_info_clear.html
+END
+vorbis_commentheader_out.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_commentheader_out.html
+END
+vorbis_comment_add_tag.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_comment_add_tag.html
+END
+vorbis_comment_clear.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_comment_clear.html
+END
+vorbis_comment_add.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_comment_add.html
+END
+vorbis_version_string.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_version_string.html
+END
+vorbis_analysis_buffer.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_analysis_buffer.html
+END
+vorbis_synthesis_init.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_synthesis_init.html
+END
+vorbis_bitrate_addblock.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_bitrate_addblock.html
+END
+vorbis_info_init.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_info_init.html
+END
+vorbis_synthesis_halfrate_p.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_synthesis_halfrate_p.html
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/Makefile.am
+END
+overview.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/overview.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/index.html
+END
+vorbis_bitrate_flushpacket.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_bitrate_flushpacket.html
+END
+vorbis_synthesis_read.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_synthesis_read.html
+END
+vorbis_analysis_blockout.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_analysis_blockout.html
+END
+vorbis_comment_query.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/17610/trunk/vorbis/doc/libvorbis/vorbis_comment_query.html
+END

@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/17050/trunk/vorbis/lib/modes
+END
+residue_44u.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/16962/trunk/vorbis/lib/modes/residue_44u.h
+END
+psych_16.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/16227/trunk/vorbis/lib/modes/psych_16.h
+END
+setup_44u.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/16962/trunk/vorbis/lib/modes/setup_44u.h
+END
+residue_44p51.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/16962/trunk/vorbis/lib/modes/residue_44p51.h
+END
+psych_44.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/16962/trunk/vorbis/lib/modes/psych_44.h
+END
+setup_44p51.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/16963/trunk/vorbis/lib/modes/setup_44p51.h
+END
+setup_11.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/16894/trunk/vorbis/lib/modes/setup_11.h
+END
+setup_22.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/17026/trunk/vorbis/lib/modes/setup_22.h
+END
+setup_32.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/16894/trunk/vorbis/lib/modes/setup_32.h
+END
+setup_16.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/16894/trunk/vorbis/lib/modes/setup_16.h
+END
+residue_16.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/16962/trunk/vorbis/lib/modes/residue_16.h
+END
+setup_44.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/16962/trunk/vorbis/lib/modes/setup_44.h
+END
+residue_44.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/16962/trunk/vorbis/lib/modes/residue_44.h
+END
+floor_all.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/17050/trunk/vorbis/lib/modes/floor_all.h
+END
+psych_8.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/16227/trunk/vorbis/lib/modes/psych_8.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/16962/trunk/vorbis/lib/modes/Makefile.am
+END
+residue_8.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/16962/trunk/vorbis/lib/modes/residue_8.h
+END
+psych_11.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/16227/trunk/vorbis/lib/modes/psych_11.h
+END
+setup_8.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/16894/trunk/vorbis/lib/modes/setup_8.h
+END
+setup_X.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/16894/trunk/vorbis/lib/modes/setup_X.h
+END

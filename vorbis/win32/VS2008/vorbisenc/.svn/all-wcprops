@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/16912/trunk/vorbis/win32/VS2008/vorbisenc
+END
+vorbisenc_dynamic.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/16912/trunk/vorbis/win32/VS2008/vorbisenc/vorbisenc_dynamic.vcproj
+END
+vorbisenc_static.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/16912/trunk/vorbis/win32/VS2008/vorbisenc/vorbisenc_static.vcproj
+END

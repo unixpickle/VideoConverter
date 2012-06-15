@@ -1,0 +1,28 @@
+K 10
+svn:ignore
+V 259
+aclocal.m4
+autom4te.cache
+configure
+config.guess
+config.h
+config.h.in
+config.log
+config.status
+config.sub
+depcomp
+install-sh
+libtool
+libvorbis.spec
+ltmain.sh
+missing
+Makefile
+Makefile.in
+mkinstalldirs
+stamp-h1
+*.pc
+libvorbis-*.tar.gz
+libvorbis-*.zip
+.project
+
+END

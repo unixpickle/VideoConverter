@@ -1,0 +1,317 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/!svn/ver/17025/trunk/vorbis/vq
+END
+44c0.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/7187/trunk/vorbis/vq/44c0.vqs
+END
+16u.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/17022/trunk/vorbis/vq/16u.vqs
+END
+44c1.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/7187/trunk/vorbis/vq/44c1.vqs
+END
+44c2.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/7187/trunk/vorbis/vq/44c2.vqs
+END
+44c3.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/7187/trunk/vorbis/vq/44c3.vqs
+END
+make_floor_books.pl
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/7187/trunk/vorbis/vq/make_floor_books.pl
+END
+44c4.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/7187/trunk/vorbis/vq/44c4.vqs
+END
+44c5.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/7187/trunk/vorbis/vq/44c5.vqs
+END
+metrics.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/16037/trunk/vorbis/vq/metrics.c
+END
+44c6.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/7187/trunk/vorbis/vq/44c6.vqs
+END
+44c7.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/7187/trunk/vorbis/vq/44c7.vqs
+END
+huffbuild.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/16959/trunk/vorbis/vq/huffbuild.c
+END
+44c8.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/7187/trunk/vorbis/vq/44c8.vqs
+END
+floor_11.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/7187/trunk/vorbis/vq/floor_11.vqs
+END
+44c9.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/7187/trunk/vorbis/vq/44c9.vqs
+END
+44u0.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/7187/trunk/vorbis/vq/44u0.vqs
+END
+8u.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/7187/trunk/vorbis/vq/8u.vqs
+END
+44u1.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/7187/trunk/vorbis/vq/44u1.vqs
+END
+44u2.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/7187/trunk/vorbis/vq/44u2.vqs
+END
+44u3.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/7187/trunk/vorbis/vq/44u3.vqs
+END
+44u4.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/7187/trunk/vorbis/vq/44u4.vqs
+END
+44u5.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/7187/trunk/vorbis/vq/44u5.vqs
+END
+bookutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/16959/trunk/vorbis/vq/bookutil.c
+END
+44u6.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/7187/trunk/vorbis/vq/44u6.vqs
+END
+44u7.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/7187/trunk/vorbis/vq/44u7.vqs
+END
+44u8.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/7187/trunk/vorbis/vq/44u8.vqs
+END
+44u9.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/7187/trunk/vorbis/vq/44u9.vqs
+END
+bookutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/13293/trunk/vorbis/vq/bookutil.h
+END
+8.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/!svn/ver/7187/trunk/vorbis/vq/8.vqs
+END
+latticebuild.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/16037/trunk/vorbis/vq/latticebuild.c
+END
+localcodebook.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/16959/trunk/vorbis/vq/localcodebook.h
+END
+floor_22.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/7187/trunk/vorbis/vq/floor_22.vqs
+END
+16.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/17025/trunk/vorbis/vq/16.vqs
+END
+44p0.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/16961/trunk/vorbis/vq/44p0.vqs
+END
+44c-1.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/7187/trunk/vorbis/vq/44c-1.vqs
+END
+44p1.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/16961/trunk/vorbis/vq/44p1.vqs
+END
+distribution.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/16037/trunk/vorbis/vq/distribution.c
+END
+floor_44.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/7187/trunk/vorbis/vq/floor_44.vqs
+END
+44p2.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/16961/trunk/vorbis/vq/44p2.vqs
+END
+vqgen.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/16037/trunk/vorbis/vq/vqgen.c
+END
+44p3.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/16961/trunk/vorbis/vq/44p3.vqs
+END
+latticetune.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/16037/trunk/vorbis/vq/latticetune.c
+END
+44p4.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/16961/trunk/vorbis/vq/44p4.vqs
+END
+44p5.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/16961/trunk/vorbis/vq/44p5.vqs
+END
+make_residue_books.pl
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/16959/trunk/vorbis/vq/make_residue_books.pl
+END
+44p6.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/16961/trunk/vorbis/vq/44p6.vqs
+END
+44p7.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/16961/trunk/vorbis/vq/44p7.vqs
+END
+vqgen.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/16037/trunk/vorbis/vq/vqgen.h
+END
+44p8.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/16961/trunk/vorbis/vq/44p8.vqs
+END
+44p9.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/16961/trunk/vorbis/vq/44p9.vqs
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/16961/trunk/vorbis/vq/Makefile.am
+END
+44p-1.vqs
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/16961/trunk/vorbis/vq/44p-1.vqs
+END

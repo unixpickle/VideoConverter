@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/!svn/ver/16592/trunk/vorbis/m4
+END
+pkg.m4
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/16592/trunk/vorbis/m4/pkg.m4
+END
+add_cflags.m4
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/14209/trunk/vorbis/m4/add_cflags.m4
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/16592/trunk/vorbis/m4/Makefile.am
+END
+ogg.m4
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/14823/trunk/vorbis/m4/ogg.m4
+END

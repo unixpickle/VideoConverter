@@ -29,6 +29,27 @@
 			remoteGlobalIDString = 734FB2E50B18B33E00D561D7;
 			remoteInfo = "libogg (static)";
 		};
+		FA5D5AF6158B9840001307AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5D5A81158B983F001307AD /* Theora.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D07F2C80486CC7A007CD1D0;
+			remoteInfo = Theora;
+		};
+		FA5D5AF8158B9840001307AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5D5A81158B983F001307AD /* Theora.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 738837100B192732005C7A69;
+			remoteInfo = "libtheoraenc (static)";
+		};
+		FA5D5AFA158B9840001307AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5D5A81158B983F001307AD /* Theora.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 09C8F6430C82FBE500F72188;
+			remoteInfo = "libtheoradec (static)";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -709,6 +730,316 @@
 		FA5D557D158B7570001307AD /* vorbisfile.def */ = {isa = PBXFileReference; lastKnownFileType = text; path = vorbisfile.def; sourceTree = "<group>"; };
 		FA5D557E158B7570001307AD /* vorbisfile_dynamic.dsp */ = {isa = PBXFileReference; lastKnownFileType = text; path = vorbisfile_dynamic.dsp; sourceTree = "<group>"; };
 		FA5D557F158B7570001307AD /* vorbisfile_static.dsp */ = {isa = PBXFileReference; lastKnownFileType = text; path = vorbisfile_static.dsp; sourceTree = "<group>"; };
+		FA5D5998158B983F001307AD /* aclocal.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = aclocal.m4; sourceTree = "<group>"; };
+		FA5D5999158B983F001307AD /* AUTHORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		FA5D599A158B983F001307AD /* autogen.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = autogen.sh; sourceTree = "<group>"; };
+		FA5D599B158B983F001307AD /* CHANGES */ = {isa = PBXFileReference; lastKnownFileType = text; path = CHANGES; sourceTree = "<group>"; };
+		FA5D599C158B983F001307AD /* compile */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = compile; sourceTree = "<group>"; };
+		FA5D599D158B983F001307AD /* config.guess */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.guess; sourceTree = "<group>"; };
+		FA5D599E158B983F001307AD /* config.h.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
+		FA5D599F158B983F001307AD /* config.sub */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.sub; sourceTree = "<group>"; };
+		FA5D59A0158B983F001307AD /* configure */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
+		FA5D59A1158B983F001307AD /* configure.ac */ = {isa = PBXFileReference; lastKnownFileType = text; path = configure.ac; sourceTree = "<group>"; };
+		FA5D59A2158B983F001307AD /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		FA5D59A3158B983F001307AD /* depcomp */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = depcomp; sourceTree = "<group>"; };
+		FA5D59A5158B983F001307AD /* color.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = color.html; sourceTree = "<group>"; };
+		FA5D59A6158B983F001307AD /* Doxyfile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Doxyfile.in; sourceTree = "<group>"; };
+		FA5D59A7158B983F001307AD /* draft-ietf-avt-rtp-theora-00.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "draft-ietf-avt-rtp-theora-00.txt"; sourceTree = "<group>"; };
+		FA5D59A8158B983F001307AD /* draft-ietf-avt-rtp-theora-00.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "draft-ietf-avt-rtp-theora-00.xml"; sourceTree = "<group>"; };
+		FA5D59AB158B983F001307AD /* annotated.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = annotated.html; sourceTree = "<group>"; };
+		FA5D59AC158B983F001307AD /* classes.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = classes.html; sourceTree = "<group>"; };
+		FA5D59AD158B983F001307AD /* codec_8h.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = codec_8h.html; sourceTree = "<group>"; };
+		FA5D59AE158B983F001307AD /* codec_8h_source.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = codec_8h_source.html; sourceTree = "<group>"; };
+		FA5D59AF158B983F001307AD /* doxygen.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = doxygen.css; sourceTree = "<group>"; };
+		FA5D59B0158B983F001307AD /* doxygen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doxygen.png; sourceTree = "<group>"; };
+		FA5D59B1158B983F001307AD /* files.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = files.html; sourceTree = "<group>"; };
+		FA5D59B2158B983F001307AD /* functions.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = functions.html; sourceTree = "<group>"; };
+		FA5D59B3158B983F001307AD /* functions_vars.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = functions_vars.html; sourceTree = "<group>"; };
+		FA5D59B4158B983F001307AD /* globals.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = globals.html; sourceTree = "<group>"; };
+		FA5D59B5158B983F001307AD /* globals_defs.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = globals_defs.html; sourceTree = "<group>"; };
+		FA5D59B6158B983F001307AD /* globals_enum.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = globals_enum.html; sourceTree = "<group>"; };
+		FA5D59B7158B983F001307AD /* globals_eval.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = globals_eval.html; sourceTree = "<group>"; };
+		FA5D59B8158B983F001307AD /* globals_func.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = globals_func.html; sourceTree = "<group>"; };
+		FA5D59B9158B983F001307AD /* globals_type.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = globals_type.html; sourceTree = "<group>"; };
+		FA5D59BA158B983F001307AD /* globals_vars.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = globals_vars.html; sourceTree = "<group>"; };
+		FA5D59BB158B983F001307AD /* group__basefuncs.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = group__basefuncs.html; sourceTree = "<group>"; };
+		FA5D59BC158B983F001307AD /* group__decfuncs.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = group__decfuncs.html; sourceTree = "<group>"; };
+		FA5D59BD158B983F001307AD /* group__encfuncs.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = group__encfuncs.html; sourceTree = "<group>"; };
+		FA5D59BE158B983F001307AD /* group__oldfuncs.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = group__oldfuncs.html; sourceTree = "<group>"; };
+		FA5D59BF158B983F001307AD /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		FA5D59C0158B983F001307AD /* modules.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = modules.html; sourceTree = "<group>"; };
+		FA5D59C1158B983F001307AD /* structth__comment.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = structth__comment.html; sourceTree = "<group>"; };
+		FA5D59C2158B983F001307AD /* structth__huff__code.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = structth__huff__code.html; sourceTree = "<group>"; };
+		FA5D59C3158B983F001307AD /* structth__img__plane.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = structth__img__plane.html; sourceTree = "<group>"; };
+		FA5D59C4158B983F001307AD /* structth__info.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = structth__info.html; sourceTree = "<group>"; };
+		FA5D59C5158B983F001307AD /* structth__quant__info.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = structth__quant__info.html; sourceTree = "<group>"; };
+		FA5D59C6158B983F001307AD /* structth__quant__ranges.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = structth__quant__ranges.html; sourceTree = "<group>"; };
+		FA5D59C7158B983F001307AD /* structth__stripe__callback.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = structth__stripe__callback.html; sourceTree = "<group>"; };
+		FA5D59C8158B983F001307AD /* structtheora__comment.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = structtheora__comment.html; sourceTree = "<group>"; };
+		FA5D59C9158B983F001307AD /* structtheora__info.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = structtheora__info.html; sourceTree = "<group>"; };
+		FA5D59CA158B983F001307AD /* structtheora__state.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = structtheora__state.html; sourceTree = "<group>"; };
+		FA5D59CB158B983F001307AD /* structyuv__buffer.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = structyuv__buffer.html; sourceTree = "<group>"; };
+		FA5D59CC158B983F001307AD /* tab_b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tab_b.gif; sourceTree = "<group>"; };
+		FA5D59CD158B983F001307AD /* tab_l.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tab_l.gif; sourceTree = "<group>"; };
+		FA5D59CE158B983F001307AD /* tab_r.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tab_r.gif; sourceTree = "<group>"; };
+		FA5D59CF158B983F001307AD /* tabs.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = tabs.css; sourceTree = "<group>"; };
+		FA5D59D0158B983F001307AD /* theora_8h.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = theora_8h.html; sourceTree = "<group>"; };
+		FA5D59D1158B983F001307AD /* theora_8h_source.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = theora_8h_source.html; sourceTree = "<group>"; };
+		FA5D59D2158B983F001307AD /* theoradec_8h.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = theoradec_8h.html; sourceTree = "<group>"; };
+		FA5D59D3158B983F001307AD /* theoradec_8h_source.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = theoradec_8h_source.html; sourceTree = "<group>"; };
+		FA5D59D4158B983F001307AD /* theoraenc_8h.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = theoraenc_8h.html; sourceTree = "<group>"; };
+		FA5D59D5158B983F001307AD /* theoraenc_8h_source.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = theoraenc_8h_source.html; sourceTree = "<group>"; };
+		FA5D59D7158B983F001307AD /* annotated.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = annotated.tex; sourceTree = "<group>"; };
+		FA5D59D8158B983F001307AD /* codec_8h.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = codec_8h.tex; sourceTree = "<group>"; };
+		FA5D59D9158B983F001307AD /* doxygen.sty */ = {isa = PBXFileReference; lastKnownFileType = text; path = doxygen.sty; sourceTree = "<group>"; };
+		FA5D59DA158B983F001307AD /* files.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = files.tex; sourceTree = "<group>"; };
+		FA5D59DB158B983F001307AD /* group__basefuncs.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = group__basefuncs.tex; sourceTree = "<group>"; };
+		FA5D59DC158B983F001307AD /* group__decfuncs.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = group__decfuncs.tex; sourceTree = "<group>"; };
+		FA5D59DD158B983F001307AD /* group__encfuncs.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = group__encfuncs.tex; sourceTree = "<group>"; };
+		FA5D59DE158B983F001307AD /* group__oldfuncs.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = group__oldfuncs.tex; sourceTree = "<group>"; };
+		FA5D59DF158B983F001307AD /* index.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = index.tex; sourceTree = "<group>"; };
+		FA5D59E0158B983F001307AD /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		FA5D59E1158B983F001307AD /* modules.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = modules.tex; sourceTree = "<group>"; };
+		FA5D59E2158B983F001307AD /* refman.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = refman.tex; sourceTree = "<group>"; };
+		FA5D59E3158B983F001307AD /* structth__comment.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = structth__comment.tex; sourceTree = "<group>"; };
+		FA5D59E4158B983F001307AD /* structth__huff__code.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = structth__huff__code.tex; sourceTree = "<group>"; };
+		FA5D59E5158B983F001307AD /* structth__img__plane.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = structth__img__plane.tex; sourceTree = "<group>"; };
+		FA5D59E6158B983F001307AD /* structth__info.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = structth__info.tex; sourceTree = "<group>"; };
+		FA5D59E7158B983F001307AD /* structth__quant__info.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = structth__quant__info.tex; sourceTree = "<group>"; };
+		FA5D59E8158B983F001307AD /* structth__quant__ranges.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = structth__quant__ranges.tex; sourceTree = "<group>"; };
+		FA5D59E9158B983F001307AD /* structth__stripe__callback.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = structth__stripe__callback.tex; sourceTree = "<group>"; };
+		FA5D59EA158B983F001307AD /* structtheora__comment.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = structtheora__comment.tex; sourceTree = "<group>"; };
+		FA5D59EB158B983F001307AD /* structtheora__info.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = structtheora__info.tex; sourceTree = "<group>"; };
+		FA5D59EC158B983F001307AD /* structtheora__state.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = structtheora__state.tex; sourceTree = "<group>"; };
+		FA5D59ED158B983F001307AD /* structyuv__buffer.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = structyuv__buffer.tex; sourceTree = "<group>"; };
+		FA5D59EE158B983F001307AD /* theora_8h.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = theora_8h.tex; sourceTree = "<group>"; };
+		FA5D59EF158B983F001307AD /* theoradec_8h.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = theoradec_8h.tex; sourceTree = "<group>"; };
+		FA5D59F0158B983F001307AD /* theoraenc_8h.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = theoraenc_8h.tex; sourceTree = "<group>"; };
+		FA5D59F1158B983F001307AD /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		FA5D59F2158B983F001307AD /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		FA5D59F4158B983F001307AD /* fdct.fig */ = {isa = PBXFileReference; lastKnownFileType = text; path = fdct.fig; sourceTree = "<group>"; };
+		FA5D59F5158B983F001307AD /* hilbert-block.fig */ = {isa = PBXFileReference; lastKnownFileType = text; path = "hilbert-block.fig"; sourceTree = "<group>"; };
+		FA5D59F6158B983F001307AD /* hilbert-mb.fig */ = {isa = PBXFileReference; lastKnownFileType = text; path = "hilbert-mb.fig"; sourceTree = "<group>"; };
+		FA5D59F7158B983F001307AD /* idct.fig */ = {isa = PBXFileReference; lastKnownFileType = text; path = idct.fig; sourceTree = "<group>"; };
+		FA5D59F8158B983F001307AD /* lflim.fig */ = {isa = PBXFileReference; lastKnownFileType = text; path = lflim.fig; sourceTree = "<group>"; };
+		FA5D59F9158B983F001307AD /* ltablex.sty */ = {isa = PBXFileReference; lastKnownFileType = text; path = ltablex.sty; sourceTree = "<group>"; };
+		FA5D59FA158B983F001307AD /* macroblock.fig */ = {isa = PBXFileReference; lastKnownFileType = text; path = macroblock.fig; sourceTree = "<group>"; };
+		FA5D59FB158B983F001307AD /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		FA5D59FC158B983F001307AD /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		FA5D59FD158B983F001307AD /* pic-frame.fig */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pic-frame.fig"; sourceTree = "<group>"; };
+		FA5D59FE158B983F001307AD /* pic_even.fig */ = {isa = PBXFileReference; lastKnownFileType = text; path = pic_even.fig; sourceTree = "<group>"; };
+		FA5D59FF158B983F001307AD /* pic_even_odd.fig */ = {isa = PBXFileReference; lastKnownFileType = text; path = pic_even_odd.fig; sourceTree = "<group>"; };
+		FA5D5A00158B983F001307AD /* pic_odd.fig */ = {isa = PBXFileReference; lastKnownFileType = text; path = pic_odd.fig; sourceTree = "<group>"; };
+		FA5D5A01158B983F001307AD /* pic_odd_even.fig */ = {isa = PBXFileReference; lastKnownFileType = text; path = pic_odd_even.fig; sourceTree = "<group>"; };
+		FA5D5A02158B983F001307AD /* pixel420.fig */ = {isa = PBXFileReference; lastKnownFileType = text; path = pixel420.fig; sourceTree = "<group>"; };
+		FA5D5A03158B983F001307AD /* pixel422.fig */ = {isa = PBXFileReference; lastKnownFileType = text; path = pixel422.fig; sourceTree = "<group>"; };
+		FA5D5A04158B983F001307AD /* pixel444.fig */ = {isa = PBXFileReference; lastKnownFileType = text; path = pixel444.fig; sourceTree = "<group>"; };
+		FA5D5A05158B983F001307AD /* raster-block.fig */ = {isa = PBXFileReference; lastKnownFileType = text; path = "raster-block.fig"; sourceTree = "<group>"; };
+		FA5D5A06158B983F001307AD /* reference-frames.fig */ = {isa = PBXFileReference; lastKnownFileType = text; path = "reference-frames.fig"; sourceTree = "<group>"; };
+		FA5D5A07158B983F001307AD /* spec.bib */ = {isa = PBXFileReference; lastKnownFileType = text; path = spec.bib; sourceTree = "<group>"; };
+		FA5D5A08158B983F001307AD /* spec.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = spec.tex; sourceTree = "<group>"; };
+		FA5D5A09158B983F001307AD /* superblock.fig */ = {isa = PBXFileReference; lastKnownFileType = text; path = superblock.fig; sourceTree = "<group>"; };
+		FA5D5A0A158B983F001307AD /* Theora.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Theora.pdf; sourceTree = "<group>"; };
+		FA5D5A0B158B983F001307AD /* vp3huff.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vp3huff.c; sourceTree = "<group>"; };
+		FA5D5A0C158B983F001307AD /* xifish.fig */ = {isa = PBXFileReference; lastKnownFileType = text; path = xifish.fig; sourceTree = "<group>"; };
+		FA5D5A0D158B983F001307AD /* vp3-format.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "vp3-format.txt"; sourceTree = "<group>"; };
+		FA5D5A0F158B983F001307AD /* dump_psnr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dump_psnr.c; sourceTree = "<group>"; };
+		FA5D5A10158B983F001307AD /* dump_video.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dump_video.c; sourceTree = "<group>"; };
+		FA5D5A11158B983F001307AD /* encoder_example.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = encoder_example.c; sourceTree = "<group>"; };
+		FA5D5A12158B983F001307AD /* getopt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getopt.c; sourceTree = "<group>"; };
+		FA5D5A13158B983F001307AD /* getopt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getopt.h; sourceTree = "<group>"; };
+		FA5D5A14158B983F001307AD /* getopt1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getopt1.c; sourceTree = "<group>"; };
+		FA5D5A15158B983F001307AD /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		FA5D5A16158B983F001307AD /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		FA5D5A17158B983F001307AD /* player_example.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = player_example.c; sourceTree = "<group>"; };
+		FA5D5A18158B983F001307AD /* png2theora.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = png2theora.c; sourceTree = "<group>"; };
+		FA5D5A1A158B983F001307AD /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		FA5D5A1B158B983F001307AD /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		FA5D5A1D158B983F001307AD /* codec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = codec.h; sourceTree = "<group>"; };
+		FA5D5A1E158B983F001307AD /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		FA5D5A1F158B983F001307AD /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		FA5D5A20158B983F001307AD /* theora.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = theora.h; sourceTree = "<group>"; };
+		FA5D5A21158B983F001307AD /* theoradec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = theoradec.h; sourceTree = "<group>"; };
+		FA5D5A22158B983F001307AD /* theoraenc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = theoraenc.h; sourceTree = "<group>"; };
+		FA5D5A23158B983F001307AD /* install-sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-sh"; sourceTree = "<group>"; };
+		FA5D5A25158B983F001307AD /* analyze.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = analyze.c; sourceTree = "<group>"; };
+		FA5D5A26158B983F001307AD /* apiwrapper.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = apiwrapper.c; sourceTree = "<group>"; };
+		FA5D5A27158B983F001307AD /* apiwrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = apiwrapper.h; sourceTree = "<group>"; };
+		FA5D5A28158B983F001307AD /* bitpack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bitpack.c; sourceTree = "<group>"; };
+		FA5D5A29158B983F001307AD /* bitpack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bitpack.h; sourceTree = "<group>"; };
+		FA5D5A2A158B983F001307AD /* cpu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cpu.c; sourceTree = "<group>"; };
+		FA5D5A2B158B983F001307AD /* cpu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cpu.h; sourceTree = "<group>"; };
+		FA5D5A2C158B983F001307AD /* dct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dct.h; sourceTree = "<group>"; };
+		FA5D5A2D158B983F001307AD /* decapiwrapper.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = decapiwrapper.c; sourceTree = "<group>"; };
+		FA5D5A2E158B983F001307AD /* decinfo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = decinfo.c; sourceTree = "<group>"; };
+		FA5D5A2F158B983F001307AD /* decint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = decint.h; sourceTree = "<group>"; };
+		FA5D5A30158B983F001307AD /* decode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = decode.c; sourceTree = "<group>"; };
+		FA5D5A31158B983F001307AD /* dequant.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dequant.c; sourceTree = "<group>"; };
+		FA5D5A32158B983F001307AD /* dequant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dequant.h; sourceTree = "<group>"; };
+		FA5D5A33158B983F001307AD /* encapiwrapper.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = encapiwrapper.c; sourceTree = "<group>"; };
+		FA5D5A34158B983F001307AD /* encfrag.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = encfrag.c; sourceTree = "<group>"; };
+		FA5D5A35158B983F001307AD /* encinfo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = encinfo.c; sourceTree = "<group>"; };
+		FA5D5A36158B983F001307AD /* encint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = encint.h; sourceTree = "<group>"; };
+		FA5D5A37158B983F001307AD /* encode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = encode.c; sourceTree = "<group>"; };
+		FA5D5A38158B983F001307AD /* encoder_disabled.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = encoder_disabled.c; sourceTree = "<group>"; };
+		FA5D5A39158B983F001307AD /* enquant.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = enquant.c; sourceTree = "<group>"; };
+		FA5D5A3A158B983F001307AD /* enquant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = enquant.h; sourceTree = "<group>"; };
+		FA5D5A3B158B983F001307AD /* fdct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fdct.c; sourceTree = "<group>"; };
+		FA5D5A3C158B983F001307AD /* fragment.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fragment.c; sourceTree = "<group>"; };
+		FA5D5A3D158B983F001307AD /* huffdec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = huffdec.c; sourceTree = "<group>"; };
+		FA5D5A3E158B983F001307AD /* huffdec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = huffdec.h; sourceTree = "<group>"; };
+		FA5D5A3F158B983F001307AD /* huffenc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = huffenc.c; sourceTree = "<group>"; };
+		FA5D5A40158B983F001307AD /* huffenc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = huffenc.h; sourceTree = "<group>"; };
+		FA5D5A41158B983F001307AD /* huffman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = huffman.h; sourceTree = "<group>"; };
+		FA5D5A42158B983F001307AD /* idct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = idct.c; sourceTree = "<group>"; };
+		FA5D5A43158B983F001307AD /* info.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = info.c; sourceTree = "<group>"; };
+		FA5D5A44158B983F001307AD /* internal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = internal.c; sourceTree = "<group>"; };
+		FA5D5A45158B983F001307AD /* internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = internal.h; sourceTree = "<group>"; };
+		FA5D5A46158B983F001307AD /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		FA5D5A47158B983F001307AD /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		FA5D5A48158B983F001307AD /* mathops.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mathops.c; sourceTree = "<group>"; };
+		FA5D5A49158B983F001307AD /* mathops.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mathops.h; sourceTree = "<group>"; };
+		FA5D5A4A158B983F001307AD /* mcenc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mcenc.c; sourceTree = "<group>"; };
+		FA5D5A4B158B983F001307AD /* modedec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = modedec.h; sourceTree = "<group>"; };
+		FA5D5A4C158B983F001307AD /* ocintrin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ocintrin.h; sourceTree = "<group>"; };
+		FA5D5A4D158B983F001307AD /* quant.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = quant.c; sourceTree = "<group>"; };
+		FA5D5A4E158B983F001307AD /* quant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = quant.h; sourceTree = "<group>"; };
+		FA5D5A4F158B983F001307AD /* rate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rate.c; sourceTree = "<group>"; };
+		FA5D5A50158B983F001307AD /* state.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = state.c; sourceTree = "<group>"; };
+		FA5D5A51158B983F001307AD /* theora.exp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.exports; path = theora.exp; sourceTree = "<group>"; };
+		FA5D5A52158B983F001307AD /* theoradec.exp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.exports; path = theoradec.exp; sourceTree = "<group>"; };
+		FA5D5A53158B983F001307AD /* theoraenc.exp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.exports; path = theoraenc.exp; sourceTree = "<group>"; };
+		FA5D5A54158B983F001307AD /* tokenize.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tokenize.c; sourceTree = "<group>"; };
+		FA5D5A55158B983F001307AD /* Version_script */ = {isa = PBXFileReference; lastKnownFileType = text; path = Version_script; sourceTree = "<group>"; };
+		FA5D5A56158B983F001307AD /* Version_script-dec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Version_script-dec"; sourceTree = "<group>"; };
+		FA5D5A57158B983F001307AD /* Version_script-enc */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Version_script-enc"; sourceTree = "<group>"; };
+		FA5D5A59158B983F001307AD /* mmxencfrag.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mmxencfrag.c; sourceTree = "<group>"; };
+		FA5D5A5A158B983F001307AD /* mmxfdct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mmxfdct.c; sourceTree = "<group>"; };
+		FA5D5A5B158B983F001307AD /* mmxfrag.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mmxfrag.c; sourceTree = "<group>"; };
+		FA5D5A5C158B983F001307AD /* mmxfrag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mmxfrag.h; sourceTree = "<group>"; };
+		FA5D5A5D158B983F001307AD /* mmxidct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mmxidct.c; sourceTree = "<group>"; };
+		FA5D5A5E158B983F001307AD /* mmxloop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mmxloop.h; sourceTree = "<group>"; };
+		FA5D5A5F158B983F001307AD /* mmxstate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mmxstate.c; sourceTree = "<group>"; };
+		FA5D5A60158B983F001307AD /* sse2fdct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sse2fdct.c; sourceTree = "<group>"; };
+		FA5D5A61158B983F001307AD /* x86enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x86enc.c; sourceTree = "<group>"; };
+		FA5D5A62158B983F001307AD /* x86enc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = x86enc.h; sourceTree = "<group>"; };
+		FA5D5A63158B983F001307AD /* x86int.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = x86int.h; sourceTree = "<group>"; };
+		FA5D5A64158B983F001307AD /* x86state.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x86state.c; sourceTree = "<group>"; };
+		FA5D5A66158B983F001307AD /* mmxencfrag.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mmxencfrag.c; sourceTree = "<group>"; };
+		FA5D5A67158B983F001307AD /* mmxfdct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mmxfdct.c; sourceTree = "<group>"; };
+		FA5D5A68158B983F001307AD /* mmxfrag.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mmxfrag.c; sourceTree = "<group>"; };
+		FA5D5A69158B983F001307AD /* mmxfrag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mmxfrag.h; sourceTree = "<group>"; };
+		FA5D5A6A158B983F001307AD /* mmxidct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mmxidct.c; sourceTree = "<group>"; };
+		FA5D5A6B158B983F001307AD /* mmxloop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mmxloop.h; sourceTree = "<group>"; };
+		FA5D5A6C158B983F001307AD /* mmxstate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mmxstate.c; sourceTree = "<group>"; };
+		FA5D5A6D158B983F001307AD /* x86enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x86enc.c; sourceTree = "<group>"; };
+		FA5D5A6E158B983F001307AD /* x86enc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = x86enc.h; sourceTree = "<group>"; };
+		FA5D5A6F158B983F001307AD /* x86int.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = x86int.h; sourceTree = "<group>"; };
+		FA5D5A70158B983F001307AD /* x86state.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x86state.c; sourceTree = "<group>"; };
+		FA5D5A71158B983F001307AD /* libtheora.spec */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheora.spec; sourceTree = "<group>"; };
+		FA5D5A72158B983F001307AD /* libtheora.spec.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheora.spec.in; sourceTree = "<group>"; };
+		FA5D5A73158B983F001307AD /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FA5D5A74158B983F001307AD /* ltmain.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ltmain.sh; sourceTree = "<group>"; };
+		FA5D5A76158B983F001307AD /* as-ac-expand.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "as-ac-expand.m4"; sourceTree = "<group>"; };
+		FA5D5A77158B983F001307AD /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		FA5D5A78158B983F001307AD /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		FA5D5A79158B983F001307AD /* ogg.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = ogg.m4; sourceTree = "<group>"; };
+		FA5D5A7A158B983F001307AD /* pkg.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = pkg.m4; sourceTree = "<group>"; };
+		FA5D5A7B158B983F001307AD /* sdl.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = sdl.m4; sourceTree = "<group>"; };
+		FA5D5A7C158B983F001307AD /* vorbis.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = vorbis.m4; sourceTree = "<group>"; };
+		FA5D5A7F158B983F001307AD /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA5D5A80158B983F001307AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5D5A81158B983F001307AD /* Theora.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Theora.xcodeproj; sourceTree = "<group>"; };
+		FA5D5A84158B983F001307AD /* Theora_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Theora_Prefix.pch; sourceTree = "<group>"; };
+		FA5D5A85158B983F001307AD /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		FA5D5A86158B983F001307AD /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		FA5D5A87158B983F001307AD /* missing */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = missing; sourceTree = "<group>"; };
+		FA5D5A88158B983F001307AD /* mkinstalldirs */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = mkinstalldirs; sourceTree = "<group>"; };
+		FA5D5A89158B983F001307AD /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		FA5D5A8A158B983F001307AD /* SConstruct */ = {isa = PBXFileReference; lastKnownFileType = text; path = SConstruct; sourceTree = "<group>"; };
+		FA5D5A8C158B983F001307AD /* bld.inf */ = {isa = PBXFileReference; lastKnownFileType = text; path = bld.inf; sourceTree = "<group>"; };
+		FA5D5A8D158B983F001307AD /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		FA5D5A8E158B983F001307AD /* theora.mmp */ = {isa = PBXFileReference; lastKnownFileType = text; path = theora.mmp; sourceTree = "<group>"; };
+		FA5D5A90158B983F001307AD /* comment.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = comment.c; sourceTree = "<group>"; };
+		FA5D5A91158B983F001307AD /* comment_theora.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = comment_theora.c; sourceTree = "<group>"; };
+		FA5D5A92158B983F001307AD /* granulepos.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = granulepos.c; sourceTree = "<group>"; };
+		FA5D5A93158B983F001307AD /* granulepos_theora.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = granulepos_theora.c; sourceTree = "<group>"; };
+		FA5D5A94158B983F001307AD /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		FA5D5A95158B983F001307AD /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		FA5D5A96158B983F001307AD /* noop.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = noop.c; sourceTree = "<group>"; };
+		FA5D5A97158B983F001307AD /* noop_theora.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = noop_theora.c; sourceTree = "<group>"; };
+		FA5D5A98158B983F001307AD /* tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tests.h; sourceTree = "<group>"; };
+		FA5D5A99158B983F001307AD /* theora-uninstalled.pc.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = "theora-uninstalled.pc.in"; sourceTree = "<group>"; };
+		FA5D5A9A158B983F001307AD /* theora.pc.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = theora.pc.in; sourceTree = "<group>"; };
+		FA5D5A9B158B983F001307AD /* theoradec-uninstalled.pc.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = "theoradec-uninstalled.pc.in"; sourceTree = "<group>"; };
+		FA5D5A9C158B983F001307AD /* theoradec.pc.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = theoradec.pc.in; sourceTree = "<group>"; };
+		FA5D5A9D158B983F001307AD /* theoraenc-uninstalled.pc.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = "theoraenc-uninstalled.pc.in"; sourceTree = "<group>"; };
+		FA5D5A9E158B983F001307AD /* theoraenc.pc.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = theoraenc.pc.in; sourceTree = "<group>"; };
+		FA5D5AA0158B983F001307AD /* build_theora_static.bat */ = {isa = PBXFileReference; lastKnownFileType = text; path = build_theora_static.bat; sourceTree = "<group>"; };
+		FA5D5AA1158B983F001307AD /* build_theora_static_debug.bat */ = {isa = PBXFileReference; lastKnownFileType = text; path = build_theora_static_debug.bat; sourceTree = "<group>"; };
+		FA5D5AA4158B983F001307AD /* dumpvid.dsp */ = {isa = PBXFileReference; lastKnownFileType = text; path = dumpvid.dsp; sourceTree = "<group>"; };
+		FA5D5AA6158B983F001307AD /* encoderwin.dsp */ = {isa = PBXFileReference; lastKnownFileType = text; path = encoderwin.dsp; sourceTree = "<group>"; };
+		FA5D5AA7158B983F001307AD /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		FA5D5AAA158B983F001307AD /* avi2vp3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = avi2vp3.c; sourceTree = "<group>"; };
+		FA5D5AAB158B983F001307AD /* avilib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = avilib.c; sourceTree = "<group>"; };
+		FA5D5AAC158B983F001307AD /* avilib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = avilib.h; sourceTree = "<group>"; };
+		FA5D5AAD158B983F001307AD /* outfile.vp3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = outfile.vp3; sourceTree = "<group>"; };
+		FA5D5AAE158B983F001307AD /* vp31.avi */ = {isa = PBXFileReference; lastKnownFileType = video.avi; path = vp31.avi; sourceTree = "<group>"; };
+		FA5D5AAF158B983F001307AD /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		FA5D5AB0158B983F001307AD /* transcoder.dsp */ = {isa = PBXFileReference; lastKnownFileType = text; path = transcoder.dsp; sourceTree = "<group>"; };
+		FA5D5AB1158B983F001307AD /* transcoder_example.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = transcoder_example.c; sourceTree = "<group>"; };
+		FA5D5AB3158B983F001307AD /* getopt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getopt.c; sourceTree = "<group>"; };
+		FA5D5AB4158B983F001307AD /* getopt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getopt.h; sourceTree = "<group>"; };
+		FA5D5AB5158B983F001307AD /* getopt_long.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getopt_long.c; sourceTree = "<group>"; };
+		FA5D5AB6158B983F001307AD /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		FA5D5AB7158B983F001307AD /* unistd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unistd.h; sourceTree = "<group>"; };
+		FA5D5AB8158B983F001307AD /* getopt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getopt.c; sourceTree = "<group>"; };
+		FA5D5AB9158B983F001307AD /* getopt1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getopt1.c; sourceTree = "<group>"; };
+		FA5D5ABA158B983F001307AD /* getopt_win.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getopt_win.h; sourceTree = "<group>"; };
+		FA5D5ABB158B983F001307AD /* theora_static.dsp */ = {isa = PBXFileReference; lastKnownFileType = text; path = theora_static.dsp; sourceTree = "<group>"; };
+		FA5D5ABE158B983F001307AD /* dump_video_dynamic.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = dump_video_dynamic.vcproj; sourceTree = "<group>"; };
+		FA5D5ABF158B983F001307AD /* dump_video_static.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = dump_video_static.vcproj; sourceTree = "<group>"; };
+		FA5D5AC1158B983F001307AD /* encoder_example_dynamic.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = encoder_example_dynamic.vcproj; sourceTree = "<group>"; };
+		FA5D5AC2158B983F001307AD /* encoder_example_static.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = encoder_example_static.vcproj; sourceTree = "<group>"; };
+		FA5D5AC3158B983F001307AD /* libogg.vsprops */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = libogg.vsprops; sourceTree = "<group>"; };
+		FA5D5AC5158B983F001307AD /* libtheora_dynamic.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = libtheora_dynamic.vcproj; sourceTree = "<group>"; };
+		FA5D5AC6158B983F001307AD /* libtheora_static.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = libtheora_static.vcproj; sourceTree = "<group>"; };
+		FA5D5AC7158B983F001307AD /* libtheora_dynamic.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheora_dynamic.sln; sourceTree = "<group>"; };
+		FA5D5AC8158B983F001307AD /* libtheora_static.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheora_static.sln; sourceTree = "<group>"; };
+		FA5D5AC9158B983F001307AD /* libvorbis.vsprops */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = libvorbis.vsprops; sourceTree = "<group>"; };
+		FA5D5ACA158B983F001307AD /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		FA5D5ACD158B983F001307AD /* dump_video_dynamic.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = dump_video_dynamic.vcproj; sourceTree = "<group>"; };
+		FA5D5ACE158B983F001307AD /* dump_video_static.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = dump_video_static.vcproj; sourceTree = "<group>"; };
+		FA5D5AD0158B983F001307AD /* encoder_example_dynamic.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = encoder_example_dynamic.vcproj; sourceTree = "<group>"; };
+		FA5D5AD1158B983F001307AD /* encoder_example_static.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = encoder_example_static.vcproj; sourceTree = "<group>"; };
+		FA5D5AD2158B983F001307AD /* libogg.vsprops */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = libogg.vsprops; sourceTree = "<group>"; };
+		FA5D5AD4158B983F001307AD /* libtheora_dynamic.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = libtheora_dynamic.vcproj; sourceTree = "<group>"; };
+		FA5D5AD5158B983F001307AD /* libtheora_static.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = libtheora_static.vcproj; sourceTree = "<group>"; };
+		FA5D5AD6158B983F001307AD /* libtheora_dynamic.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheora_dynamic.sln; sourceTree = "<group>"; };
+		FA5D5AD7158B983F001307AD /* libtheora_static.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheora_static.sln; sourceTree = "<group>"; };
+		FA5D5AD8158B983F001307AD /* libvorbis.vsprops */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = libvorbis.vsprops; sourceTree = "<group>"; };
+		FA5D5AD9158B983F001307AD /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		FA5D5ADB158B983F001307AD /* libtheoradec-all.def */ = {isa = PBXFileReference; lastKnownFileType = text; path = "libtheoradec-all.def"; sourceTree = "<group>"; };
+		FA5D5ADC158B983F001307AD /* libtheoradec-all.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = "libtheoradec-all.rc"; sourceTree = "<group>"; };
+		FA5D5ADD158B983F001307AD /* libtheoradec.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheoradec.rc; sourceTree = "<group>"; };
+		FA5D5ADE158B983F001307AD /* libtheoradec70.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheoradec70.rc; sourceTree = "<group>"; };
+		FA5D5ADF158B983F001307AD /* libtheoradec70d.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheoradec70d.rc; sourceTree = "<group>"; };
+		FA5D5AE0158B983F001307AD /* libtheoradec71.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheoradec71.rc; sourceTree = "<group>"; };
+		FA5D5AE1158B983F001307AD /* libtheoradec71d.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheoradec71d.rc; sourceTree = "<group>"; };
+		FA5D5AE2158B983F001307AD /* libtheoradec80.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheoradec80.rc; sourceTree = "<group>"; };
+		FA5D5AE3158B983F001307AD /* libtheoradec80d.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheoradec80d.rc; sourceTree = "<group>"; };
+		FA5D5AE4158B983F001307AD /* libtheoradecd.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheoradecd.rc; sourceTree = "<group>"; };
+		FA5D5AE5158B983F001307AD /* libtheoraenc-all.def */ = {isa = PBXFileReference; lastKnownFileType = text; path = "libtheoraenc-all.def"; sourceTree = "<group>"; };
+		FA5D5AE6158B983F001307AD /* libtheoraenc-all.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = "libtheoraenc-all.rc"; sourceTree = "<group>"; };
+		FA5D5AE7158B983F001307AD /* libtheoraenc.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheoraenc.rc; sourceTree = "<group>"; };
+		FA5D5AE8158B983F001307AD /* libtheoraenc70.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheoraenc70.rc; sourceTree = "<group>"; };
+		FA5D5AE9158B983F001307AD /* libtheoraenc70d.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheoraenc70d.rc; sourceTree = "<group>"; };
+		FA5D5AEA158B983F001307AD /* libtheoraenc71.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheoraenc71.rc; sourceTree = "<group>"; };
+		FA5D5AEB158B983F001307AD /* libtheoraenc71d.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheoraenc71d.rc; sourceTree = "<group>"; };
+		FA5D5AEC158B983F001307AD /* libtheoraenc80.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheoraenc80.rc; sourceTree = "<group>"; };
+		FA5D5AED158B983F001307AD /* libtheoraenc80d.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheoraenc80d.rc; sourceTree = "<group>"; };
+		FA5D5AEE158B983F001307AD /* libtheoraencd.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libtheoraencd.rc; sourceTree = "<group>"; };
+		FA5D5AEF158B983F001307AD /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		FABB6F591588E31800BF5320 /* VideoConverter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoConverter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABB6F5C1588E31800BF5320 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FABB6F5F1588E31800BF5320 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -4794,9 +5125,585 @@
 			path = win32;
 			sourceTree = "<group>";
 		};
+		FA5D5997158B983F001307AD /* libtheora-1.1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5998158B983F001307AD /* aclocal.m4 */,
+				FA5D5999158B983F001307AD /* AUTHORS */,
+				FA5D599A158B983F001307AD /* autogen.sh */,
+				FA5D599B158B983F001307AD /* CHANGES */,
+				FA5D599C158B983F001307AD /* compile */,
+				FA5D599D158B983F001307AD /* config.guess */,
+				FA5D599E158B983F001307AD /* config.h.in */,
+				FA5D599F158B983F001307AD /* config.sub */,
+				FA5D59A0158B983F001307AD /* configure */,
+				FA5D59A1158B983F001307AD /* configure.ac */,
+				FA5D59A2158B983F001307AD /* COPYING */,
+				FA5D59A3158B983F001307AD /* depcomp */,
+				FA5D59A4158B983F001307AD /* doc */,
+				FA5D5A0E158B983F001307AD /* examples */,
+				FA5D5A19158B983F001307AD /* include */,
+				FA5D5A23158B983F001307AD /* install-sh */,
+				FA5D5A24158B983F001307AD /* lib */,
+				FA5D5A71158B983F001307AD /* libtheora.spec */,
+				FA5D5A72158B983F001307AD /* libtheora.spec.in */,
+				FA5D5A73158B983F001307AD /* LICENSE */,
+				FA5D5A74158B983F001307AD /* ltmain.sh */,
+				FA5D5A75158B983F001307AD /* m4 */,
+				FA5D5A7D158B983F001307AD /* macosx */,
+				FA5D5A85158B983F001307AD /* Makefile.am */,
+				FA5D5A86158B983F001307AD /* Makefile.in */,
+				FA5D5A87158B983F001307AD /* missing */,
+				FA5D5A88158B983F001307AD /* mkinstalldirs */,
+				FA5D5A89158B983F001307AD /* README */,
+				FA5D5A8A158B983F001307AD /* SConstruct */,
+				FA5D5A8B158B983F001307AD /* symbian */,
+				FA5D5A8F158B983F001307AD /* tests */,
+				FA5D5A99158B983F001307AD /* theora-uninstalled.pc.in */,
+				FA5D5A9A158B983F001307AD /* theora.pc.in */,
+				FA5D5A9B158B983F001307AD /* theoradec-uninstalled.pc.in */,
+				FA5D5A9C158B983F001307AD /* theoradec.pc.in */,
+				FA5D5A9D158B983F001307AD /* theoraenc-uninstalled.pc.in */,
+				FA5D5A9E158B983F001307AD /* theoraenc.pc.in */,
+				FA5D5A9F158B983F001307AD /* win32 */,
+			);
+			path = "libtheora-1.1.1";
+			sourceTree = "<group>";
+		};
+		FA5D59A4158B983F001307AD /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D59A5158B983F001307AD /* color.html */,
+				FA5D59A6158B983F001307AD /* Doxyfile.in */,
+				FA5D59A7158B983F001307AD /* draft-ietf-avt-rtp-theora-00.txt */,
+				FA5D59A8158B983F001307AD /* draft-ietf-avt-rtp-theora-00.xml */,
+				FA5D59A9158B983F001307AD /* libtheora */,
+				FA5D59F1158B983F001307AD /* Makefile.am */,
+				FA5D59F2158B983F001307AD /* Makefile.in */,
+				FA5D59F3158B983F001307AD /* spec */,
+				FA5D5A0D158B983F001307AD /* vp3-format.txt */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		FA5D59A9158B983F001307AD /* libtheora */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D59AA158B983F001307AD /* html */,
+				FA5D59D6158B983F001307AD /* latex */,
+			);
+			path = libtheora;
+			sourceTree = "<group>";
+		};
+		FA5D59AA158B983F001307AD /* html */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D59AB158B983F001307AD /* annotated.html */,
+				FA5D59AC158B983F001307AD /* classes.html */,
+				FA5D59AD158B983F001307AD /* codec_8h.html */,
+				FA5D59AE158B983F001307AD /* codec_8h_source.html */,
+				FA5D59AF158B983F001307AD /* doxygen.css */,
+				FA5D59B0158B983F001307AD /* doxygen.png */,
+				FA5D59B1158B983F001307AD /* files.html */,
+				FA5D59B2158B983F001307AD /* functions.html */,
+				FA5D59B3158B983F001307AD /* functions_vars.html */,
+				FA5D59B4158B983F001307AD /* globals.html */,
+				FA5D59B5158B983F001307AD /* globals_defs.html */,
+				FA5D59B6158B983F001307AD /* globals_enum.html */,
+				FA5D59B7158B983F001307AD /* globals_eval.html */,
+				FA5D59B8158B983F001307AD /* globals_func.html */,
+				FA5D59B9158B983F001307AD /* globals_type.html */,
+				FA5D59BA158B983F001307AD /* globals_vars.html */,
+				FA5D59BB158B983F001307AD /* group__basefuncs.html */,
+				FA5D59BC158B983F001307AD /* group__decfuncs.html */,
+				FA5D59BD158B983F001307AD /* group__encfuncs.html */,
+				FA5D59BE158B983F001307AD /* group__oldfuncs.html */,
+				FA5D59BF158B983F001307AD /* index.html */,
+				FA5D59C0158B983F001307AD /* modules.html */,
+				FA5D59C1158B983F001307AD /* structth__comment.html */,
+				FA5D59C2158B983F001307AD /* structth__huff__code.html */,
+				FA5D59C3158B983F001307AD /* structth__img__plane.html */,
+				FA5D59C4158B983F001307AD /* structth__info.html */,
+				FA5D59C5158B983F001307AD /* structth__quant__info.html */,
+				FA5D59C6158B983F001307AD /* structth__quant__ranges.html */,
+				FA5D59C7158B983F001307AD /* structth__stripe__callback.html */,
+				FA5D59C8158B983F001307AD /* structtheora__comment.html */,
+				FA5D59C9158B983F001307AD /* structtheora__info.html */,
+				FA5D59CA158B983F001307AD /* structtheora__state.html */,
+				FA5D59CB158B983F001307AD /* structyuv__buffer.html */,
+				FA5D59CC158B983F001307AD /* tab_b.gif */,
+				FA5D59CD158B983F001307AD /* tab_l.gif */,
+				FA5D59CE158B983F001307AD /* tab_r.gif */,
+				FA5D59CF158B983F001307AD /* tabs.css */,
+				FA5D59D0158B983F001307AD /* theora_8h.html */,
+				FA5D59D1158B983F001307AD /* theora_8h_source.html */,
+				FA5D59D2158B983F001307AD /* theoradec_8h.html */,
+				FA5D59D3158B983F001307AD /* theoradec_8h_source.html */,
+				FA5D59D4158B983F001307AD /* theoraenc_8h.html */,
+				FA5D59D5158B983F001307AD /* theoraenc_8h_source.html */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		FA5D59D6158B983F001307AD /* latex */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D59D7158B983F001307AD /* annotated.tex */,
+				FA5D59D8158B983F001307AD /* codec_8h.tex */,
+				FA5D59D9158B983F001307AD /* doxygen.sty */,
+				FA5D59DA158B983F001307AD /* files.tex */,
+				FA5D59DB158B983F001307AD /* group__basefuncs.tex */,
+				FA5D59DC158B983F001307AD /* group__decfuncs.tex */,
+				FA5D59DD158B983F001307AD /* group__encfuncs.tex */,
+				FA5D59DE158B983F001307AD /* group__oldfuncs.tex */,
+				FA5D59DF158B983F001307AD /* index.tex */,
+				FA5D59E0158B983F001307AD /* Makefile */,
+				FA5D59E1158B983F001307AD /* modules.tex */,
+				FA5D59E2158B983F001307AD /* refman.tex */,
+				FA5D59E3158B983F001307AD /* structth__comment.tex */,
+				FA5D59E4158B983F001307AD /* structth__huff__code.tex */,
+				FA5D59E5158B983F001307AD /* structth__img__plane.tex */,
+				FA5D59E6158B983F001307AD /* structth__info.tex */,
+				FA5D59E7158B983F001307AD /* structth__quant__info.tex */,
+				FA5D59E8158B983F001307AD /* structth__quant__ranges.tex */,
+				FA5D59E9158B983F001307AD /* structth__stripe__callback.tex */,
+				FA5D59EA158B983F001307AD /* structtheora__comment.tex */,
+				FA5D59EB158B983F001307AD /* structtheora__info.tex */,
+				FA5D59EC158B983F001307AD /* structtheora__state.tex */,
+				FA5D59ED158B983F001307AD /* structyuv__buffer.tex */,
+				FA5D59EE158B983F001307AD /* theora_8h.tex */,
+				FA5D59EF158B983F001307AD /* theoradec_8h.tex */,
+				FA5D59F0158B983F001307AD /* theoraenc_8h.tex */,
+			);
+			path = latex;
+			sourceTree = "<group>";
+		};
+		FA5D59F3158B983F001307AD /* spec */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D59F4158B983F001307AD /* fdct.fig */,
+				FA5D59F5158B983F001307AD /* hilbert-block.fig */,
+				FA5D59F6158B983F001307AD /* hilbert-mb.fig */,
+				FA5D59F7158B983F001307AD /* idct.fig */,
+				FA5D59F8158B983F001307AD /* lflim.fig */,
+				FA5D59F9158B983F001307AD /* ltablex.sty */,
+				FA5D59FA158B983F001307AD /* macroblock.fig */,
+				FA5D59FB158B983F001307AD /* Makefile.am */,
+				FA5D59FC158B983F001307AD /* Makefile.in */,
+				FA5D59FD158B983F001307AD /* pic-frame.fig */,
+				FA5D59FE158B983F001307AD /* pic_even.fig */,
+				FA5D59FF158B983F001307AD /* pic_even_odd.fig */,
+				FA5D5A00158B983F001307AD /* pic_odd.fig */,
+				FA5D5A01158B983F001307AD /* pic_odd_even.fig */,
+				FA5D5A02158B983F001307AD /* pixel420.fig */,
+				FA5D5A03158B983F001307AD /* pixel422.fig */,
+				FA5D5A04158B983F001307AD /* pixel444.fig */,
+				FA5D5A05158B983F001307AD /* raster-block.fig */,
+				FA5D5A06158B983F001307AD /* reference-frames.fig */,
+				FA5D5A07158B983F001307AD /* spec.bib */,
+				FA5D5A08158B983F001307AD /* spec.tex */,
+				FA5D5A09158B983F001307AD /* superblock.fig */,
+				FA5D5A0A158B983F001307AD /* Theora.pdf */,
+				FA5D5A0B158B983F001307AD /* vp3huff.c */,
+				FA5D5A0C158B983F001307AD /* xifish.fig */,
+			);
+			path = spec;
+			sourceTree = "<group>";
+		};
+		FA5D5A0E158B983F001307AD /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5A0F158B983F001307AD /* dump_psnr.c */,
+				FA5D5A10158B983F001307AD /* dump_video.c */,
+				FA5D5A11158B983F001307AD /* encoder_example.c */,
+				FA5D5A12158B983F001307AD /* getopt.c */,
+				FA5D5A13158B983F001307AD /* getopt.h */,
+				FA5D5A14158B983F001307AD /* getopt1.c */,
+				FA5D5A15158B983F001307AD /* Makefile.am */,
+				FA5D5A16158B983F001307AD /* Makefile.in */,
+				FA5D5A17158B983F001307AD /* player_example.c */,
+				FA5D5A18158B983F001307AD /* png2theora.c */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		FA5D5A19158B983F001307AD /* include */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5A1A158B983F001307AD /* Makefile.am */,
+				FA5D5A1B158B983F001307AD /* Makefile.in */,
+				FA5D5A1C158B983F001307AD /* theora */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		FA5D5A1C158B983F001307AD /* theora */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5A1D158B983F001307AD /* codec.h */,
+				FA5D5A1E158B983F001307AD /* Makefile.am */,
+				FA5D5A1F158B983F001307AD /* Makefile.in */,
+				FA5D5A20158B983F001307AD /* theora.h */,
+				FA5D5A21158B983F001307AD /* theoradec.h */,
+				FA5D5A22158B983F001307AD /* theoraenc.h */,
+			);
+			path = theora;
+			sourceTree = "<group>";
+		};
+		FA5D5A24158B983F001307AD /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5A25158B983F001307AD /* analyze.c */,
+				FA5D5A26158B983F001307AD /* apiwrapper.c */,
+				FA5D5A27158B983F001307AD /* apiwrapper.h */,
+				FA5D5A28158B983F001307AD /* bitpack.c */,
+				FA5D5A29158B983F001307AD /* bitpack.h */,
+				FA5D5A2A158B983F001307AD /* cpu.c */,
+				FA5D5A2B158B983F001307AD /* cpu.h */,
+				FA5D5A2C158B983F001307AD /* dct.h */,
+				FA5D5A2D158B983F001307AD /* decapiwrapper.c */,
+				FA5D5A2E158B983F001307AD /* decinfo.c */,
+				FA5D5A2F158B983F001307AD /* decint.h */,
+				FA5D5A30158B983F001307AD /* decode.c */,
+				FA5D5A31158B983F001307AD /* dequant.c */,
+				FA5D5A32158B983F001307AD /* dequant.h */,
+				FA5D5A33158B983F001307AD /* encapiwrapper.c */,
+				FA5D5A34158B983F001307AD /* encfrag.c */,
+				FA5D5A35158B983F001307AD /* encinfo.c */,
+				FA5D5A36158B983F001307AD /* encint.h */,
+				FA5D5A37158B983F001307AD /* encode.c */,
+				FA5D5A38158B983F001307AD /* encoder_disabled.c */,
+				FA5D5A39158B983F001307AD /* enquant.c */,
+				FA5D5A3A158B983F001307AD /* enquant.h */,
+				FA5D5A3B158B983F001307AD /* fdct.c */,
+				FA5D5A3C158B983F001307AD /* fragment.c */,
+				FA5D5A3D158B983F001307AD /* huffdec.c */,
+				FA5D5A3E158B983F001307AD /* huffdec.h */,
+				FA5D5A3F158B983F001307AD /* huffenc.c */,
+				FA5D5A40158B983F001307AD /* huffenc.h */,
+				FA5D5A41158B983F001307AD /* huffman.h */,
+				FA5D5A42158B983F001307AD /* idct.c */,
+				FA5D5A43158B983F001307AD /* info.c */,
+				FA5D5A44158B983F001307AD /* internal.c */,
+				FA5D5A45158B983F001307AD /* internal.h */,
+				FA5D5A46158B983F001307AD /* Makefile.am */,
+				FA5D5A47158B983F001307AD /* Makefile.in */,
+				FA5D5A48158B983F001307AD /* mathops.c */,
+				FA5D5A49158B983F001307AD /* mathops.h */,
+				FA5D5A4A158B983F001307AD /* mcenc.c */,
+				FA5D5A4B158B983F001307AD /* modedec.h */,
+				FA5D5A4C158B983F001307AD /* ocintrin.h */,
+				FA5D5A4D158B983F001307AD /* quant.c */,
+				FA5D5A4E158B983F001307AD /* quant.h */,
+				FA5D5A4F158B983F001307AD /* rate.c */,
+				FA5D5A50158B983F001307AD /* state.c */,
+				FA5D5A51158B983F001307AD /* theora.exp */,
+				FA5D5A52158B983F001307AD /* theoradec.exp */,
+				FA5D5A53158B983F001307AD /* theoraenc.exp */,
+				FA5D5A54158B983F001307AD /* tokenize.c */,
+				FA5D5A55158B983F001307AD /* Version_script */,
+				FA5D5A56158B983F001307AD /* Version_script-dec */,
+				FA5D5A57158B983F001307AD /* Version_script-enc */,
+				FA5D5A58158B983F001307AD /* x86 */,
+				FA5D5A65158B983F001307AD /* x86_vc */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		FA5D5A58158B983F001307AD /* x86 */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5A59158B983F001307AD /* mmxencfrag.c */,
+				FA5D5A5A158B983F001307AD /* mmxfdct.c */,
+				FA5D5A5B158B983F001307AD /* mmxfrag.c */,
+				FA5D5A5C158B983F001307AD /* mmxfrag.h */,
+				FA5D5A5D158B983F001307AD /* mmxidct.c */,
+				FA5D5A5E158B983F001307AD /* mmxloop.h */,
+				FA5D5A5F158B983F001307AD /* mmxstate.c */,
+				FA5D5A60158B983F001307AD /* sse2fdct.c */,
+				FA5D5A61158B983F001307AD /* x86enc.c */,
+				FA5D5A62158B983F001307AD /* x86enc.h */,
+				FA5D5A63158B983F001307AD /* x86int.h */,
+				FA5D5A64158B983F001307AD /* x86state.c */,
+			);
+			path = x86;
+			sourceTree = "<group>";
+		};
+		FA5D5A65158B983F001307AD /* x86_vc */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5A66158B983F001307AD /* mmxencfrag.c */,
+				FA5D5A67158B983F001307AD /* mmxfdct.c */,
+				FA5D5A68158B983F001307AD /* mmxfrag.c */,
+				FA5D5A69158B983F001307AD /* mmxfrag.h */,
+				FA5D5A6A158B983F001307AD /* mmxidct.c */,
+				FA5D5A6B158B983F001307AD /* mmxloop.h */,
+				FA5D5A6C158B983F001307AD /* mmxstate.c */,
+				FA5D5A6D158B983F001307AD /* x86enc.c */,
+				FA5D5A6E158B983F001307AD /* x86enc.h */,
+				FA5D5A6F158B983F001307AD /* x86int.h */,
+				FA5D5A70158B983F001307AD /* x86state.c */,
+			);
+			path = x86_vc;
+			sourceTree = "<group>";
+		};
+		FA5D5A75158B983F001307AD /* m4 */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5A76158B983F001307AD /* as-ac-expand.m4 */,
+				FA5D5A77158B983F001307AD /* Makefile.am */,
+				FA5D5A78158B983F001307AD /* Makefile.in */,
+				FA5D5A79158B983F001307AD /* ogg.m4 */,
+				FA5D5A7A158B983F001307AD /* pkg.m4 */,
+				FA5D5A7B158B983F001307AD /* sdl.m4 */,
+				FA5D5A7C158B983F001307AD /* vorbis.m4 */,
+			);
+			path = m4;
+			sourceTree = "<group>";
+		};
+		FA5D5A7D158B983F001307AD /* macosx */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5A7E158B983F001307AD /* InfoPlist.strings */,
+				FA5D5A80158B983F001307AD /* Info.plist */,
+				FA5D5A81158B983F001307AD /* Theora.xcodeproj */,
+				FA5D5A84158B983F001307AD /* Theora_Prefix.pch */,
+			);
+			path = macosx;
+			sourceTree = "<group>";
+		};
+		FA5D5A82158B983F001307AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5AF7158B9840001307AD /* Theora.framework */,
+				FA5D5AF9158B9840001307AD /* libtheoraenc.a */,
+				FA5D5AFB158B9840001307AD /* libtheoradec.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA5D5A8B158B983F001307AD /* symbian */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5A8C158B983F001307AD /* bld.inf */,
+				FA5D5A8D158B983F001307AD /* config.h */,
+				FA5D5A8E158B983F001307AD /* theora.mmp */,
+			);
+			path = symbian;
+			sourceTree = "<group>";
+		};
+		FA5D5A8F158B983F001307AD /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5A90158B983F001307AD /* comment.c */,
+				FA5D5A91158B983F001307AD /* comment_theora.c */,
+				FA5D5A92158B983F001307AD /* granulepos.c */,
+				FA5D5A93158B983F001307AD /* granulepos_theora.c */,
+				FA5D5A94158B983F001307AD /* Makefile.am */,
+				FA5D5A95158B983F001307AD /* Makefile.in */,
+				FA5D5A96158B983F001307AD /* noop.c */,
+				FA5D5A97158B983F001307AD /* noop_theora.c */,
+				FA5D5A98158B983F001307AD /* tests.h */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		FA5D5A9F158B983F001307AD /* win32 */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5AA0158B983F001307AD /* build_theora_static.bat */,
+				FA5D5AA1158B983F001307AD /* build_theora_static_debug.bat */,
+				FA5D5AA2158B983F001307AD /* experimental */,
+				FA5D5AB8158B983F001307AD /* getopt.c */,
+				FA5D5AB9158B983F001307AD /* getopt1.c */,
+				FA5D5ABA158B983F001307AD /* getopt_win.h */,
+				FA5D5ABB158B983F001307AD /* theora_static.dsp */,
+				FA5D5ABC158B983F001307AD /* VS2005 */,
+				FA5D5ACB158B983F001307AD /* VS2008 */,
+				FA5D5ADA158B983F001307AD /* xmingw32 */,
+			);
+			path = win32;
+			sourceTree = "<group>";
+		};
+		FA5D5AA2158B983F001307AD /* experimental */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5AA3158B983F001307AD /* dumpvid */,
+				FA5D5AA5158B983F001307AD /* encoderwin */,
+				FA5D5AA8158B983F001307AD /* transcoder */,
+				FA5D5AB2158B983F001307AD /* wincompat */,
+			);
+			path = experimental;
+			sourceTree = "<group>";
+		};
+		FA5D5AA3158B983F001307AD /* dumpvid */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5AA4158B983F001307AD /* dumpvid.dsp */,
+			);
+			path = dumpvid;
+			sourceTree = "<group>";
+		};
+		FA5D5AA5158B983F001307AD /* encoderwin */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5AA6158B983F001307AD /* encoderwin.dsp */,
+				FA5D5AA7158B983F001307AD /* ReadMe.txt */,
+			);
+			path = encoderwin;
+			sourceTree = "<group>";
+		};
+		FA5D5AA8158B983F001307AD /* transcoder */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5AA9158B983F001307AD /* avi2vp3 */,
+				FA5D5AAF158B983F001307AD /* readme.txt */,
+				FA5D5AB0158B983F001307AD /* transcoder.dsp */,
+				FA5D5AB1158B983F001307AD /* transcoder_example.c */,
+			);
+			path = transcoder;
+			sourceTree = "<group>";
+		};
+		FA5D5AA9158B983F001307AD /* avi2vp3 */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5AAA158B983F001307AD /* avi2vp3.c */,
+				FA5D5AAB158B983F001307AD /* avilib.c */,
+				FA5D5AAC158B983F001307AD /* avilib.h */,
+				FA5D5AAD158B983F001307AD /* outfile.vp3 */,
+				FA5D5AAE158B983F001307AD /* vp31.avi */,
+			);
+			path = avi2vp3;
+			sourceTree = "<group>";
+		};
+		FA5D5AB2158B983F001307AD /* wincompat */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5AB3158B983F001307AD /* getopt.c */,
+				FA5D5AB4158B983F001307AD /* getopt.h */,
+				FA5D5AB5158B983F001307AD /* getopt_long.c */,
+				FA5D5AB6158B983F001307AD /* README.txt */,
+				FA5D5AB7158B983F001307AD /* unistd.h */,
+			);
+			path = wincompat;
+			sourceTree = "<group>";
+		};
+		FA5D5ABC158B983F001307AD /* VS2005 */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5ABD158B983F001307AD /* dump_video */,
+				FA5D5AC0158B983F001307AD /* encoder_example */,
+				FA5D5AC3158B983F001307AD /* libogg.vsprops */,
+				FA5D5AC4158B983F001307AD /* libtheora */,
+				FA5D5AC7158B983F001307AD /* libtheora_dynamic.sln */,
+				FA5D5AC8158B983F001307AD /* libtheora_static.sln */,
+				FA5D5AC9158B983F001307AD /* libvorbis.vsprops */,
+				FA5D5ACA158B983F001307AD /* README */,
+			);
+			path = VS2005;
+			sourceTree = "<group>";
+		};
+		FA5D5ABD158B983F001307AD /* dump_video */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5ABE158B983F001307AD /* dump_video_dynamic.vcproj */,
+				FA5D5ABF158B983F001307AD /* dump_video_static.vcproj */,
+			);
+			path = dump_video;
+			sourceTree = "<group>";
+		};
+		FA5D5AC0158B983F001307AD /* encoder_example */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5AC1158B983F001307AD /* encoder_example_dynamic.vcproj */,
+				FA5D5AC2158B983F001307AD /* encoder_example_static.vcproj */,
+			);
+			path = encoder_example;
+			sourceTree = "<group>";
+		};
+		FA5D5AC4158B983F001307AD /* libtheora */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5AC5158B983F001307AD /* libtheora_dynamic.vcproj */,
+				FA5D5AC6158B983F001307AD /* libtheora_static.vcproj */,
+			);
+			path = libtheora;
+			sourceTree = "<group>";
+		};
+		FA5D5ACB158B983F001307AD /* VS2008 */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5ACC158B983F001307AD /* dump_video */,
+				FA5D5ACF158B983F001307AD /* encoder_example */,
+				FA5D5AD2158B983F001307AD /* libogg.vsprops */,
+				FA5D5AD3158B983F001307AD /* libtheora */,
+				FA5D5AD6158B983F001307AD /* libtheora_dynamic.sln */,
+				FA5D5AD7158B983F001307AD /* libtheora_static.sln */,
+				FA5D5AD8158B983F001307AD /* libvorbis.vsprops */,
+				FA5D5AD9158B983F001307AD /* README */,
+			);
+			path = VS2008;
+			sourceTree = "<group>";
+		};
+		FA5D5ACC158B983F001307AD /* dump_video */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5ACD158B983F001307AD /* dump_video_dynamic.vcproj */,
+				FA5D5ACE158B983F001307AD /* dump_video_static.vcproj */,
+			);
+			path = dump_video;
+			sourceTree = "<group>";
+		};
+		FA5D5ACF158B983F001307AD /* encoder_example */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5AD0158B983F001307AD /* encoder_example_dynamic.vcproj */,
+				FA5D5AD1158B983F001307AD /* encoder_example_static.vcproj */,
+			);
+			path = encoder_example;
+			sourceTree = "<group>";
+		};
+		FA5D5AD3158B983F001307AD /* libtheora */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5AD4158B983F001307AD /* libtheora_dynamic.vcproj */,
+				FA5D5AD5158B983F001307AD /* libtheora_static.vcproj */,
+			);
+			path = libtheora;
+			sourceTree = "<group>";
+		};
+		FA5D5ADA158B983F001307AD /* xmingw32 */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D5ADB158B983F001307AD /* libtheoradec-all.def */,
+				FA5D5ADC158B983F001307AD /* libtheoradec-all.rc */,
+				FA5D5ADD158B983F001307AD /* libtheoradec.rc */,
+				FA5D5ADE158B983F001307AD /* libtheoradec70.rc */,
+				FA5D5ADF158B983F001307AD /* libtheoradec70d.rc */,
+				FA5D5AE0158B983F001307AD /* libtheoradec71.rc */,
+				FA5D5AE1158B983F001307AD /* libtheoradec71d.rc */,
+				FA5D5AE2158B983F001307AD /* libtheoradec80.rc */,
+				FA5D5AE3158B983F001307AD /* libtheoradec80d.rc */,
+				FA5D5AE4158B983F001307AD /* libtheoradecd.rc */,
+				FA5D5AE5158B983F001307AD /* libtheoraenc-all.def */,
+				FA5D5AE6158B983F001307AD /* libtheoraenc-all.rc */,
+				FA5D5AE7158B983F001307AD /* libtheoraenc.rc */,
+				FA5D5AE8158B983F001307AD /* libtheoraenc70.rc */,
+				FA5D5AE9158B983F001307AD /* libtheoraenc70d.rc */,
+				FA5D5AEA158B983F001307AD /* libtheoraenc71.rc */,
+				FA5D5AEB158B983F001307AD /* libtheoraenc71d.rc */,
+				FA5D5AEC158B983F001307AD /* libtheoraenc80.rc */,
+				FA5D5AED158B983F001307AD /* libtheoraenc80d.rc */,
+				FA5D5AEE158B983F001307AD /* libtheoraencd.rc */,
+				FA5D5AEF158B983F001307AD /* Makefile */,
+			);
+			path = xmingw32;
+			sourceTree = "<group>";
+		};
 		FABB6F4E1588E31800BF5320 = {
 			isa = PBXGroup;
 			children = (
+				FA5D5997158B983F001307AD /* libtheora-1.1.1 */,
 				FA5D544B158B7570001307AD /* libvorbis-1.0.1 */,
 				FA5D53A9158B7566001307AD /* libogg-1.3.0 */,
 				FABB6F621588E31800BF5320 /* VideoConverter */,
@@ -8321,6 +9228,10 @@
 					ProductGroup = FA5D5416158B7566001307AD /* Products */;
 					ProjectRef = FA5D5415158B7566001307AD /* Ogg.xcodeproj */;
 				},
+				{
+					ProductGroup = FA5D5A82158B983F001307AD /* Products */;
+					ProjectRef = FA5D5A81158B983F001307AD /* Theora.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -8343,6 +9254,27 @@
 			fileType = archive.ar;
 			path = libogg.a;
 			remoteRef = FA5D5449158B7567001307AD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA5D5AF7158B9840001307AD /* Theora.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Theora.framework;
+			remoteRef = FA5D5AF6158B9840001307AD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA5D5AF9158B9840001307AD /* libtheoraenc.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtheoraenc.a;
+			remoteRef = FA5D5AF8158B9840001307AD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA5D5AFB158B9840001307AD /* libtheoradec.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtheoradec.a;
+			remoteRef = FA5D5AFA158B9840001307AD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -8371,7 +9303,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd ${SRCROOT}/x264\nmake clean\nif [ -f config.mak ]; then\n    rm config.mak\nfi\n./configure --enable-static --disable-asm\nmake\ncd ../ffmpeg\nsh restart.sh ../x264\nmake\nexecPath=\"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\nif [ -f \"$execPath\" ]; then\n    rm \"$execPath\"\nfi\nif [ ! -d \"${CONFIGURATION_BUILD_DIR}\" ]; then\n    mkdir \"${CONFIGURATION_BUILD_DIR}\"\nfi\ncp ffmpeg \"$execPath\"";
+			shellScript = "# compile libogg\necho \"Compiling libogg\" >&2\nlibogg_path=\"${SRCROOT}/libogg-1.3.0\"\ncd \"$libogg_path\"\nif [ -d lib ]; then\n    rm -rf lib\nfi\nmkdir lib\n./configure \"--libdir=${libogg_path}/lib\" \"--includedir=${libogg_path}/lib\"\nmake clean\nmake\nmake install\n\n# compile libvorbis\necho \"Compiling libvorbis\" >&2\nlibvorbis_path=\"${SRCROOT}/vorbis\"\nif [ ! -d \"${libvorbis_path}/libs\" ]; then\n    mkdir \"${libvorbis_path}/libs\"\nelse\n    rm -rf \"${libvorbis_path}/libs/*\"\nfi\ncd \"$libvorbis_path\"\n./configure  --build=x86_64\n./configure \"--with-ogg=${libogg_path}\" \"--with-ogg-includes=${libogg_path}/lib\" --build=x86_64 --enable-static \"--libdir=${libvorbis_path}/libs\"\nmake clean\nmake install\n\n# compile libtheora :'(\necho \"Compiling libtheora\" >&2\nlibtheora_path=\"${SRCROOT}/libtheora-1.1.1\"\nif [ ! -d \"${libtheora_path}/output\" ]; then\n    mkdir \"${libtheora_path}/output\"\nelse\n    rm -rf \"${libtheora_path}/output/*\"\nfi\ncd \"$libtheora_path\"\n./configure --enable-static \"--with-vorbis-includes=${libvorbis_path}/include\" \"--with-vorbis-libraries=${libvorbis_path}/libs\" \"--with-ogg-includes=${libogg_path}/lib\" \"--with-ogg-libraries=${libogg_path}/lib\" \"--libdir=${libtheora_path}/output\" \"--includedir=${libtheora_path}/output\" --build=x86_64\nmake install\n\n# compile x264\necho \"Compiling x264\" >&2\ncd \"${SRCROOT}/x264\"\nmake clean\nif [ -f config.mak ]; then\n    rm config.mak\nfi\n./configure --enable-static --disable-asm\nmake\n\n# compile ffmpeg\necho \"Compiling FFMpeg\" >&2\ncd \"${SRCROOT}/ffmpeg\"\nsh restart.sh ../x264 ../libvorbis ../libogg-1.3.0/lib \"${libtheora_path}/output\"\nmake\nexecPath=\"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\nif [ -f \"$execPath\" ]; then\n    rm \"$execPath\"\nfi\nif [ ! -d \"${CONFIGURATION_BUILD_DIR}\" ]; then\n    mkdir \"${CONFIGURATION_BUILD_DIR}\"\nfi\ncp ffmpeg \"$execPath\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -8406,6 +9338,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				FA5D554B158B7570001307AD /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA5D5A7E158B983F001307AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5D5A7F158B983F001307AD /* English */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

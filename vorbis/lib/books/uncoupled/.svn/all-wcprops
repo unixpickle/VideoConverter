@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/17022/trunk/vorbis/lib/books/uncoupled
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/7345/trunk/vorbis/lib/books/uncoupled/Makefile.am
+END
+res_books_uncoupled.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/17022/trunk/vorbis/lib/books/uncoupled/res_books_uncoupled.h
+END

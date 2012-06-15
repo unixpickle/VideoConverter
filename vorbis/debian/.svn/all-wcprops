@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/!svn/ver/14962/trunk/vorbis/debian
+END
+control
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/7187/trunk/vorbis/debian/control
+END
+libvorbis0a.install
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/7187/trunk/vorbis/debian/libvorbis0a.install
+END
+libvorbisfile3.install
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/7187/trunk/vorbis/debian/libvorbisfile3.install
+END
+libvorbis-dev.examples
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/7187/trunk/vorbis/debian/libvorbis-dev.examples
+END
+watch
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/9017/trunk/vorbis/debian/watch
+END
+changelog
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/14962/trunk/vorbis/debian/changelog
+END
+copyright
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/7187/trunk/vorbis/debian/copyright
+END
+libvorbisenc2.install
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/7187/trunk/vorbis/debian/libvorbisenc2.install
+END
+rules
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/14819/trunk/vorbis/debian/rules
+END
+libvorbis-dev.install
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/7187/trunk/vorbis/debian/libvorbis-dev.install
+END
+libvorbis-dev.docs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/7187/trunk/vorbis/debian/libvorbis-dev.docs
+END

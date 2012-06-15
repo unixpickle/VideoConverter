@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/!svn/ver/18186/trunk/vorbis/lib
+END
+masking.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/16227/trunk/vorbis/lib/masking.h
+END
+lsp.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/17538/trunk/vorbis/lib/lsp.c
+END
+misc.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/16227/trunk/vorbis/lib/misc.h
+END
+floor0.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/18184/trunk/vorbis/lib/floor0.c
+END
+floor1.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/18151/trunk/vorbis/lib/floor1.c
+END
+lsp.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/16227/trunk/vorbis/lib/lsp.h
+END
+tone.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/16037/trunk/vorbis/lib/tone.c
+END
+psytune.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/16037/trunk/vorbis/lib/psytune.c
+END
+registry.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/16227/trunk/vorbis/lib/registry.c
+END
+mapping0.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/17022/trunk/vorbis/lib/mapping0.c
+END
+psy.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/18077/trunk/vorbis/lib/psy.c
+END
+barkmel.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/16037/trunk/vorbis/lib/barkmel.c
+END
+envelope.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/16227/trunk/vorbis/lib/envelope.c
+END
+registry.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/15531/trunk/vorbis/lib/registry.h
+END
+lpc.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/16227/trunk/vorbis/lib/lpc.c
+END
+codec_internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/16227/trunk/vorbis/lib/codec_internal.h
+END
+backends.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/16962/trunk/vorbis/lib/backends.h
+END
+psy.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/16946/trunk/vorbis/lib/psy.h
+END
+envelope.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/16227/trunk/vorbis/lib/envelope.h
+END
+lpc.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/16037/trunk/vorbis/lib/lpc.h
+END
+codebook.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/18183/trunk/vorbis/lib/codebook.c
+END
+os.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/16227/trunk/vorbis/lib/os.h
+END
+synthesis.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/17474/trunk/vorbis/lib/synthesis.c
+END
+bitrate.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/16227/trunk/vorbis/lib/bitrate.c
+END
+codebook.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/17030/trunk/vorbis/lib/codebook.h
+END
+vorbisenc.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/17028/trunk/vorbis/lib/vorbisenc.c
+END
+info.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/18186/trunk/vorbis/lib/info.c
+END
+bitrate.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/13293/trunk/vorbis/lib/bitrate.h
+END
+smallft.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/16227/trunk/vorbis/lib/smallft.c
+END
+vorbisfile.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/17573/trunk/vorbis/lib/vorbisfile.c
+END
+smallft.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/13293/trunk/vorbis/lib/smallft.h
+END
+lookup_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/16037/trunk/vorbis/lib/lookup_data.h
+END
+window.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/16227/trunk/vorbis/lib/window.c
+END
+lookup.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/16227/trunk/vorbis/lib/lookup.c
+END
+res0.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/17556/trunk/vorbis/lib/res0.c
+END
+highlevel.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/17195/trunk/vorbis/lib/highlevel.h
+END
+window.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/13293/trunk/vorbis/lib/window.h
+END
+lookup.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/16227/trunk/vorbis/lib/lookup.h
+END
+scales.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/16227/trunk/vorbis/lib/scales.h
+END
+sharedbook.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/17030/trunk/vorbis/lib/sharedbook.c
+END
+analysis.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/16226/trunk/vorbis/lib/analysis.c
+END
+lookups.pl
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/13293/trunk/vorbis/lib/lookups.pl
+END
+mdct.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/16227/trunk/vorbis/lib/mdct.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/14836/trunk/vorbis/lib/Makefile.am
+END
+block.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/17561/trunk/vorbis/lib/block.c
+END
+misc.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/16037/trunk/vorbis/lib/misc.c
+END
+mdct.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/16227/trunk/vorbis/lib/mdct.h
+END

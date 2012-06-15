@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 81
+Makefile.in
+Makefile
+Vorbis_I_spec.fo
+Vorbis_I_spec.html
+Vorbis_I_spec.pdf
+build
+
+END

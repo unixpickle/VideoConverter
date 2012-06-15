@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/17561/trunk/vorbis/examples
+END
+frameview.pl
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/17022/trunk/vorbis/examples/frameview.pl
+END
+vorbisfile_example.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/16328/trunk/vorbis/examples/vorbisfile_example.c
+END
+decoder_example.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/16243/trunk/vorbis/examples/decoder_example.c
+END
+seeking_example.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/17561/trunk/vorbis/examples/seeking_example.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/14215/trunk/vorbis/examples/Makefile.am
+END
+encoder_example.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/16946/trunk/vorbis/examples/encoder_example.c
+END
+chaining_example.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/16243/trunk/vorbis/examples/chaining_example.c
+END

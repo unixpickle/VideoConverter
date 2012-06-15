@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/!svn/ver/18188/trunk/vorbis
+END
+vorbisenc-uninstalled.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/7452/trunk/vorbis/vorbisenc-uninstalled.pc.in
+END
+todo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/!svn/ver/7812/trunk/vorbis/todo.txt
+END
+vorbis.m4
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/14462/trunk/vorbis/vorbis.m4
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/!svn/ver/7187/trunk/vorbis/AUTHORS
+END
+libvorbis.spec.in
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/14832/trunk/vorbis/libvorbis.spec.in
+END
+vorbis-uninstalled.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/7452/trunk/vorbis/vorbis-uninstalled.pc.in
+END
+vorbisfile-uninstalled.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/7452/trunk/vorbis/vorbisfile-uninstalled.pc.in
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/!svn/ver/15334/trunk/vorbis/README
+END
+vorbisenc.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/7187/trunk/vorbis/vorbisenc.pc.in
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/18186/trunk/vorbis/configure.ac
+END
+CHANGES
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/!svn/ver/18188/trunk/vorbis/CHANGES
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/!svn/ver/15505/trunk/vorbis/COPYING
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/17614/trunk/vorbis/Makefile.am
+END
+vorbisfile.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/7187/trunk/vorbis/vorbisfile.pc.in
+END
+vorbis.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/7187/trunk/vorbis/vorbis.pc.in
+END
+autogen.sh
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/15747/trunk/vorbis/autogen.sh
+END

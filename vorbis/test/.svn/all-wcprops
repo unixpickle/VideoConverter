@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/!svn/ver/17024/trunk/vorbis/test
+END
+test.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/17024/trunk/vorbis/test/test.c
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/13652/trunk/vorbis/test/util.h
+END
+write_read.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/17024/trunk/vorbis/test/write_read.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/17018/trunk/vorbis/test/Makefile.am
+END
+write_read.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/17024/trunk/vorbis/test/write_read.h
+END
+util.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/16037/trunk/vorbis/test/util.c
+END

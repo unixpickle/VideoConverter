@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/17610/trunk/vorbis/doc/vorbisenc
+END
+vorbis_encode_setup_managed.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/17583/trunk/vorbis/doc/vorbisenc/vorbis_encode_setup_managed.html
+END
+vorbis_encode_init_vbr.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/17583/trunk/vorbis/doc/vorbisenc/vorbis_encode_init_vbr.html
+END
+examples.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/17583/trunk/vorbis/doc/vorbisenc/examples.html
+END
+vorbis_encode_ctl.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/17583/trunk/vorbis/doc/vorbisenc/vorbis_encode_ctl.html
+END
+vorbis_encode_setup_init.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/17583/trunk/vorbis/doc/vorbisenc/vorbis_encode_setup_init.html
+END
+style.css
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/7186/trunk/vorbis/doc/vorbisenc/style.css
+END
+ovectl_ratemanage2_arg.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/17610/trunk/vorbis/doc/vorbisenc/ovectl_ratemanage2_arg.html
+END
+reference.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/17583/trunk/vorbis/doc/vorbisenc/reference.html
+END
+vorbis_encode_init.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/17583/trunk/vorbis/doc/vorbisenc/vorbis_encode_init.html
+END
+overview.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/17583/trunk/vorbis/doc/vorbisenc/overview.html
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/17581/trunk/vorbis/doc/vorbisenc/Makefile.am
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/17583/trunk/vorbis/doc/vorbisenc/index.html
+END
+changes.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/17583/trunk/vorbis/doc/vorbisenc/changes.html
+END
+ovectl_ratemanage_arg.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/17610/trunk/vorbis/doc/vorbisenc/ovectl_ratemanage_arg.html
+END
+vorbis_encode_setup_vbr.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/17583/trunk/vorbis/doc/vorbisenc/vorbis_encode_setup_vbr.html
+END

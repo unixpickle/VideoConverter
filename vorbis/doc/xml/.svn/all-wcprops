@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/!svn/ver/18063/trunk/vorbis/doc/xml
+END
+06-floor0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/18063/trunk/vorbis/doc/xml/06-floor0.xml
+END
+05-comment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/15237/trunk/vorbis/doc/xml/05-comment.xml
+END
+08-residue.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/15532/trunk/vorbis/doc/xml/08-residue.xml
+END
+spec-common.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/17582/trunk/vorbis/doc/xml/spec-common.xsl
+END
+Vorbis_I_spec.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/17582/trunk/vorbis/doc/xml/Vorbis_I_spec.xml
+END
+07-floor1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/10466/trunk/vorbis/doc/xml/07-floor1.xml
+END
+10-tables.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/7186/trunk/vorbis/doc/xml/10-tables.xml
+END
+a2-encapsulation_rtp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/15230/trunk/vorbis/doc/xml/a2-encapsulation_rtp.xml
+END
+02-bitpacking.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/7186/trunk/vorbis/doc/xml/02-bitpacking.xml
+END
+footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/17582/trunk/vorbis/doc/xml/footer.xml
+END
+04-codec.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/16781/trunk/vorbis/doc/xml/04-codec.xml
+END
+01-introduction.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/17582/trunk/vorbis/doc/xml/01-introduction.xml
+END
+a1-encapsulation_ogg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/15657/trunk/vorbis/doc/xml/a1-encapsulation_ogg.xml
+END
+spec-fo.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/7186/trunk/vorbis/doc/xml/spec-fo.xsl
+END
+spec-html.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/7186/trunk/vorbis/doc/xml/spec-html.xsl
+END
+09-helper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/7186/trunk/vorbis/doc/xml/09-helper.xml
+END
+03-codebook.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/7186/trunk/vorbis/doc/xml/03-codebook.xml
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/7186/trunk/vorbis/doc/xml/TODO
+END

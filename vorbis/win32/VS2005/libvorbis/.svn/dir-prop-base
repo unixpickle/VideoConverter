@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 52
+Debug
+*.user
+Release
+Release_SSE
+Release_SSE2
+*.ncb
+
+END

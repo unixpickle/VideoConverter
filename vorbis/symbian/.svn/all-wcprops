@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/!svn/ver/7575/trunk/vorbis/symbian
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/7575/trunk/vorbis/symbian/config.h
+END
+bld.inf
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/7542/trunk/vorbis/symbian/bld.inf
+END
+vorbis.mmp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/7574/trunk/vorbis/symbian/vorbis.mmp
+END

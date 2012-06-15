@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/17772/trunk/vorbis/win32/VS2008
+END
+vorbis_dynamic.sln
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/15899/trunk/vorbis/win32/VS2008/vorbis_dynamic.sln
+END
+vorbis_static.sln
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/15899/trunk/vorbis/win32/VS2008/vorbis_static.sln
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/15899/trunk/vorbis/win32/VS2008/README
+END
+libogg.vsprops
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/16335/trunk/vorbis/win32/VS2008/libogg.vsprops
+END

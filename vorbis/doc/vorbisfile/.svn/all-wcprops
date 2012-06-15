@@ -1,0 +1,353 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/17586/trunk/vorbis/doc/vorbisfile
+END
+decoding.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/decoding.html
+END
+ov_raw_tell.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_raw_tell.html
+END
+datastructures.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/datastructures.html
+END
+callbacks.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/callbacks.html
+END
+ov_read.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_read.html
+END
+vorbisfile_example_c.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/vorbisfile_example_c.html
+END
+ov_test_callbacks.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_test_callbacks.html
+END
+exampleindex.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/exampleindex.html
+END
+ov_callbacks.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_callbacks.html
+END
+style.css
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/7186/trunk/vorbis/doc/vorbisfile/style.css
+END
+ov_pcm_seek_page.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_pcm_seek_page.html
+END
+crosslap.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/crosslap.html
+END
+ov_pcm_seek.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_pcm_seek.html
+END
+ov_crosslap.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_crosslap.html
+END
+ov_clear.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_clear.html
+END
+example.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/example.html
+END
+chainingexample.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/chainingexample.html
+END
+reference.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/reference.html
+END
+ov_info.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_info.html
+END
+OggVorbis_File.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/OggVorbis_File.html
+END
+ov_raw_seek.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_raw_seek.html
+END
+ov_open_callbacks.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_open_callbacks.html
+END
+ov_read_float.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_read_float.html
+END
+ov_test_open.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_test_open.html
+END
+ov_time_seek_lap.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_time_seek_lap.html
+END
+ov_time_seek_page.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_time_seek_page.html
+END
+ov_comment.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_comment.html
+END
+ov_fopen.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_fopen.html
+END
+ov_seekable.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_seekable.html
+END
+ov_pcm_seek_page_lap.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_pcm_seek_page_lap.html
+END
+ov_streams.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_streams.html
+END
+ov_time_tell.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_time_tell.html
+END
+ov_test.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_test.html
+END
+ov_read_filter.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_read_filter.html
+END
+seeking.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/seeking.html
+END
+ov_pcm_total.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_pcm_total.html
+END
+ov_pcm_seek_lap.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_pcm_seek_lap.html
+END
+seeking_test_c.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/seeking_test_c.html
+END
+initialization.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/initialization.html
+END
+threads.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/threads.html
+END
+fileinfo.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/fileinfo.html
+END
+ov_serialnumber.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_serialnumber.html
+END
+chaining_example_c.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/chaining_example_c.html
+END
+ov_bitrate.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_bitrate.html
+END
+ov_bitrate_instant.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_bitrate_instant.html
+END
+ov_raw_seek_lap.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_raw_seek_lap.html
+END
+ov_raw_total.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_raw_total.html
+END
+ov_time_seek_page_lap.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_time_seek_page_lap.html
+END
+seekingexample.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/seekingexample.html
+END
+seeking_example_c.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/seeking_example_c.html
+END
+ov_pcm_tell.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_pcm_tell.html
+END
+seekexample.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/seekexample.html
+END
+ov_open.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_open.html
+END
+ov_time_total.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_time_total.html
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/17581/trunk/vorbis/doc/vorbisfile/Makefile.am
+END
+overview.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/overview.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/index.html
+END
+ov_time_seek.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/17583/trunk/vorbis/doc/vorbisfile/ov_time_seek.html
+END
