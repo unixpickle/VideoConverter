@@ -165,6 +165,10 @@
     
     hasDuration = NO;
 
+    // catch any prompts that we might not catch the "good" way
+    // [writeHandle writeData:[@"y\n" dataUsingEncoding:NSASCIIStringEncoding]];
+    // [writeHandle writeData:[@"y\n" dataUsingEncoding:NSASCIIStringEncoding]];
+    
     NSMutableString * outputString = [NSMutableString string];
     NSCharacterSet * newLineSet = [NSCharacterSet characterSetWithCharactersInString:@"\n\r"];
     while ([converterTask isRunning]) {
@@ -178,8 +182,9 @@
                                     
             if ([outputString hasSuffix:@"[y/N] "]) {
                 [writeHandle writeData:[@"y\n" dataUsingEncoding:NSASCIIStringEncoding]];
-                [outputString deleteCharactersInRange:NSMakeRange(0, [outputString length])];
-                continue;
+                // the following two lines prevent status from working sometimes
+                // [outputString deleteCharactersInRange:NSMakeRange(0, [outputString length])];
+                //  continue;
             }
             
             NSRange newLineRange = [outputString rangeOfCharacterFromSet:newLineSet];
@@ -207,9 +212,11 @@
     if ([line hasSuffix:@"[y/N] "] || [line hasSuffix:@"[y/N]"]) {
         [writeHandle writeData:[@"y\n" dataUsingEncoding:NSASCIIStringEncoding]];
     } else if ([line rangeOfString:@"Duration:"].location != NSNotFound) {
+        NSLog(@"duration: %@", line);
         hasDuration = YES;
         totalDuration = [self extractDurationFromLine:line];
     } else if ([line rangeOfString:@"time="].location != NSNotFound) {
+        NSLog(@"timestamp: %@", line);
         completed = [self extractTimestampFromLine:line];
         if (hasDuration) {
             callback(ACConverterCallbackTypeProgress, completed / totalDuration, nil);
