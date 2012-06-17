@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import <ACPlugIn/ACConverter.h>
+#import "FFMpegConverter.h"
 
 /*
  
@@ -21,28 +21,10 @@
  
  */
 
-@interface VideoConverter : ACConverter {
-    NSTask * converterTask;
-    NSString * launchPath;
-    NSString * tempSource;
-    __unsafe_unretained ACConverterCallback callback;
-    NSTimeInterval totalDuration;
-    NSTimeInterval completed;
-    BOOL hasDuration;
-}
-
-+ (NSError *)errorWithCode:(NSInteger)code message:(NSString *)msg;
-
-- (void)removeTempSource;
+@interface VideoConverter : FFMpegConverter 
 
 - (BOOL)encodePreservingCodecs;
 - (BOOL)encodeUsingH264;
 - (BOOL)encodeUsingOGGVorbis;
-- (BOOL)encoderTask;
-
-- (BOOL)processOutputLine:(NSString *)line;
-- (NSTimeInterval)extractDurationFromLine:(NSString *)output;
-- (NSTimeInterval)extractTimestampFromLine:(NSString *)output;
-- (NSTimeInterval)processTimeString:(NSString *)timeString;
 
 @end

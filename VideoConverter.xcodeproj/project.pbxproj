@@ -10,8 +10,15 @@
 		FA4504701588F4E200659C9E /* VideoConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA45046F1588F4E200659C9E /* VideoConverter.m */; };
 		FA45048915892DE300659C9E /* ffmpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA45047D15892B6E00659C9E /* ffmpeg */; };
 		FA5D5B0F158BA9D8001307AD /* ACPlugIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5D5B0E158BA9D8001307AD /* ACPlugIn.framework */; };
+		FAACFD79158E812700612D9C /* ffmpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA45047D15892B6E00659C9E /* ffmpeg */; };
 		FABB6F5D1588E31800BF5320 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABB6F5C1588E31800BF5320 /* Cocoa.framework */; };
 		FABB6F671588E31800BF5320 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FABB6F651588E31800BF5320 /* InfoPlist.strings */; };
+		FAD217D6158E6F610081090E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABB6F5C1588E31800BF5320 /* Cocoa.framework */; };
+		FAD217DC158E6F620081090E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAD217DA158E6F620081090E /* InfoPlist.strings */; };
+		FAD217E1158E6F750081090E /* ACPlugIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5D5B0E158BA9D8001307AD /* ACPlugIn.framework */; };
+		FAD217E4158E6F890081090E /* FLACConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD217E3158E6F890081090E /* FLACConverter.m */; };
+		FAD217E8158E6FFD0081090E /* FFMpegConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD217E7158E6FFD0081090E /* FFMpegConverter.m */; };
+		FAD217E9158E6FFD0081090E /* FFMpegConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD217E7158E6FFD0081090E /* FFMpegConverter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -4036,6 +4043,14 @@
 		FABB7B971588E45200BF5320 /* unwrap-diff */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "unwrap-diff"; sourceTree = "<group>"; };
 		FABB7B981588E45200BF5320 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
 		FABB7B991588E45200BF5320 /* version.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = version.sh; sourceTree = "<group>"; };
+		FAD217D5158E6F610081090E /* FLACConverter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLACConverter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD217D9158E6F620081090E /* FLACConverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FLACConverter-Info.plist"; sourceTree = "<group>"; };
+		FAD217DB158E6F620081090E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAD217DD158E6F620081090E /* FLACConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLACConverter-Prefix.pch"; sourceTree = "<group>"; };
+		FAD217E2158E6F890081090E /* FLACConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLACConverter.h; sourceTree = "<group>"; };
+		FAD217E3158E6F890081090E /* FLACConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLACConverter.m; sourceTree = "<group>"; };
+		FAD217E6158E6FFD0081090E /* FFMpegConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFMpegConverter.h; sourceTree = "<group>"; };
+		FAD217E7158E6FFD0081090E /* FFMpegConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFMpegConverter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -4052,6 +4067,15 @@
 			files = (
 				FABB6F5D1588E31800BF5320 /* Cocoa.framework in Frameworks */,
 				FA5D5B0F158BA9D8001307AD /* ACPlugIn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD217D2158E6F610081090E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD217D6158E6F610081090E /* Cocoa.framework in Frameworks */,
+				FAD217E1158E6F750081090E /* ACPlugIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5703,12 +5727,10 @@
 		FABB6F4E1588E31800BF5320 = {
 			isa = PBXGroup;
 			children = (
-				FA5D5997158B983F001307AD /* libtheora-1.1.1 */,
-				FA5D544B158B7570001307AD /* libvorbis-1.0.1 */,
-				FA5D53A9158B7566001307AD /* libogg-1.3.0 */,
+				FAD217E5158E6FEA0081090E /* Shared */,
+				FAD217CA158E6F2D0081090E /* FFMpeg Libraries */,
 				FABB6F621588E31800BF5320 /* VideoConverter */,
-				FA45048A1589301200659C9E /* x264 */,
-				FABB6FBA1588E44D00BF5320 /* ffmpeg */,
+				FAD217D7158E6F620081090E /* FLACConverter */,
 				FABB6F5B1588E31800BF5320 /* Frameworks */,
 				FABB6F5A1588E31800BF5320 /* Products */,
 			);
@@ -5719,6 +5741,7 @@
 			children = (
 				FABB6F591588E31800BF5320 /* VideoConverter.bundle */,
 				FA45047D15892B6E00659C9E /* ffmpeg */,
+				FAD217D5158E6F610081090E /* FLACConverter.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -9166,6 +9189,47 @@
 			path = tools;
 			sourceTree = "<group>";
 		};
+		FAD217CA158E6F2D0081090E /* FFMpeg Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				FABB6FBA1588E44D00BF5320 /* ffmpeg */,
+				FA5D53A9158B7566001307AD /* libogg-1.3.0 */,
+				FA5D544B158B7570001307AD /* libvorbis-1.0.1 */,
+				FA5D5997158B983F001307AD /* libtheora-1.1.1 */,
+				FA45048A1589301200659C9E /* x264 */,
+			);
+			name = "FFMpeg Libraries";
+			sourceTree = "<group>";
+		};
+		FAD217D7158E6F620081090E /* FLACConverter */ = {
+			isa = PBXGroup;
+			children = (
+				FAD217E2158E6F890081090E /* FLACConverter.h */,
+				FAD217E3158E6F890081090E /* FLACConverter.m */,
+				FAD217D8158E6F620081090E /* Supporting Files */,
+			);
+			path = FLACConverter;
+			sourceTree = "<group>";
+		};
+		FAD217D8158E6F620081090E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD217D9158E6F620081090E /* FLACConverter-Info.plist */,
+				FAD217DA158E6F620081090E /* InfoPlist.strings */,
+				FAD217DD158E6F620081090E /* FLACConverter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAD217E5158E6FEA0081090E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FAD217E6158E6FFD0081090E /* FFMpegConverter.h */,
+				FAD217E7158E6FFD0081090E /* FFMpegConverter.m */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -9176,7 +9240,7 @@
 				FA45047915892B6E00659C9E /* Sources */,
 				FA45047A15892B6E00659C9E /* Frameworks */,
 				FA45047B15892B6E00659C9E /* CopyFiles */,
-				FA45048815892BC500659C9E /* ShellScript */,
+				FAD217FD158E78FB0081090E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -9202,6 +9266,23 @@
 			name = VideoConverter;
 			productName = VideoConverter;
 			productReference = FABB6F591588E31800BF5320 /* VideoConverter.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FAD217D4158E6F610081090E /* FLACConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD217DE158E6F620081090E /* Build configuration list for PBXNativeTarget "FLACConverter" */;
+			buildPhases = (
+				FAD217D1158E6F610081090E /* Sources */,
+				FAD217D2158E6F610081090E /* Frameworks */,
+				FAD217D3158E6F610081090E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLACConverter;
+			productName = FLACConverter;
+			productReference = FAD217D5158E6F610081090E /* FLACConverter.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -9236,6 +9317,7 @@
 			projectRoot = "";
 			targets = (
 				FABB6F581588E31800BF5320 /* VideoConverter */,
+				FAD217D4158E6F610081090E /* FLACConverter */,
 				FA45047C15892B6E00659C9E /* ffmpeg */,
 			);
 		};
@@ -9289,10 +9371,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAD217D3158E6F610081090E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD217DC158E6F620081090E /* InfoPlist.strings in Resources */,
+				FAACFD79158E812700612D9C /* ffmpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		FA45048815892BC500659C9E /* ShellScript */ = {
+		FAD217FD158E78FB0081090E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -9303,7 +9394,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# compile libogg\necho \"Compiling libogg\" >&2\nlibogg_path=\"${SRCROOT}/libogg-1.3.0\"\ncd \"$libogg_path\"\nif [ -d lib ]; then\n    rm -rf lib\nfi\nmkdir lib\n./configure \"--libdir=${libogg_path}/lib\" \"--includedir=${libogg_path}/lib\" --disable-shared\nmake clean\nmake\nmake install\n\n# compile libvorbis\necho \"Compiling libvorbis\" >&2\nlibvorbis_path=\"${SRCROOT}/vorbis\"\nif [ ! -d \"${libvorbis_path}/libs\" ]; then\n    mkdir \"${libvorbis_path}/libs\"\nelse\n    rm -rf \"${libvorbis_path}/libs/*\"\nfi\ncd \"$libvorbis_path\"\n./configure  --build=x86_64\n./configure \"--with-ogg=${libogg_path}\" \"--with-ogg-includes=${libogg_path}/lib\" --build=x86_64 --enable-static \"--libdir=${libvorbis_path}/libs\"\nmake clean\nmake install\n\n# compile libtheora :'(\necho \"Compiling libtheora\" >&2\nlibtheora_path=\"${SRCROOT}/libtheora-1.1.1\"\nif [ ! -d \"${libtheora_path}/output\" ]; then\n    mkdir \"${libtheora_path}/output\"\nelse\n    rm -rf \"${libtheora_path}/output/*\"\nfi\ncd \"$libtheora_path\"\n./configure --enable-static \"--with-vorbis-includes=${libvorbis_path}/include\" \"--with-vorbis-libraries=${libvorbis_path}/libs\" \"--with-ogg-includes=${libogg_path}/lib\" \"--with-ogg-libraries=${libogg_path}/lib\" \"--libdir=${libtheora_path}/output\" \"--includedir=${libtheora_path}/output\" --build=x86_64\nmake install\n\n# compile x264\necho \"Compiling x264\" >&2\ncd \"${SRCROOT}/x264\"\nmake clean\nif [ -f config.mak ]; then\n    rm config.mak\nfi\n./configure --enable-static --disable-asm\nmake\n\n# compile ffmpeg\necho \"Compiling FFMpeg\" >&2\ncd \"${SRCROOT}/ffmpeg\"\nsh restart.sh ../x264 ../vorbis ../libogg-1.3.0/lib \"${libtheora_path}/output\"\nmake\nexecPath=\"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\nif [ -f \"$execPath\" ]; then\n    rm \"$execPath\"\nfi\nif [ ! -d \"${CONFIGURATION_BUILD_DIR}\" ]; then\n    mkdir \"${CONFIGURATION_BUILD_DIR}\"\nfi\ncp ffmpeg \"$execPath\"";
+			shellScript = "cd \"${SRCROOT}\"\nsh compile.sh";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -9320,6 +9411,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA4504701588F4E200659C9E /* VideoConverter.m in Sources */,
+				FAD217E8158E6FFD0081090E /* FFMpegConverter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD217D1158E6F610081090E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD217E4158E6F890081090E /* FLACConverter.m in Sources */,
+				FAD217E9158E6FFD0081090E /* FFMpegConverter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -9354,6 +9455,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				FABB6F661588E31800BF5320 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAD217DA158E6F620081090E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD217DB158E6F620081090E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -9454,6 +9563,38 @@
 			};
 			name = Release;
 		};
+		FAD217DF158E6F620081090E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FLACConverter/FLACConverter-Prefix.pch";
+				INFOPLIST_FILE = "FLACConverter/FLACConverter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FAD217E0158E6F620081090E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FLACConverter/FLACConverter-Prefix.pch";
+				INFOPLIST_FILE = "FLACConverter/FLACConverter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -9480,6 +9621,15 @@
 			buildConfigurations = (
 				FABB6F6C1588E31800BF5320 /* Debug */,
 				FABB6F6D1588E31800BF5320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD217DE158E6F620081090E /* Build configuration list for PBXNativeTarget "FLACConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD217DF158E6F620081090E /* Debug */,
+				FAD217E0158E6F620081090E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

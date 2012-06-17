@@ -20,9 +20,9 @@ idct.lo idct.o: idct.c /usr/include/string.h /usr/include/_types.h \
   /usr/include/limits.h /usr/include/machine/limits.h \
   /usr/include/i386/limits.h /usr/include/i386/_limits.h \
   /usr/include/sys/syslimits.h ../config.h ../include/theora/codec.h \
-  /Users/alex/Desktop/VideoConverter/libogg-1.3.0/lib/ogg/ogg.h \
+  /Users/alex/Desktop/AutoConvert/VideoConverter/libogg-1.3.0/lib/ogg/ogg.h \
   /Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h \
-  /Users/alex/Desktop/VideoConverter/libogg-1.3.0/lib/ogg/os_types.h \
+  /Users/alex/Desktop/AutoConvert/VideoConverter/libogg-1.3.0/lib/ogg/os_types.h \
   /usr/include/inttypes.h /usr/include/stdint.h \
   ../include/theora/theora.h ocintrin.h /usr/include/math.h \
   /usr/include/architecture/i386/math.h huffman.h quant.h dct.h
@@ -113,11 +113,11 @@ internal.h:
 
 ../include/theora/codec.h:
 
-/Users/alex/Desktop/VideoConverter/libogg-1.3.0/lib/ogg/ogg.h:
+/Users/alex/Desktop/AutoConvert/VideoConverter/libogg-1.3.0/lib/ogg/ogg.h:
 
 /Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h:
 
-/Users/alex/Desktop/VideoConverter/libogg-1.3.0/lib/ogg/os_types.h:
+/Users/alex/Desktop/AutoConvert/VideoConverter/libogg-1.3.0/lib/ogg/os_types.h:
 
 /usr/include/inttypes.h:
 

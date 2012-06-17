@@ -20,9 +20,9 @@ mmxidct.lo mmxidct.o: x86/mmxidct.c x86/x86int.h x86/../internal.h \
   /usr/include/limits.h /usr/include/machine/limits.h \
   /usr/include/i386/limits.h /usr/include/i386/_limits.h \
   /usr/include/sys/syslimits.h ../config.h ../include/theora/codec.h \
-  /Users/alex/Desktop/VideoConverter/libogg-1.3.0/lib/ogg/ogg.h \
+  /Users/alex/Desktop/AutoConvert/VideoConverter/libogg-1.3.0/lib/ogg/ogg.h \
   /Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h \
-  /Users/alex/Desktop/VideoConverter/libogg-1.3.0/lib/ogg/os_types.h \
+  /Users/alex/Desktop/AutoConvert/VideoConverter/libogg-1.3.0/lib/ogg/os_types.h \
   /usr/include/inttypes.h /usr/include/stdint.h \
   ../include/theora/theora.h x86/../ocintrin.h /usr/include/math.h \
   /usr/include/architecture/i386/math.h x86/../huffman.h x86/../quant.h \
@@ -108,11 +108,11 @@ x86/../internal.h:
 
 ../include/theora/codec.h:
 
-/Users/alex/Desktop/VideoConverter/libogg-1.3.0/lib/ogg/ogg.h:
+/Users/alex/Desktop/AutoConvert/VideoConverter/libogg-1.3.0/lib/ogg/ogg.h:
 
 /Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h:
 
-/Users/alex/Desktop/VideoConverter/libogg-1.3.0/lib/ogg/os_types.h:
+/Users/alex/Desktop/AutoConvert/VideoConverter/libogg-1.3.0/lib/ogg/os_types.h:
 
 /usr/include/inttypes.h:
 

@@ -17,8 +17,8 @@ encfrag.lo encfrag.o: encfrag.c /usr/include/stdlib.h \
   /usr/include/secure/_string.h /usr/include/secure/_common.h encint.h \
   ../config.h ../include/theora/theoraenc.h \
   /Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h \
-  /Users/alex/Desktop/VideoConverter/libogg-1.3.0/lib/ogg/ogg.h \
-  /Users/alex/Desktop/VideoConverter/libogg-1.3.0/lib/ogg/os_types.h \
+  /Users/alex/Desktop/AutoConvert/VideoConverter/libogg-1.3.0/lib/ogg/ogg.h \
+  /Users/alex/Desktop/AutoConvert/VideoConverter/libogg-1.3.0/lib/ogg/os_types.h \
   /usr/include/inttypes.h /usr/include/stdint.h ../include/theora/codec.h \
   internal.h \
   /Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/limits.h \
@@ -104,9 +104,9 @@ encint.h:
 
 /Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h:
 
-/Users/alex/Desktop/VideoConverter/libogg-1.3.0/lib/ogg/ogg.h:
+/Users/alex/Desktop/AutoConvert/VideoConverter/libogg-1.3.0/lib/ogg/ogg.h:
 
-/Users/alex/Desktop/VideoConverter/libogg-1.3.0/lib/ogg/os_types.h:
+/Users/alex/Desktop/AutoConvert/VideoConverter/libogg-1.3.0/lib/ogg/os_types.h:
 
 /usr/include/inttypes.h:
 

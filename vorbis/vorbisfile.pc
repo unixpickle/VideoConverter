@@ -2,7 +2,7 @@
 
 prefix=/usr/local
 exec_prefix=${prefix}
-libdir=/Users/alex/Desktop/VideoConverter/vorbis/libs
+libdir=/Users/alex/Desktop/AutoConvert/VideoConverter/vorbis/libs
 includedir=${prefix}/include
 
 Name: vorbisfile

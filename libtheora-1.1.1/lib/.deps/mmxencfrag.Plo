@@ -1,8 +1,8 @@
 mmxencfrag.lo mmxencfrag.o: x86/mmxencfrag.c \
   /Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h \
   x86/x86enc.h x86/../encint.h ../config.h ../include/theora/theoraenc.h \
-  /Users/alex/Desktop/VideoConverter/libogg-1.3.0/lib/ogg/ogg.h \
-  /Users/alex/Desktop/VideoConverter/libogg-1.3.0/lib/ogg/os_types.h \
+  /Users/alex/Desktop/AutoConvert/VideoConverter/libogg-1.3.0/lib/ogg/ogg.h \
+  /Users/alex/Desktop/AutoConvert/VideoConverter/libogg-1.3.0/lib/ogg/os_types.h \
   /usr/include/inttypes.h /usr/include/sys/cdefs.h \
   /usr/include/sys/_symbol_aliasing.h \
   /usr/include/sys/_posix_availability.h /usr/include/_types.h \
@@ -40,9 +40,9 @@ x86/../encint.h:
 
 ../include/theora/theoraenc.h:
 
-/Users/alex/Desktop/VideoConverter/libogg-1.3.0/lib/ogg/ogg.h:
+/Users/alex/Desktop/AutoConvert/VideoConverter/libogg-1.3.0/lib/ogg/ogg.h:
 
-/Users/alex/Desktop/VideoConverter/libogg-1.3.0/lib/ogg/os_types.h:
+/Users/alex/Desktop/AutoConvert/VideoConverter/libogg-1.3.0/lib/ogg/os_types.h:
 
 /usr/include/inttypes.h:
 

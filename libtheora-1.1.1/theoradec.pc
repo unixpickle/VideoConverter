@@ -2,8 +2,8 @@
 
 prefix=/usr/local
 exec_prefix=${prefix}
-libdir=/Users/alex/Desktop/VideoConverter/libtheora-1.1.1/output
-includedir=/Users/alex/Desktop/VideoConverter/libtheora-1.1.1/output
+libdir=/Users/alex/Desktop/AutoConvert/VideoConverter/libtheora-1.1.1/output
+includedir=/Users/alex/Desktop/AutoConvert/VideoConverter/libtheora-1.1.1/output
 
 Name: theora
 Description: Theora video codec (decoder)

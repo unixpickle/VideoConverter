@@ -17,7 +17,7 @@ old_library='libvorbisenc.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' /Users/alex/Desktop/VideoConverter/vorbis/libs/libvorbis.la -L/Users/alex/Desktop/VideoConverter/libogg-1.3.0/lib -lm /Users/alex/Desktop/VideoConverter/libogg-1.3.0/lib/libogg.la'
+dependency_libs=' /Users/alex/Desktop/AutoConvert/VideoConverter/vorbis/libs/libvorbis.la -L/Users/alex/Desktop/AutoConvert/VideoConverter/libogg-1.3.0/lib -lm /Users/alex/Desktop/AutoConvert/VideoConverter/libogg-1.3.0/lib/libogg.la'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/Users/alex/Desktop/VideoConverter/vorbis/libs'
+libdir='/Users/alex/Desktop/AutoConvert/VideoConverter/vorbis/libs'
