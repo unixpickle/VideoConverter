@@ -11,5 +11,6 @@
 @interface FFMPEGAudio : FFMpegConverter
 
 - (BOOL)encodeWithNoOptions;
+- (BOOL)encodeWithLibFaac;
 
 @end

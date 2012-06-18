@@ -16,9 +16,9 @@
 
 + (BOOL)supportsExtension:(NSString *)oldExt toExtension:(NSString *)newExt {
     NSArray * supportedSource = [NSArray arrayWithObjects:@"mp4", @"mov", @"flv",
-                                 @"avi", @"mkv", @"ogg", @"ogv", nil];
+                                 @"avi", @"mkv", @"ogg", @"ogv", @"flv", @"m4v", nil];
     NSArray * supportedDestination = [NSArray arrayWithObjects:@"mp4", @"mov", @"flv",
-                                      @"avi", @"mkv", @"ogg", @"ogv",  nil];
+                                      @"avi", @"mkv", @"ogg", @"ogv", @"flv", @"m4v", nil];
     if ([supportedSource containsObject:oldExt]) {
         if ([supportedDestination containsObject:newExt]) {
             return YES;

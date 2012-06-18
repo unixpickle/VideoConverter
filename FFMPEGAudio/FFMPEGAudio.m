@@ -15,8 +15,8 @@
 }
 
 + (BOOL)supportsExtension:(NSString *)oldExt toExtension:(NSString *)newExt {
-    NSArray * supportedSource = [NSArray arrayWithObjects:@"flac", @"wav", @"xm", nil];
-    NSArray * supportedDestination = [NSArray arrayWithObjects:@"flac", @"wav", nil];
+    NSArray * supportedSource = [NSArray arrayWithObjects:@"flac", @"wav", @"xm", @"m4a", nil];
+    NSArray * supportedDestination = [NSArray arrayWithObjects:@"flac", @"wav", @"m4a", nil];
     if ([supportedSource containsObject:oldExt]) {
         if ([supportedDestination containsObject:newExt]) {
             return YES;
@@ -27,7 +27,11 @@
 
 - (void)executeConversion {
     BOOL encodingResult = NO;
-    encodingResult = [self encodeWithNoOptions];
+    if ([destExtension isEqualToString:@"m4a"]) {
+        encodingResult = [self encodeWithLibFaac];
+    } else {
+        encodingResult = [self encodeWithNoOptions];
+    }
     
     if (!encodingResult) {
         [self removeTempSource];
@@ -50,6 +54,13 @@
 - (BOOL)encodeWithNoOptions {
     return [self executeEncoderWithArguments:[NSArray arrayWithObjects:@"-stats", 
                                               @"-i", tempSource,
+                                              tempFile, nil]];
+}
+
+- (BOOL)encodeWithLibFaac {
+    return [self executeEncoderWithArguments:[NSArray arrayWithObjects:@"-stats", 
+                                              @"-i", tempSource,
+                                              @"-acodec", @"libfaac",
                                               tempFile, nil]];
 }
 

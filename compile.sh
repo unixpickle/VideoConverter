@@ -59,10 +59,22 @@ mkdir output
 make clean
 make install
 
+# compile libfaac
+echo "Compiling libfaac"
+libfaac_path="${SRCROOT}/faac-1.28"
+cd "${libfaac_path}"
+if [ -d output ]; then
+	rm -rf output
+fi
+mkdir output
+./configure --build=x86_64 --enable-static --disable-shared "--libdir=${libfaac_path}/output" "--includedir=${libfaac_path}/output"
+make clean
+make install
+
 # compile ffmpeg
 echo "Compiling FFMpeg" >&2
 cd "${SRCROOT}/ffmpeg"
-sh restart.sh ../x264 ../vorbis ../libogg-1.3.0/lib "${libtheora_path}/output" "${libmodplug_path}/output"
+sh restart.sh ../x264 ../vorbis ../libogg-1.3.0/lib "${libtheora_path}/output" "${libmodplug_path}/output" "${libfaac_path}/output"
 make
 execPath="${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}"
 if [ -f "$execPath" ]; then

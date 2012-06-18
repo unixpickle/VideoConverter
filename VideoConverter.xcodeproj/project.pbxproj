@@ -4111,6 +4111,228 @@
 		FACE26ED158F9AD80051A500 /* FFMPEGAudio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FFMPEGAudio-Prefix.pch"; sourceTree = "<group>"; };
 		FACE26F1158F9B580051A500 /* FFMPEGAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFMPEGAudio.h; sourceTree = "<group>"; };
 		FACE26F2158F9B580051A500 /* FFMPEGAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFMPEGAudio.m; sourceTree = "<group>"; };
+		FACE2719158FA3810051A500 /* aclocal.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = aclocal.m4; sourceTree = "<group>"; };
+		FACE271A158FA3810051A500 /* AUTHORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		FACE271B158FA3810051A500 /* bootstrap */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = bootstrap; sourceTree = "<group>"; };
+		FACE271C158FA3810051A500 /* ChangeLog */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		FACE271F158FA3810051A500 /* AudioCoding.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = AudioCoding.bmp; sourceTree = "<group>"; };
+		FACE2720158FA3810051A500 /* Cfaac.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cfaac.cpp; sourceTree = "<group>"; };
+		FACE2721158FA3810051A500 /* Cfaac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cfaac.h; sourceTree = "<group>"; };
+		FACE2722158FA3810051A500 /* Cfaad.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cfaad.cpp; sourceTree = "<group>"; };
+		FACE2723158FA3810051A500 /* Cfaad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cfaad.h; sourceTree = "<group>"; };
+		FACE2724158FA3810051A500 /* CRegistry.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CRegistry.cpp; sourceTree = "<group>"; };
+		FACE2725158FA3810051A500 /* CRegistry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRegistry.h; sourceTree = "<group>"; };
+		FACE2726158FA3810051A500 /* CTag.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CTag.cpp; sourceTree = "<group>"; };
+		FACE2727158FA3810051A500 /* CTag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTag.h; sourceTree = "<group>"; };
+		FACE2728158FA3810051A500 /* DecDialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DecDialog.cpp; sourceTree = "<group>"; };
+		FACE2729158FA3810051A500 /* DecDialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecDialog.h; sourceTree = "<group>"; };
+		FACE272A158FA3810051A500 /* Email.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = Email.bmp; sourceTree = "<group>"; };
+		FACE272B158FA3810051A500 /* EncDialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EncDialog.cpp; sourceTree = "<group>"; };
+		FACE272C158FA3810051A500 /* EncDialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncDialog.h; sourceTree = "<group>"; };
+		FACE272D158FA3810051A500 /* FAAC.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = FAAC.rc; sourceTree = "<group>"; };
+		FACE272E158FA3810051A500 /* id3v2.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = id3v2.ico; sourceTree = "<group>"; };
+		FACE272F158FA3810051A500 /* mpeg4ip-v.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = "mpeg4ip-v.bmp"; sourceTree = "<group>"; };
+		FACE2730158FA3810051A500 /* Open.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = Open.bmp; sourceTree = "<group>"; };
+		FACE2731158FA3810051A500 /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		FACE2732158FA3810051A500 /* resource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
+		FACE2733158FA3810051A500 /* TypeDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TypeDef.h; sourceTree = "<group>"; };
+		FACE2734158FA3810051A500 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		FACE2735158FA3810051A500 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		FACE2737158FA3810051A500 /* 3gp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3gp.cpp; sourceTree = "<group>"; };
+		FACE2738158FA3810051A500 /* API_CHANGES */ = {isa = PBXFileReference; lastKnownFileType = text; path = API_CHANGES; sourceTree = "<group>"; };
+		FACE2739158FA3810051A500 /* atom_amr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_amr.cpp; sourceTree = "<group>"; };
+		FACE273A158FA3810051A500 /* atom_avc1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_avc1.cpp; sourceTree = "<group>"; };
+		FACE273B158FA3810051A500 /* atom_avcC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_avcC.cpp; sourceTree = "<group>"; };
+		FACE273C158FA3810051A500 /* atom_d263.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_d263.cpp; sourceTree = "<group>"; };
+		FACE273D158FA3810051A500 /* atom_damr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_damr.cpp; sourceTree = "<group>"; };
+		FACE273E158FA3810051A500 /* atom_dref.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_dref.cpp; sourceTree = "<group>"; };
+		FACE273F158FA3810051A500 /* atom_elst.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_elst.cpp; sourceTree = "<group>"; };
+		FACE2740158FA3810051A500 /* atom_enca.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_enca.cpp; sourceTree = "<group>"; };
+		FACE2741158FA3810051A500 /* atom_encv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_encv.cpp; sourceTree = "<group>"; };
+		FACE2742158FA3810051A500 /* atom_free.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_free.cpp; sourceTree = "<group>"; };
+		FACE2743158FA3810051A500 /* atom_ftyp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_ftyp.cpp; sourceTree = "<group>"; };
+		FACE2744158FA3810051A500 /* atom_gmin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_gmin.cpp; sourceTree = "<group>"; };
+		FACE2745158FA3810051A500 /* atom_hdlr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_hdlr.cpp; sourceTree = "<group>"; };
+		FACE2746158FA3810051A500 /* atom_hinf.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_hinf.cpp; sourceTree = "<group>"; };
+		FACE2747158FA3810051A500 /* atom_hnti.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_hnti.cpp; sourceTree = "<group>"; };
+		FACE2748158FA3810051A500 /* atom_href.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_href.cpp; sourceTree = "<group>"; };
+		FACE2749158FA3810051A500 /* atom_mdat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_mdat.cpp; sourceTree = "<group>"; };
+		FACE274A158FA3810051A500 /* atom_mdhd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_mdhd.cpp; sourceTree = "<group>"; };
+		FACE274B158FA3810051A500 /* atom_meta.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_meta.cpp; sourceTree = "<group>"; };
+		FACE274C158FA3810051A500 /* atom_mp4a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_mp4a.cpp; sourceTree = "<group>"; };
+		FACE274D158FA3810051A500 /* atom_mp4s.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_mp4s.cpp; sourceTree = "<group>"; };
+		FACE274E158FA3810051A500 /* atom_mp4v.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_mp4v.cpp; sourceTree = "<group>"; };
+		FACE274F158FA3810051A500 /* atom_mvhd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_mvhd.cpp; sourceTree = "<group>"; };
+		FACE2750158FA3810051A500 /* atom_ohdr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_ohdr.cpp; sourceTree = "<group>"; };
+		FACE2751158FA3810051A500 /* atom_root.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_root.cpp; sourceTree = "<group>"; };
+		FACE2752158FA3810051A500 /* atom_rtp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_rtp.cpp; sourceTree = "<group>"; };
+		FACE2753158FA3810051A500 /* atom_s263.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_s263.cpp; sourceTree = "<group>"; };
+		FACE2754158FA3810051A500 /* atom_sdp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_sdp.cpp; sourceTree = "<group>"; };
+		FACE2755158FA3810051A500 /* atom_smi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_smi.cpp; sourceTree = "<group>"; };
+		FACE2756158FA3810051A500 /* atom_sound.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_sound.cpp; sourceTree = "<group>"; };
+		FACE2757158FA3810051A500 /* atom_standard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_standard.cpp; sourceTree = "<group>"; };
+		FACE2758158FA3810051A500 /* atom_stbl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_stbl.cpp; sourceTree = "<group>"; };
+		FACE2759158FA3820051A500 /* atom_stdp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_stdp.cpp; sourceTree = "<group>"; };
+		FACE275A158FA3820051A500 /* atom_stsc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_stsc.cpp; sourceTree = "<group>"; };
+		FACE275B158FA3820051A500 /* atom_stsd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_stsd.cpp; sourceTree = "<group>"; };
+		FACE275C158FA3820051A500 /* atom_stsz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_stsz.cpp; sourceTree = "<group>"; };
+		FACE275D158FA3820051A500 /* atom_stz2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_stz2.cpp; sourceTree = "<group>"; };
+		FACE275E158FA3820051A500 /* atom_text.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_text.cpp; sourceTree = "<group>"; };
+		FACE275F158FA3820051A500 /* atom_tfhd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_tfhd.cpp; sourceTree = "<group>"; };
+		FACE2760158FA3820051A500 /* atom_tkhd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_tkhd.cpp; sourceTree = "<group>"; };
+		FACE2761158FA3820051A500 /* atom_treftype.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_treftype.cpp; sourceTree = "<group>"; };
+		FACE2762158FA3820051A500 /* atom_trun.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_trun.cpp; sourceTree = "<group>"; };
+		FACE2763158FA3820051A500 /* atom_udta.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_udta.cpp; sourceTree = "<group>"; };
+		FACE2764158FA3820051A500 /* atom_url.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_url.cpp; sourceTree = "<group>"; };
+		FACE2765158FA3820051A500 /* atom_urn.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_urn.cpp; sourceTree = "<group>"; };
+		FACE2766158FA3820051A500 /* atom_video.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_video.cpp; sourceTree = "<group>"; };
+		FACE2767158FA3820051A500 /* atom_vmhd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = atom_vmhd.cpp; sourceTree = "<group>"; };
+		FACE2768158FA3820051A500 /* atoms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = atoms.h; sourceTree = "<group>"; };
+		FACE2769158FA3820051A500 /* descriptors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = descriptors.cpp; sourceTree = "<group>"; };
+		FACE276A158FA3820051A500 /* descriptors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = descriptors.h; sourceTree = "<group>"; };
+		FACE276B158FA3820051A500 /* INTERNALS */ = {isa = PBXFileReference; lastKnownFileType = text; path = INTERNALS; sourceTree = "<group>"; };
+		FACE276C158FA3820051A500 /* isma.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = isma.cpp; sourceTree = "<group>"; };
+		FACE276D158FA3820051A500 /* libmp4v2_st60.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = libmp4v2_st60.vcproj; sourceTree = "<group>"; };
+		FACE276E158FA3820051A500 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		FACE276F158FA3820051A500 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		FACE2770158FA3820051A500 /* mp4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mp4.cpp; sourceTree = "<group>"; };
+		FACE2771158FA3820051A500 /* mp4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mp4.h; sourceTree = "<group>"; };
+		FACE2772158FA3820051A500 /* mp4array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mp4array.h; sourceTree = "<group>"; };
+		FACE2773158FA3820051A500 /* mp4atom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mp4atom.cpp; sourceTree = "<group>"; };
+		FACE2774158FA3820051A500 /* mp4atom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mp4atom.h; sourceTree = "<group>"; };
+		FACE2775158FA3820051A500 /* mp4common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mp4common.h; sourceTree = "<group>"; };
+		FACE2776158FA3820051A500 /* mp4container.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mp4container.cpp; sourceTree = "<group>"; };
+		FACE2777158FA3820051A500 /* mp4container.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mp4container.h; sourceTree = "<group>"; };
+		FACE2778158FA3820051A500 /* mp4descriptor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mp4descriptor.cpp; sourceTree = "<group>"; };
+		FACE2779158FA3820051A500 /* mp4descriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mp4descriptor.h; sourceTree = "<group>"; };
+		FACE277A158FA3820051A500 /* mp4file.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mp4file.cpp; sourceTree = "<group>"; };
+		FACE277B158FA3820051A500 /* mp4file.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mp4file.h; sourceTree = "<group>"; };
+		FACE277C158FA3820051A500 /* mp4file_io.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mp4file_io.cpp; sourceTree = "<group>"; };
+		FACE277D158FA3820051A500 /* mp4info.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mp4info.cpp; sourceTree = "<group>"; };
+		FACE277E158FA3820051A500 /* mp4meta.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mp4meta.cpp; sourceTree = "<group>"; };
+		FACE277F158FA3820051A500 /* mp4property.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mp4property.cpp; sourceTree = "<group>"; };
+		FACE2780158FA3820051A500 /* mp4property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mp4property.h; sourceTree = "<group>"; };
+		FACE2781158FA3820051A500 /* mp4track.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mp4track.cpp; sourceTree = "<group>"; };
+		FACE2782158FA3820051A500 /* mp4track.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mp4track.h; sourceTree = "<group>"; };
+		FACE2783158FA3820051A500 /* mp4util.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mp4util.cpp; sourceTree = "<group>"; };
+		FACE2784158FA3820051A500 /* mp4util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mp4util.h; sourceTree = "<group>"; };
+		FACE2785158FA3820051A500 /* mpeg4ip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mpeg4ip.h; sourceTree = "<group>"; };
+		FACE2786158FA3820051A500 /* mpeg4ip_version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mpeg4ip_version.h; sourceTree = "<group>"; };
+		FACE2787158FA3820051A500 /* mpeg4ip_win32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mpeg4ip_win32.h; sourceTree = "<group>"; };
+		FACE2788158FA3820051A500 /* need_for_win32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = need_for_win32.c; sourceTree = "<group>"; };
+		FACE2789158FA3820051A500 /* ocidescriptors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ocidescriptors.cpp; sourceTree = "<group>"; };
+		FACE278A158FA3820051A500 /* ocidescriptors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ocidescriptors.h; sourceTree = "<group>"; };
+		FACE278B158FA3820051A500 /* odcommands.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = odcommands.cpp; sourceTree = "<group>"; };
+		FACE278C158FA3820051A500 /* odcommands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = odcommands.h; sourceTree = "<group>"; };
+		FACE278D158FA3820051A500 /* qosqualifiers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = qosqualifiers.cpp; sourceTree = "<group>"; };
+		FACE278E158FA3820051A500 /* qosqualifiers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qosqualifiers.h; sourceTree = "<group>"; };
+		FACE278F158FA3820051A500 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		FACE2790158FA3820051A500 /* rtphint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rtphint.cpp; sourceTree = "<group>"; };
+		FACE2791158FA3820051A500 /* rtphint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rtphint.h; sourceTree = "<group>"; };
+		FACE2792158FA3820051A500 /* TODO */ = {isa = PBXFileReference; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		FACE2793158FA3820051A500 /* virtual_io.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = virtual_io.cpp; sourceTree = "<group>"; };
+		FACE2794158FA3820051A500 /* virtual_io.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = virtual_io.h; sourceTree = "<group>"; };
+		FACE2795158FA3820051A500 /* config.guess */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.guess; sourceTree = "<group>"; };
+		FACE2796158FA3820051A500 /* config.h.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
+		FACE2797158FA3820051A500 /* config.sub */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.sub; sourceTree = "<group>"; };
+		FACE2798158FA3820051A500 /* configure */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
+		FACE2799158FA3820051A500 /* configure.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = configure.in; sourceTree = "<group>"; };
+		FACE279A158FA3820051A500 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		FACE279B158FA3820051A500 /* depcomp */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = depcomp; sourceTree = "<group>"; };
+		FACE279D158FA3820051A500 /* faac.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = faac.1; sourceTree = "<group>"; };
+		FACE279E158FA3820051A500 /* faac.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = faac.html; sourceTree = "<group>"; };
+		FACE279F158FA3820051A500 /* libfaac.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = libfaac.html; sourceTree = "<group>"; };
+		FACE27A0158FA3820051A500 /* libfaac.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = libfaac.pdf; sourceTree = "<group>"; };
+		FACE27A2158FA3820051A500 /* faac.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = faac.sln; sourceTree = "<group>"; };
+		FACE27A3158FA3820051A500 /* faac.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = faac.vcproj; sourceTree = "<group>"; };
+		FACE27A4158FA3820051A500 /* faacgui.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = faacgui.rc; sourceTree = "<group>"; };
+		FACE27A5158FA3820051A500 /* faacgui.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = faacgui.sln; sourceTree = "<group>"; };
+		FACE27A6158FA3820051A500 /* faacgui.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = faacgui.vcproj; sourceTree = "<group>"; };
+		FACE27A7158FA3820051A500 /* getopt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getopt.c; sourceTree = "<group>"; };
+		FACE27A8158FA3820051A500 /* getopt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getopt.h; sourceTree = "<group>"; };
+		FACE27A9158FA3820051A500 /* input.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = input.c; sourceTree = "<group>"; };
+		FACE27AA158FA3820051A500 /* input.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = input.h; sourceTree = "<group>"; };
+		FACE27AB158FA3820051A500 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		FACE27AC158FA3820051A500 /* maingui.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = maingui.c; sourceTree = "<group>"; };
+		FACE27AD158FA3820051A500 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		FACE27AE158FA3820051A500 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		FACE27AF158FA3820051A500 /* resource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
+		FACE27B1158FA3820051A500 /* faac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = faac.h; sourceTree = "<group>"; };
+		FACE27B2158FA3820051A500 /* faaccfg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = faaccfg.h; sourceTree = "<group>"; };
+		FACE27B3158FA3820051A500 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		FACE27B4158FA3820051A500 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		FACE27B5158FA3820051A500 /* INSTALL */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		FACE27B6158FA3820051A500 /* install-sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-sh"; sourceTree = "<group>"; };
+		FACE27B8158FA3820051A500 /* aacquant.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aacquant.c; sourceTree = "<group>"; };
+		FACE27B9158FA3820051A500 /* aacquant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aacquant.h; sourceTree = "<group>"; };
+		FACE27BA158FA3820051A500 /* backpred.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = backpred.c; sourceTree = "<group>"; };
+		FACE27BB158FA3820051A500 /* backpred.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = backpred.h; sourceTree = "<group>"; };
+		FACE27BC158FA3820051A500 /* bitstream.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
+		FACE27BD158FA3820051A500 /* bitstream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		FACE27BE158FA3820051A500 /* channels.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = channels.c; sourceTree = "<group>"; };
+		FACE27BF158FA3820051A500 /* channels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = channels.h; sourceTree = "<group>"; };
+		FACE27C0158FA3820051A500 /* coder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = coder.h; sourceTree = "<group>"; };
+		FACE27C1158FA3820051A500 /* fft.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fft.c; sourceTree = "<group>"; };
+		FACE27C2158FA3820051A500 /* fft.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fft.h; sourceTree = "<group>"; };
+		FACE27C3158FA3820051A500 /* filtbank.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = filtbank.c; sourceTree = "<group>"; };
+		FACE27C4158FA3820051A500 /* filtbank.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = filtbank.h; sourceTree = "<group>"; };
+		FACE27C5158FA3820051A500 /* frame.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = frame.c; sourceTree = "<group>"; };
+		FACE27C6158FA3820051A500 /* frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = frame.h; sourceTree = "<group>"; };
+		FACE27C7158FA3820051A500 /* huffman.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = huffman.c; sourceTree = "<group>"; };
+		FACE27C8158FA3820051A500 /* huffman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = huffman.h; sourceTree = "<group>"; };
+		FACE27C9158FA3820051A500 /* hufftab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hufftab.h; sourceTree = "<group>"; };
+		FACE27CB158FA3820051A500 /* _kiss_fft_guts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _kiss_fft_guts.h; sourceTree = "<group>"; };
+		FACE27CC158FA3820051A500 /* CHANGELOG */ = {isa = PBXFileReference; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; };
+		FACE27CD158FA3820051A500 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		FACE27CE158FA3820051A500 /* kiss_fft.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = kiss_fft.c; sourceTree = "<group>"; };
+		FACE27CF158FA3820051A500 /* kiss_fft.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kiss_fft.h; sourceTree = "<group>"; };
+		FACE27D0158FA3820051A500 /* kiss_fftr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = kiss_fftr.c; sourceTree = "<group>"; };
+		FACE27D1158FA3820051A500 /* kiss_fftr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kiss_fftr.h; sourceTree = "<group>"; };
+		FACE27D2158FA3820051A500 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		FACE27D3158FA3820051A500 /* README.kiss_fft */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.kiss_fft; sourceTree = "<group>"; };
+		FACE27D4158FA3820051A500 /* TIPS */ = {isa = PBXFileReference; lastKnownFileType = text; path = TIPS; sourceTree = "<group>"; };
+		FACE27D5158FA3820051A500 /* libfaac.def */ = {isa = PBXFileReference; lastKnownFileType = text; path = libfaac.def; sourceTree = "<group>"; };
+		FACE27D6158FA3820051A500 /* libfaac.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = libfaac.vcproj; sourceTree = "<group>"; };
+		FACE27D7158FA3820051A500 /* libfaac_dll.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = libfaac_dll.sln; sourceTree = "<group>"; };
+		FACE27D8158FA3820051A500 /* libfaac_dll.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = libfaac_dll.vcproj; sourceTree = "<group>"; };
+		FACE27D9158FA3820051A500 /* libfaac_dll_drm.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = libfaac_dll_drm.sln; sourceTree = "<group>"; };
+		FACE27DA158FA3820051A500 /* libfaac_dll_drm.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = libfaac_dll_drm.vcproj; sourceTree = "<group>"; };
+		FACE27DB158FA3820051A500 /* libfaacdrm.def */ = {isa = PBXFileReference; lastKnownFileType = text; path = libfaacdrm.def; sourceTree = "<group>"; };
+		FACE27DC158FA3820051A500 /* ltp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ltp.c; sourceTree = "<group>"; };
+		FACE27DD158FA3820051A500 /* ltp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ltp.h; sourceTree = "<group>"; };
+		FACE27DE158FA3820051A500 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		FACE27DF158FA3820051A500 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		FACE27E0158FA3820051A500 /* midside.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = midside.c; sourceTree = "<group>"; };
+		FACE27E1158FA3820051A500 /* midside.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = midside.h; sourceTree = "<group>"; };
+		FACE27E2158FA3820051A500 /* psych.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = psych.h; sourceTree = "<group>"; };
+		FACE27E3158FA3820051A500 /* psychkni.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = psychkni.c; sourceTree = "<group>"; };
+		FACE27E4158FA3820051A500 /* tns.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tns.c; sourceTree = "<group>"; };
+		FACE27E5158FA3820051A500 /* tns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tns.h; sourceTree = "<group>"; };
+		FACE27E6158FA3820051A500 /* util.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		FACE27E7158FA3820051A500 /* util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		FACE27E8158FA3820051A500 /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		FACE27E9158FA3820051A500 /* ltmain.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ltmain.sh; sourceTree = "<group>"; };
+		FACE27EA158FA3820051A500 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		FACE27EB158FA3820051A500 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		FACE27EC158FA3820051A500 /* missing */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = missing; sourceTree = "<group>"; };
+		FACE27ED158FA3820051A500 /* NEWS */ = {isa = PBXFileReference; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
+		FACE27F0158FA3820051A500 /* aacInfoLib.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = aacInfoLib.sln; sourceTree = "<group>"; };
+		FACE27F1158FA3820051A500 /* aacInfoLib.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = aacInfoLib.vcproj; sourceTree = "<group>"; };
+		FACE27F2158FA3820051A500 /* Copying */ = {isa = PBXFileReference; lastKnownFileType = text; path = Copying; sourceTree = "<group>"; };
+		FACE27F3158FA3820051A500 /* defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
+		FACE27F4158FA3820051A500 /* Faac.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Faac.cpp; sourceTree = "<group>"; };
+		FACE27F5158FA3820051A500 /* FAAC.def */ = {isa = PBXFileReference; lastKnownFileType = text; path = FAAC.def; sourceTree = "<group>"; };
+		FACE27F6158FA3820051A500 /* FAAC.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = FAAC.sln; sourceTree = "<group>"; };
+		FACE27F7158FA3820051A500 /* FAAC.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FAAC.vcproj; sourceTree = "<group>"; };
+		FACE27F8158FA3820051A500 /* Faad.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Faad.cpp; sourceTree = "<group>"; };
+		FACE27F9158FA3820051A500 /* filters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = filters.h; sourceTree = "<group>"; };
+		FACE27FA158FA3820051A500 /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		FACE27FB158FA3820051A500 /* Readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		FACE27FE158FA3820051A500 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		FACE2800158FA3820051A500 /* faac.dev */ = {isa = PBXFileReference; lastKnownFileType = text; path = faac.dev; sourceTree = "<group>"; };
+		FACE2801158FA3820051A500 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		FACE2802158FA3820051A500 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		FACE2803158FA3820051A500 /* TODO */ = {isa = PBXFileReference; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
 		FAD217E6158E6FFD0081090E /* FFMpegConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFMpegConverter.h; sourceTree = "<group>"; };
 		FAD217E7158E6FFD0081090E /* FFMpegConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFMpegConverter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -9356,9 +9578,343 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FACE2718158FA3810051A500 /* faac-1.28 */ = {
+			isa = PBXGroup;
+			children = (
+				FACE2719158FA3810051A500 /* aclocal.m4 */,
+				FACE271A158FA3810051A500 /* AUTHORS */,
+				FACE271B158FA3810051A500 /* bootstrap */,
+				FACE271C158FA3810051A500 /* ChangeLog */,
+				FACE271D158FA3810051A500 /* common */,
+				FACE2795158FA3820051A500 /* config.guess */,
+				FACE2796158FA3820051A500 /* config.h.in */,
+				FACE2797158FA3820051A500 /* config.sub */,
+				FACE2798158FA3820051A500 /* configure */,
+				FACE2799158FA3820051A500 /* configure.in */,
+				FACE279A158FA3820051A500 /* COPYING */,
+				FACE279B158FA3820051A500 /* depcomp */,
+				FACE279C158FA3820051A500 /* docs */,
+				FACE27A1158FA3820051A500 /* frontend */,
+				FACE27B0158FA3820051A500 /* include */,
+				FACE27B5158FA3820051A500 /* INSTALL */,
+				FACE27B6158FA3820051A500 /* install-sh */,
+				FACE27B7158FA3820051A500 /* libfaac */,
+				FACE27E9158FA3820051A500 /* ltmain.sh */,
+				FACE27EA158FA3820051A500 /* Makefile.am */,
+				FACE27EB158FA3820051A500 /* Makefile.in */,
+				FACE27EC158FA3820051A500 /* missing */,
+				FACE27ED158FA3820051A500 /* NEWS */,
+				FACE27EE158FA3820051A500 /* plugins */,
+				FACE27FC158FA3820051A500 /* project */,
+				FACE2802158FA3820051A500 /* README */,
+				FACE2803158FA3820051A500 /* TODO */,
+			);
+			path = "faac-1.28";
+			sourceTree = "<group>";
+		};
+		FACE271D158FA3810051A500 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				FACE271E158FA3810051A500 /* Cfaac */,
+				FACE2734158FA3810051A500 /* Makefile.am */,
+				FACE2735158FA3810051A500 /* Makefile.in */,
+				FACE2736158FA3810051A500 /* mp4v2 */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		FACE271E158FA3810051A500 /* Cfaac */ = {
+			isa = PBXGroup;
+			children = (
+				FACE271F158FA3810051A500 /* AudioCoding.bmp */,
+				FACE2720158FA3810051A500 /* Cfaac.cpp */,
+				FACE2721158FA3810051A500 /* Cfaac.h */,
+				FACE2722158FA3810051A500 /* Cfaad.cpp */,
+				FACE2723158FA3810051A500 /* Cfaad.h */,
+				FACE2724158FA3810051A500 /* CRegistry.cpp */,
+				FACE2725158FA3810051A500 /* CRegistry.h */,
+				FACE2726158FA3810051A500 /* CTag.cpp */,
+				FACE2727158FA3810051A500 /* CTag.h */,
+				FACE2728158FA3810051A500 /* DecDialog.cpp */,
+				FACE2729158FA3810051A500 /* DecDialog.h */,
+				FACE272A158FA3810051A500 /* Email.bmp */,
+				FACE272B158FA3810051A500 /* EncDialog.cpp */,
+				FACE272C158FA3810051A500 /* EncDialog.h */,
+				FACE272D158FA3810051A500 /* FAAC.rc */,
+				FACE272E158FA3810051A500 /* id3v2.ico */,
+				FACE272F158FA3810051A500 /* mpeg4ip-v.bmp */,
+				FACE2730158FA3810051A500 /* Open.bmp */,
+				FACE2731158FA3810051A500 /* ReadMe.txt */,
+				FACE2732158FA3810051A500 /* resource.h */,
+				FACE2733158FA3810051A500 /* TypeDef.h */,
+			);
+			path = Cfaac;
+			sourceTree = "<group>";
+		};
+		FACE2736158FA3810051A500 /* mp4v2 */ = {
+			isa = PBXGroup;
+			children = (
+				FACE2737158FA3810051A500 /* 3gp.cpp */,
+				FACE2738158FA3810051A500 /* API_CHANGES */,
+				FACE2739158FA3810051A500 /* atom_amr.cpp */,
+				FACE273A158FA3810051A500 /* atom_avc1.cpp */,
+				FACE273B158FA3810051A500 /* atom_avcC.cpp */,
+				FACE273C158FA3810051A500 /* atom_d263.cpp */,
+				FACE273D158FA3810051A500 /* atom_damr.cpp */,
+				FACE273E158FA3810051A500 /* atom_dref.cpp */,
+				FACE273F158FA3810051A500 /* atom_elst.cpp */,
+				FACE2740158FA3810051A500 /* atom_enca.cpp */,
+				FACE2741158FA3810051A500 /* atom_encv.cpp */,
+				FACE2742158FA3810051A500 /* atom_free.cpp */,
+				FACE2743158FA3810051A500 /* atom_ftyp.cpp */,
+				FACE2744158FA3810051A500 /* atom_gmin.cpp */,
+				FACE2745158FA3810051A500 /* atom_hdlr.cpp */,
+				FACE2746158FA3810051A500 /* atom_hinf.cpp */,
+				FACE2747158FA3810051A500 /* atom_hnti.cpp */,
+				FACE2748158FA3810051A500 /* atom_href.cpp */,
+				FACE2749158FA3810051A500 /* atom_mdat.cpp */,
+				FACE274A158FA3810051A500 /* atom_mdhd.cpp */,
+				FACE274B158FA3810051A500 /* atom_meta.cpp */,
+				FACE274C158FA3810051A500 /* atom_mp4a.cpp */,
+				FACE274D158FA3810051A500 /* atom_mp4s.cpp */,
+				FACE274E158FA3810051A500 /* atom_mp4v.cpp */,
+				FACE274F158FA3810051A500 /* atom_mvhd.cpp */,
+				FACE2750158FA3810051A500 /* atom_ohdr.cpp */,
+				FACE2751158FA3810051A500 /* atom_root.cpp */,
+				FACE2752158FA3810051A500 /* atom_rtp.cpp */,
+				FACE2753158FA3810051A500 /* atom_s263.cpp */,
+				FACE2754158FA3810051A500 /* atom_sdp.cpp */,
+				FACE2755158FA3810051A500 /* atom_smi.cpp */,
+				FACE2756158FA3810051A500 /* atom_sound.cpp */,
+				FACE2757158FA3810051A500 /* atom_standard.cpp */,
+				FACE2758158FA3810051A500 /* atom_stbl.cpp */,
+				FACE2759158FA3820051A500 /* atom_stdp.cpp */,
+				FACE275A158FA3820051A500 /* atom_stsc.cpp */,
+				FACE275B158FA3820051A500 /* atom_stsd.cpp */,
+				FACE275C158FA3820051A500 /* atom_stsz.cpp */,
+				FACE275D158FA3820051A500 /* atom_stz2.cpp */,
+				FACE275E158FA3820051A500 /* atom_text.cpp */,
+				FACE275F158FA3820051A500 /* atom_tfhd.cpp */,
+				FACE2760158FA3820051A500 /* atom_tkhd.cpp */,
+				FACE2761158FA3820051A500 /* atom_treftype.cpp */,
+				FACE2762158FA3820051A500 /* atom_trun.cpp */,
+				FACE2763158FA3820051A500 /* atom_udta.cpp */,
+				FACE2764158FA3820051A500 /* atom_url.cpp */,
+				FACE2765158FA3820051A500 /* atom_urn.cpp */,
+				FACE2766158FA3820051A500 /* atom_video.cpp */,
+				FACE2767158FA3820051A500 /* atom_vmhd.cpp */,
+				FACE2768158FA3820051A500 /* atoms.h */,
+				FACE2769158FA3820051A500 /* descriptors.cpp */,
+				FACE276A158FA3820051A500 /* descriptors.h */,
+				FACE276B158FA3820051A500 /* INTERNALS */,
+				FACE276C158FA3820051A500 /* isma.cpp */,
+				FACE276D158FA3820051A500 /* libmp4v2_st60.vcproj */,
+				FACE276E158FA3820051A500 /* Makefile.am */,
+				FACE276F158FA3820051A500 /* Makefile.in */,
+				FACE2770158FA3820051A500 /* mp4.cpp */,
+				FACE2771158FA3820051A500 /* mp4.h */,
+				FACE2772158FA3820051A500 /* mp4array.h */,
+				FACE2773158FA3820051A500 /* mp4atom.cpp */,
+				FACE2774158FA3820051A500 /* mp4atom.h */,
+				FACE2775158FA3820051A500 /* mp4common.h */,
+				FACE2776158FA3820051A500 /* mp4container.cpp */,
+				FACE2777158FA3820051A500 /* mp4container.h */,
+				FACE2778158FA3820051A500 /* mp4descriptor.cpp */,
+				FACE2779158FA3820051A500 /* mp4descriptor.h */,
+				FACE277A158FA3820051A500 /* mp4file.cpp */,
+				FACE277B158FA3820051A500 /* mp4file.h */,
+				FACE277C158FA3820051A500 /* mp4file_io.cpp */,
+				FACE277D158FA3820051A500 /* mp4info.cpp */,
+				FACE277E158FA3820051A500 /* mp4meta.cpp */,
+				FACE277F158FA3820051A500 /* mp4property.cpp */,
+				FACE2780158FA3820051A500 /* mp4property.h */,
+				FACE2781158FA3820051A500 /* mp4track.cpp */,
+				FACE2782158FA3820051A500 /* mp4track.h */,
+				FACE2783158FA3820051A500 /* mp4util.cpp */,
+				FACE2784158FA3820051A500 /* mp4util.h */,
+				FACE2785158FA3820051A500 /* mpeg4ip.h */,
+				FACE2786158FA3820051A500 /* mpeg4ip_version.h */,
+				FACE2787158FA3820051A500 /* mpeg4ip_win32.h */,
+				FACE2788158FA3820051A500 /* need_for_win32.c */,
+				FACE2789158FA3820051A500 /* ocidescriptors.cpp */,
+				FACE278A158FA3820051A500 /* ocidescriptors.h */,
+				FACE278B158FA3820051A500 /* odcommands.cpp */,
+				FACE278C158FA3820051A500 /* odcommands.h */,
+				FACE278D158FA3820051A500 /* qosqualifiers.cpp */,
+				FACE278E158FA3820051A500 /* qosqualifiers.h */,
+				FACE278F158FA3820051A500 /* README */,
+				FACE2790158FA3820051A500 /* rtphint.cpp */,
+				FACE2791158FA3820051A500 /* rtphint.h */,
+				FACE2792158FA3820051A500 /* TODO */,
+				FACE2793158FA3820051A500 /* virtual_io.cpp */,
+				FACE2794158FA3820051A500 /* virtual_io.h */,
+			);
+			path = mp4v2;
+			sourceTree = "<group>";
+		};
+		FACE279C158FA3820051A500 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				FACE279D158FA3820051A500 /* faac.1 */,
+				FACE279E158FA3820051A500 /* faac.html */,
+				FACE279F158FA3820051A500 /* libfaac.html */,
+				FACE27A0158FA3820051A500 /* libfaac.pdf */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		FACE27A1158FA3820051A500 /* frontend */ = {
+			isa = PBXGroup;
+			children = (
+				FACE27A2158FA3820051A500 /* faac.sln */,
+				FACE27A3158FA3820051A500 /* faac.vcproj */,
+				FACE27A4158FA3820051A500 /* faacgui.rc */,
+				FACE27A5158FA3820051A500 /* faacgui.sln */,
+				FACE27A6158FA3820051A500 /* faacgui.vcproj */,
+				FACE27A7158FA3820051A500 /* getopt.c */,
+				FACE27A8158FA3820051A500 /* getopt.h */,
+				FACE27A9158FA3820051A500 /* input.c */,
+				FACE27AA158FA3820051A500 /* input.h */,
+				FACE27AB158FA3820051A500 /* main.c */,
+				FACE27AC158FA3820051A500 /* maingui.c */,
+				FACE27AD158FA3820051A500 /* Makefile.am */,
+				FACE27AE158FA3820051A500 /* Makefile.in */,
+				FACE27AF158FA3820051A500 /* resource.h */,
+			);
+			path = frontend;
+			sourceTree = "<group>";
+		};
+		FACE27B0158FA3820051A500 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				FACE27B1158FA3820051A500 /* faac.h */,
+				FACE27B2158FA3820051A500 /* faaccfg.h */,
+				FACE27B3158FA3820051A500 /* Makefile.am */,
+				FACE27B4158FA3820051A500 /* Makefile.in */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		FACE27B7158FA3820051A500 /* libfaac */ = {
+			isa = PBXGroup;
+			children = (
+				FACE27B8158FA3820051A500 /* aacquant.c */,
+				FACE27B9158FA3820051A500 /* aacquant.h */,
+				FACE27BA158FA3820051A500 /* backpred.c */,
+				FACE27BB158FA3820051A500 /* backpred.h */,
+				FACE27BC158FA3820051A500 /* bitstream.c */,
+				FACE27BD158FA3820051A500 /* bitstream.h */,
+				FACE27BE158FA3820051A500 /* channels.c */,
+				FACE27BF158FA3820051A500 /* channels.h */,
+				FACE27C0158FA3820051A500 /* coder.h */,
+				FACE27C1158FA3820051A500 /* fft.c */,
+				FACE27C2158FA3820051A500 /* fft.h */,
+				FACE27C3158FA3820051A500 /* filtbank.c */,
+				FACE27C4158FA3820051A500 /* filtbank.h */,
+				FACE27C5158FA3820051A500 /* frame.c */,
+				FACE27C6158FA3820051A500 /* frame.h */,
+				FACE27C7158FA3820051A500 /* huffman.c */,
+				FACE27C8158FA3820051A500 /* huffman.h */,
+				FACE27C9158FA3820051A500 /* hufftab.h */,
+				FACE27CA158FA3820051A500 /* kiss_fft */,
+				FACE27D5158FA3820051A500 /* libfaac.def */,
+				FACE27D6158FA3820051A500 /* libfaac.vcproj */,
+				FACE27D7158FA3820051A500 /* libfaac_dll.sln */,
+				FACE27D8158FA3820051A500 /* libfaac_dll.vcproj */,
+				FACE27D9158FA3820051A500 /* libfaac_dll_drm.sln */,
+				FACE27DA158FA3820051A500 /* libfaac_dll_drm.vcproj */,
+				FACE27DB158FA3820051A500 /* libfaacdrm.def */,
+				FACE27DC158FA3820051A500 /* ltp.c */,
+				FACE27DD158FA3820051A500 /* ltp.h */,
+				FACE27DE158FA3820051A500 /* Makefile.am */,
+				FACE27DF158FA3820051A500 /* Makefile.in */,
+				FACE27E0158FA3820051A500 /* midside.c */,
+				FACE27E1158FA3820051A500 /* midside.h */,
+				FACE27E2158FA3820051A500 /* psych.h */,
+				FACE27E3158FA3820051A500 /* psychkni.c */,
+				FACE27E4158FA3820051A500 /* tns.c */,
+				FACE27E5158FA3820051A500 /* tns.h */,
+				FACE27E6158FA3820051A500 /* util.c */,
+				FACE27E7158FA3820051A500 /* util.h */,
+				FACE27E8158FA3820051A500 /* version.h */,
+			);
+			path = libfaac;
+			sourceTree = "<group>";
+		};
+		FACE27CA158FA3820051A500 /* kiss_fft */ = {
+			isa = PBXGroup;
+			children = (
+				FACE27CB158FA3820051A500 /* _kiss_fft_guts.h */,
+				FACE27CC158FA3820051A500 /* CHANGELOG */,
+				FACE27CD158FA3820051A500 /* COPYING */,
+				FACE27CE158FA3820051A500 /* kiss_fft.c */,
+				FACE27CF158FA3820051A500 /* kiss_fft.h */,
+				FACE27D0158FA3820051A500 /* kiss_fftr.c */,
+				FACE27D1158FA3820051A500 /* kiss_fftr.h */,
+				FACE27D2158FA3820051A500 /* README */,
+				FACE27D3158FA3820051A500 /* README.kiss_fft */,
+				FACE27D4158FA3820051A500 /* TIPS */,
+			);
+			path = kiss_fft;
+			sourceTree = "<group>";
+		};
+		FACE27EE158FA3820051A500 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				FACE27EF158FA3820051A500 /* cooledit */,
+			);
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		FACE27EF158FA3820051A500 /* cooledit */ = {
+			isa = PBXGroup;
+			children = (
+				FACE27F0158FA3820051A500 /* aacInfoLib.sln */,
+				FACE27F1158FA3820051A500 /* aacInfoLib.vcproj */,
+				FACE27F2158FA3820051A500 /* Copying */,
+				FACE27F3158FA3820051A500 /* defines.h */,
+				FACE27F4158FA3820051A500 /* Faac.cpp */,
+				FACE27F5158FA3820051A500 /* FAAC.def */,
+				FACE27F6158FA3820051A500 /* FAAC.sln */,
+				FACE27F7158FA3820051A500 /* FAAC.vcproj */,
+				FACE27F8158FA3820051A500 /* Faad.cpp */,
+				FACE27F9158FA3820051A500 /* filters.h */,
+				FACE27FA158FA3820051A500 /* Main.cpp */,
+				FACE27FB158FA3820051A500 /* Readme.txt */,
+			);
+			path = cooledit;
+			sourceTree = "<group>";
+		};
+		FACE27FC158FA3820051A500 /* project */ = {
+			isa = PBXGroup;
+			children = (
+				FACE27FD158FA3820051A500 /* lcc */,
+				FACE27FF158FA3820051A500 /* mingw32 */,
+			);
+			path = project;
+			sourceTree = "<group>";
+		};
+		FACE27FD158FA3820051A500 /* lcc */ = {
+			isa = PBXGroup;
+			children = (
+				FACE27FE158FA3820051A500 /* Makefile */,
+			);
+			path = lcc;
+			sourceTree = "<group>";
+		};
+		FACE27FF158FA3820051A500 /* mingw32 */ = {
+			isa = PBXGroup;
+			children = (
+				FACE2800158FA3820051A500 /* faac.dev */,
+				FACE2801158FA3820051A500 /* Makefile */,
+			);
+			path = mingw32;
+			sourceTree = "<group>";
+		};
 		FAD217CA158E6F2D0081090E /* FFMpeg Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				FACE2718158FA3810051A500 /* faac-1.28 */,
 				FACE26A0158F89B40051A500 /* libmodplug-0.8.8.4 */,
 				FABB6FBA1588E44D00BF5320 /* ffmpeg */,
 				FA5D53A9158B7566001307AD /* libogg-1.3.0 */,
@@ -9780,6 +10336,7 @@
 				FACE26F0158F9AD80051A500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
