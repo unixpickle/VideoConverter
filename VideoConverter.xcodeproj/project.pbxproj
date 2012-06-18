@@ -10,15 +10,15 @@
 		FA4504701588F4E200659C9E /* VideoConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA45046F1588F4E200659C9E /* VideoConverter.m */; };
 		FA45048915892DE300659C9E /* ffmpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA45047D15892B6E00659C9E /* ffmpeg */; };
 		FA5D5B0F158BA9D8001307AD /* ACPlugIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5D5B0E158BA9D8001307AD /* ACPlugIn.framework */; };
-		FAACFD79158E812700612D9C /* ffmpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA45047D15892B6E00659C9E /* ffmpeg */; };
 		FABB6F5D1588E31800BF5320 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABB6F5C1588E31800BF5320 /* Cocoa.framework */; };
 		FABB6F671588E31800BF5320 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FABB6F651588E31800BF5320 /* InfoPlist.strings */; };
-		FAD217D6158E6F610081090E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABB6F5C1588E31800BF5320 /* Cocoa.framework */; };
-		FAD217DC158E6F620081090E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAD217DA158E6F620081090E /* InfoPlist.strings */; };
-		FAD217E1158E6F750081090E /* ACPlugIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5D5B0E158BA9D8001307AD /* ACPlugIn.framework */; };
-		FAD217E4158E6F890081090E /* FLACConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD217E3158E6F890081090E /* FLACConverter.m */; };
+		FACE26E6158F9AD80051A500 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABB6F5C1588E31800BF5320 /* Cocoa.framework */; };
+		FACE26EC158F9AD80051A500 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FACE26EA158F9AD80051A500 /* InfoPlist.strings */; };
+		FACE26F3158F9B580051A500 /* FFMPEGAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = FACE26F2158F9B580051A500 /* FFMPEGAudio.m */; };
+		FACE26F4158F9B610051A500 /* FFMpegConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD217E7158E6FFD0081090E /* FFMpegConverter.m */; };
+		FACE26F5158F9BD30051A500 /* ffmpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA45047D15892B6E00659C9E /* ffmpeg */; };
+		FACE26F6158F9C140051A500 /* ACPlugIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5D5B0E158BA9D8001307AD /* ACPlugIn.framework */; };
 		FAD217E8158E6FFD0081090E /* FFMpegConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD217E7158E6FFD0081090E /* FFMpegConverter.m */; };
-		FAD217E9158E6FFD0081090E /* FFMpegConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD217E7158E6FFD0081090E /* FFMpegConverter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -4043,12 +4043,74 @@
 		FABB7B971588E45200BF5320 /* unwrap-diff */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "unwrap-diff"; sourceTree = "<group>"; };
 		FABB7B981588E45200BF5320 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
 		FABB7B991588E45200BF5320 /* version.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = version.sh; sourceTree = "<group>"; };
-		FAD217D5158E6F610081090E /* FLACConverter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLACConverter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAD217D9158E6F620081090E /* FLACConverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FLACConverter-Info.plist"; sourceTree = "<group>"; };
-		FAD217DB158E6F620081090E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FAD217DD158E6F620081090E /* FLACConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLACConverter-Prefix.pch"; sourceTree = "<group>"; };
-		FAD217E2158E6F890081090E /* FLACConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLACConverter.h; sourceTree = "<group>"; };
-		FAD217E3158E6F890081090E /* FLACConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLACConverter.m; sourceTree = "<group>"; };
+		FACE26A1158F89B40051A500 /* aclocal.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = aclocal.m4; sourceTree = "<group>"; };
+		FACE26A2158F89B40051A500 /* AUTHORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		FACE26A3158F89B40051A500 /* ChangeLog */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		FACE26A4158F89B40051A500 /* config.guess */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.guess; sourceTree = "<group>"; };
+		FACE26A5158F89B40051A500 /* config.sub */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.sub; sourceTree = "<group>"; };
+		FACE26A6158F89B40051A500 /* configure */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
+		FACE26A7158F89B40051A500 /* configure.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = configure.in; sourceTree = "<group>"; };
+		FACE26A8158F89B40051A500 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		FACE26A9158F89B40051A500 /* depcomp */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = depcomp; sourceTree = "<group>"; };
+		FACE26AA158F89B40051A500 /* INSTALL */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		FACE26AB158F89B40051A500 /* install-sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-sh"; sourceTree = "<group>"; };
+		FACE26AC158F89B40051A500 /* libmodplug.pc.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = libmodplug.pc.in; sourceTree = "<group>"; };
+		FACE26AD158F89B40051A500 /* ltmain.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ltmain.sh; sourceTree = "<group>"; };
+		FACE26AE158F89B40051A500 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		FACE26AF158F89B40051A500 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		FACE26B0158F89B40051A500 /* missing */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = missing; sourceTree = "<group>"; };
+		FACE26B1158F89B40051A500 /* NEWS */ = {isa = PBXFileReference; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
+		FACE26B2158F89B40051A500 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		FACE26B4158F89B40051A500 /* config.h.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
+		FACE26B5158F89B40051A500 /* fastmix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fastmix.cpp; sourceTree = "<group>"; };
+		FACE26B7158F89B40051A500 /* it_defs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = it_defs.h; sourceTree = "<group>"; };
+		FACE26B8158F89B40051A500 /* sndfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sndfile.h; sourceTree = "<group>"; };
+		FACE26B9158F89B40051A500 /* stdafx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+		FACE26BA158F89B40051A500 /* load_669.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_669.cpp; sourceTree = "<group>"; };
+		FACE26BB158F89B40051A500 /* load_abc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_abc.cpp; sourceTree = "<group>"; };
+		FACE26BC158F89B40051A500 /* load_amf.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_amf.cpp; sourceTree = "<group>"; };
+		FACE26BD158F89B40051A500 /* load_ams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_ams.cpp; sourceTree = "<group>"; };
+		FACE26BE158F89B40051A500 /* load_dbm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_dbm.cpp; sourceTree = "<group>"; };
+		FACE26BF158F89B40051A500 /* load_dmf.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_dmf.cpp; sourceTree = "<group>"; };
+		FACE26C0158F89B40051A500 /* load_dsm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_dsm.cpp; sourceTree = "<group>"; };
+		FACE26C1158F89B40051A500 /* load_far.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_far.cpp; sourceTree = "<group>"; };
+		FACE26C2158F89B40051A500 /* load_it.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_it.cpp; sourceTree = "<group>"; };
+		FACE26C3158F89B40051A500 /* load_j2b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_j2b.cpp; sourceTree = "<group>"; };
+		FACE26C4158F89B40051A500 /* load_mdl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_mdl.cpp; sourceTree = "<group>"; };
+		FACE26C5158F89B40051A500 /* load_med.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_med.cpp; sourceTree = "<group>"; };
+		FACE26C6158F89B40051A500 /* load_mid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_mid.cpp; sourceTree = "<group>"; };
+		FACE26C7158F89B40051A500 /* load_mod.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_mod.cpp; sourceTree = "<group>"; };
+		FACE26C8158F89B40051A500 /* load_mt2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_mt2.cpp; sourceTree = "<group>"; };
+		FACE26C9158F89B40051A500 /* load_mtm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_mtm.cpp; sourceTree = "<group>"; };
+		FACE26CA158F89B40051A500 /* load_okt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_okt.cpp; sourceTree = "<group>"; };
+		FACE26CB158F89B40051A500 /* load_pat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_pat.cpp; sourceTree = "<group>"; };
+		FACE26CC158F89B40051A500 /* load_pat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = load_pat.h; sourceTree = "<group>"; };
+		FACE26CD158F89B40051A500 /* load_psm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_psm.cpp; sourceTree = "<group>"; };
+		FACE26CE158F89B40051A500 /* load_ptm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_ptm.cpp; sourceTree = "<group>"; };
+		FACE26CF158F89B40051A500 /* load_s3m.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_s3m.cpp; sourceTree = "<group>"; };
+		FACE26D0158F89B40051A500 /* load_stm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_stm.cpp; sourceTree = "<group>"; };
+		FACE26D1158F89B40051A500 /* load_ult.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_ult.cpp; sourceTree = "<group>"; };
+		FACE26D2158F89B40051A500 /* load_umx.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_umx.cpp; sourceTree = "<group>"; };
+		FACE26D3158F89B40051A500 /* load_wav.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_wav.cpp; sourceTree = "<group>"; };
+		FACE26D4158F89B40051A500 /* load_xm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = load_xm.cpp; sourceTree = "<group>"; };
+		FACE26D5158F89B40051A500 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		FACE26D6158F89B40051A500 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		FACE26D7158F89B40051A500 /* mmcmp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mmcmp.cpp; sourceTree = "<group>"; };
+		FACE26D8158F89B40051A500 /* modplug.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = modplug.cpp; sourceTree = "<group>"; };
+		FACE26D9158F89B40051A500 /* modplug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = modplug.h; sourceTree = "<group>"; };
+		FACE26DA158F89B40051A500 /* snd_dsp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = snd_dsp.cpp; sourceTree = "<group>"; };
+		FACE26DB158F89B40051A500 /* snd_flt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = snd_flt.cpp; sourceTree = "<group>"; };
+		FACE26DC158F89B40051A500 /* snd_fx.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = snd_fx.cpp; sourceTree = "<group>"; };
+		FACE26DD158F89B40051A500 /* sndfile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sndfile.cpp; sourceTree = "<group>"; };
+		FACE26DE158F89B40051A500 /* sndmix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sndmix.cpp; sourceTree = "<group>"; };
+		FACE26DF158F89B40051A500 /* tables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tables.h; sourceTree = "<group>"; };
+		FACE26E0158F89B40051A500 /* TODO */ = {isa = PBXFileReference; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		FACE26E5158F9AD70051A500 /* FFMPEGAudio.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFMPEGAudio.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACE26E9158F9AD80051A500 /* FFMPEGAudio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FFMPEGAudio-Info.plist"; sourceTree = "<group>"; };
+		FACE26EB158F9AD80051A500 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FACE26ED158F9AD80051A500 /* FFMPEGAudio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FFMPEGAudio-Prefix.pch"; sourceTree = "<group>"; };
+		FACE26F1158F9B580051A500 /* FFMPEGAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFMPEGAudio.h; sourceTree = "<group>"; };
+		FACE26F2158F9B580051A500 /* FFMPEGAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFMPEGAudio.m; sourceTree = "<group>"; };
 		FAD217E6158E6FFD0081090E /* FFMpegConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFMpegConverter.h; sourceTree = "<group>"; };
 		FAD217E7158E6FFD0081090E /* FFMpegConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFMpegConverter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -4070,12 +4132,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAD217D2158E6F610081090E /* Frameworks */ = {
+		FACE26E2158F9AD70051A500 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD217D6158E6F610081090E /* Cocoa.framework in Frameworks */,
-				FAD217E1158E6F750081090E /* ACPlugIn.framework in Frameworks */,
+				FACE26E6158F9AD80051A500 /* Cocoa.framework in Frameworks */,
+				FACE26F6158F9C140051A500 /* ACPlugIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5730,7 +5792,7 @@
 				FAD217E5158E6FEA0081090E /* Shared */,
 				FAD217CA158E6F2D0081090E /* FFMpeg Libraries */,
 				FABB6F621588E31800BF5320 /* VideoConverter */,
-				FAD217D7158E6F620081090E /* FLACConverter */,
+				FACE26E7158F9AD80051A500 /* FFMPEGAudio */,
 				FABB6F5B1588E31800BF5320 /* Frameworks */,
 				FABB6F5A1588E31800BF5320 /* Products */,
 			);
@@ -5741,7 +5803,7 @@
 			children = (
 				FABB6F591588E31800BF5320 /* VideoConverter.bundle */,
 				FA45047D15892B6E00659C9E /* ffmpeg */,
-				FAD217D5158E6F610081090E /* FLACConverter.bundle */,
+				FACE26E5158F9AD70051A500 /* FFMPEGAudio.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -9189,9 +9251,115 @@
 			path = tools;
 			sourceTree = "<group>";
 		};
+		FACE26A0158F89B40051A500 /* libmodplug-0.8.8.4 */ = {
+			isa = PBXGroup;
+			children = (
+				FACE26A1158F89B40051A500 /* aclocal.m4 */,
+				FACE26A2158F89B40051A500 /* AUTHORS */,
+				FACE26A3158F89B40051A500 /* ChangeLog */,
+				FACE26A4158F89B40051A500 /* config.guess */,
+				FACE26A5158F89B40051A500 /* config.sub */,
+				FACE26A6158F89B40051A500 /* configure */,
+				FACE26A7158F89B40051A500 /* configure.in */,
+				FACE26A8158F89B40051A500 /* COPYING */,
+				FACE26A9158F89B40051A500 /* depcomp */,
+				FACE26AA158F89B40051A500 /* INSTALL */,
+				FACE26AB158F89B40051A500 /* install-sh */,
+				FACE26AC158F89B40051A500 /* libmodplug.pc.in */,
+				FACE26AD158F89B40051A500 /* ltmain.sh */,
+				FACE26AE158F89B40051A500 /* Makefile.am */,
+				FACE26AF158F89B40051A500 /* Makefile.in */,
+				FACE26B0158F89B40051A500 /* missing */,
+				FACE26B1158F89B40051A500 /* NEWS */,
+				FACE26B2158F89B40051A500 /* README */,
+				FACE26B3158F89B40051A500 /* src */,
+				FACE26E0158F89B40051A500 /* TODO */,
+			);
+			path = "libmodplug-0.8.8.4";
+			sourceTree = "<group>";
+		};
+		FACE26B3158F89B40051A500 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				FACE26B4158F89B40051A500 /* config.h.in */,
+				FACE26B5158F89B40051A500 /* fastmix.cpp */,
+				FACE26B6158F89B40051A500 /* libmodplug */,
+				FACE26BA158F89B40051A500 /* load_669.cpp */,
+				FACE26BB158F89B40051A500 /* load_abc.cpp */,
+				FACE26BC158F89B40051A500 /* load_amf.cpp */,
+				FACE26BD158F89B40051A500 /* load_ams.cpp */,
+				FACE26BE158F89B40051A500 /* load_dbm.cpp */,
+				FACE26BF158F89B40051A500 /* load_dmf.cpp */,
+				FACE26C0158F89B40051A500 /* load_dsm.cpp */,
+				FACE26C1158F89B40051A500 /* load_far.cpp */,
+				FACE26C2158F89B40051A500 /* load_it.cpp */,
+				FACE26C3158F89B40051A500 /* load_j2b.cpp */,
+				FACE26C4158F89B40051A500 /* load_mdl.cpp */,
+				FACE26C5158F89B40051A500 /* load_med.cpp */,
+				FACE26C6158F89B40051A500 /* load_mid.cpp */,
+				FACE26C7158F89B40051A500 /* load_mod.cpp */,
+				FACE26C8158F89B40051A500 /* load_mt2.cpp */,
+				FACE26C9158F89B40051A500 /* load_mtm.cpp */,
+				FACE26CA158F89B40051A500 /* load_okt.cpp */,
+				FACE26CB158F89B40051A500 /* load_pat.cpp */,
+				FACE26CC158F89B40051A500 /* load_pat.h */,
+				FACE26CD158F89B40051A500 /* load_psm.cpp */,
+				FACE26CE158F89B40051A500 /* load_ptm.cpp */,
+				FACE26CF158F89B40051A500 /* load_s3m.cpp */,
+				FACE26D0158F89B40051A500 /* load_stm.cpp */,
+				FACE26D1158F89B40051A500 /* load_ult.cpp */,
+				FACE26D2158F89B40051A500 /* load_umx.cpp */,
+				FACE26D3158F89B40051A500 /* load_wav.cpp */,
+				FACE26D4158F89B40051A500 /* load_xm.cpp */,
+				FACE26D5158F89B40051A500 /* Makefile.am */,
+				FACE26D6158F89B40051A500 /* Makefile.in */,
+				FACE26D7158F89B40051A500 /* mmcmp.cpp */,
+				FACE26D8158F89B40051A500 /* modplug.cpp */,
+				FACE26D9158F89B40051A500 /* modplug.h */,
+				FACE26DA158F89B40051A500 /* snd_dsp.cpp */,
+				FACE26DB158F89B40051A500 /* snd_flt.cpp */,
+				FACE26DC158F89B40051A500 /* snd_fx.cpp */,
+				FACE26DD158F89B40051A500 /* sndfile.cpp */,
+				FACE26DE158F89B40051A500 /* sndmix.cpp */,
+				FACE26DF158F89B40051A500 /* tables.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		FACE26B6158F89B40051A500 /* libmodplug */ = {
+			isa = PBXGroup;
+			children = (
+				FACE26B7158F89B40051A500 /* it_defs.h */,
+				FACE26B8158F89B40051A500 /* sndfile.h */,
+				FACE26B9158F89B40051A500 /* stdafx.h */,
+			);
+			path = libmodplug;
+			sourceTree = "<group>";
+		};
+		FACE26E7158F9AD80051A500 /* FFMPEGAudio */ = {
+			isa = PBXGroup;
+			children = (
+				FACE26F1158F9B580051A500 /* FFMPEGAudio.h */,
+				FACE26F2158F9B580051A500 /* FFMPEGAudio.m */,
+				FACE26E8158F9AD80051A500 /* Supporting Files */,
+			);
+			path = FFMPEGAudio;
+			sourceTree = "<group>";
+		};
+		FACE26E8158F9AD80051A500 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FACE26E9158F9AD80051A500 /* FFMPEGAudio-Info.plist */,
+				FACE26EA158F9AD80051A500 /* InfoPlist.strings */,
+				FACE26ED158F9AD80051A500 /* FFMPEGAudio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		FAD217CA158E6F2D0081090E /* FFMpeg Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				FACE26A0158F89B40051A500 /* libmodplug-0.8.8.4 */,
 				FABB6FBA1588E44D00BF5320 /* ffmpeg */,
 				FA5D53A9158B7566001307AD /* libogg-1.3.0 */,
 				FA5D544B158B7570001307AD /* libvorbis-1.0.1 */,
@@ -9199,26 +9367,6 @@
 				FA45048A1589301200659C9E /* x264 */,
 			);
 			name = "FFMpeg Libraries";
-			sourceTree = "<group>";
-		};
-		FAD217D7158E6F620081090E /* FLACConverter */ = {
-			isa = PBXGroup;
-			children = (
-				FAD217E2158E6F890081090E /* FLACConverter.h */,
-				FAD217E3158E6F890081090E /* FLACConverter.m */,
-				FAD217D8158E6F620081090E /* Supporting Files */,
-			);
-			path = FLACConverter;
-			sourceTree = "<group>";
-		};
-		FAD217D8158E6F620081090E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FAD217D9158E6F620081090E /* FLACConverter-Info.plist */,
-				FAD217DA158E6F620081090E /* InfoPlist.strings */,
-				FAD217DD158E6F620081090E /* FLACConverter-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		FAD217E5158E6FEA0081090E /* Shared */ = {
@@ -9268,21 +9416,21 @@
 			productReference = FABB6F591588E31800BF5320 /* VideoConverter.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		FAD217D4158E6F610081090E /* FLACConverter */ = {
+		FACE26E4158F9AD70051A500 /* FFMPEGAudio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAD217DE158E6F620081090E /* Build configuration list for PBXNativeTarget "FLACConverter" */;
+			buildConfigurationList = FACE26EE158F9AD80051A500 /* Build configuration list for PBXNativeTarget "FFMPEGAudio" */;
 			buildPhases = (
-				FAD217D1158E6F610081090E /* Sources */,
-				FAD217D2158E6F610081090E /* Frameworks */,
-				FAD217D3158E6F610081090E /* Resources */,
+				FACE26E1158F9AD70051A500 /* Sources */,
+				FACE26E2158F9AD70051A500 /* Frameworks */,
+				FACE26E3158F9AD70051A500 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FLACConverter;
-			productName = FLACConverter;
-			productReference = FAD217D5158E6F610081090E /* FLACConverter.bundle */;
+			name = FFMPEGAudio;
+			productName = FFMPEGAudio;
+			productReference = FACE26E5158F9AD70051A500 /* FFMPEGAudio.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -9317,7 +9465,7 @@
 			projectRoot = "";
 			targets = (
 				FABB6F581588E31800BF5320 /* VideoConverter */,
-				FAD217D4158E6F610081090E /* FLACConverter */,
+				FACE26E4158F9AD70051A500 /* FFMPEGAudio */,
 				FA45047C15892B6E00659C9E /* ffmpeg */,
 			);
 		};
@@ -9371,12 +9519,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAD217D3158E6F610081090E /* Resources */ = {
+		FACE26E3158F9AD70051A500 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD217DC158E6F620081090E /* InfoPlist.strings in Resources */,
-				FAACFD79158E812700612D9C /* ffmpeg in Resources */,
+				FACE26EC158F9AD80051A500 /* InfoPlist.strings in Resources */,
+				FACE26F5158F9BD30051A500 /* ffmpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -9415,12 +9563,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAD217D1158E6F610081090E /* Sources */ = {
+		FACE26E1158F9AD70051A500 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD217E4158E6F890081090E /* FLACConverter.m in Sources */,
-				FAD217E9158E6FFD0081090E /* FFMpegConverter.m in Sources */,
+				FACE26F3158F9B580051A500 /* FFMPEGAudio.m in Sources */,
+				FACE26F4158F9B610051A500 /* FFMpegConverter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -9459,10 +9607,10 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		FAD217DA158E6F620081090E /* InfoPlist.strings */ = {
+		FACE26EA158F9AD80051A500 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FAD217DB158E6F620081090E /* en */,
+				FACE26EB158F9AD80051A500 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -9563,7 +9711,7 @@
 			};
 			name = Release;
 		};
-		FAD217DF158E6F620081090E /* Debug */ = {
+		FACE26EF158F9AD80051A500 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -9571,15 +9719,15 @@
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FLACConverter/FLACConverter-Prefix.pch";
-				INFOPLIST_FILE = "FLACConverter/FLACConverter-Info.plist";
+				GCC_PREFIX_HEADER = "FFMPEGAudio/FFMPEGAudio-Prefix.pch";
+				INFOPLIST_FILE = "FFMPEGAudio/FFMPEGAudio-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		FAD217E0158E6F620081090E /* Release */ = {
+		FACE26F0158F9AD80051A500 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -9587,8 +9735,8 @@
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FLACConverter/FLACConverter-Prefix.pch";
-				INFOPLIST_FILE = "FLACConverter/FLACConverter-Info.plist";
+				GCC_PREFIX_HEADER = "FFMPEGAudio/FFMPEGAudio-Prefix.pch";
+				INFOPLIST_FILE = "FFMPEGAudio/FFMPEGAudio-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = bundle;
@@ -9625,14 +9773,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAD217DE158E6F620081090E /* Build configuration list for PBXNativeTarget "FLACConverter" */ = {
+		FACE26EE158F9AD80051A500 /* Build configuration list for PBXNativeTarget "FFMPEGAudio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAD217DF158E6F620081090E /* Debug */,
-				FAD217E0158E6F620081090E /* Release */,
+				FACE26EF158F9AD80051A500 /* Debug */,
+				FACE26F0158F9AD80051A500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

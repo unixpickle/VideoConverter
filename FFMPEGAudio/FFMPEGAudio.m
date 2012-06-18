@@ -1,21 +1,21 @@
 //
-//  FLACConverter.m
+//  FFMPEGAudio.m
 //  VideoConverter
 //
-//  Created by Alex Nichol on 6/17/12.
+//  Created by Alex Nichol on 6/18/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "FLACConverter.h"
+#import "FFMPEGAudio.h"
 
-@implementation FLACConverter
+@implementation FFMPEGAudio
 
 + (NSString *)bundleName {
-    return @"com.aqnichol.FLACConverter";
+    return @"com.aqnichol.FFMPEGAudio";
 }
 
 + (BOOL)supportsExtension:(NSString *)oldExt toExtension:(NSString *)newExt {
-    NSArray * supportedSource = [NSArray arrayWithObjects:@"flac", @"wav", nil];
+    NSArray * supportedSource = [NSArray arrayWithObjects:@"flac", @"wav", @"xm", nil];
     NSArray * supportedDestination = [NSArray arrayWithObjects:@"flac", @"wav", nil];
     if ([supportedSource containsObject:oldExt]) {
         if ([supportedDestination containsObject:newExt]) {

@@ -1,14 +1,14 @@
 //
-//  FLACConverter.h
+//  FFMPEGAudio.h
 //  VideoConverter
 //
-//  Created by Alex Nichol on 6/17/12.
+//  Created by Alex Nichol on 6/18/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import "FFMpegConverter.h"
 
-@interface FLACConverter : FFMpegConverter
+@interface FFMPEGAudio : FFMpegConverter
 
 - (BOOL)encodeWithNoOptions;
 

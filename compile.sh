@@ -47,10 +47,22 @@ fi
 ./configure --enable-static --disable-asm
 make
 
+# compile libmodplug
+echo "Compiling libmodplug" >&2
+libmodplug_path="${SRCROOT}/libmodplug-0.8.8.4"
+cd "$libmodplug_path"
+if [ -d output ]; then
+	rm -rf output
+fi
+mkdir output
+./configure --build=x86_64 --enable-static --disable-shared "--libdir=${libmodplug_path}/output" "--includedir=${libmodplug_path}/output" --with-pic
+make clean
+make install
+
 # compile ffmpeg
 echo "Compiling FFMpeg" >&2
 cd "${SRCROOT}/ffmpeg"
-sh restart.sh ../x264 ../vorbis ../libogg-1.3.0/lib "${libtheora_path}/output"
+sh restart.sh ../x264 ../vorbis ../libogg-1.3.0/lib "${libtheora_path}/output" "${libmodplug_path}/output"
 make
 execPath="${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}"
 if [ -f "$execPath" ]; then
