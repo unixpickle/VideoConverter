@@ -1,5 +1,4 @@
 .config
-.version
 *.a
 *.o
 *.d
@@ -61,4 +60,3 @@ tools/pktdumper
 tools/probetest
 tools/qt-faststart
 tools/trasher
-version.h
