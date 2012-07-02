@@ -16,11 +16,10 @@ echo "Done" >&2
 # compile libvorbis
 echo "Compiling libvorbis" >&2
 libvorbis_path="${SRCROOT}/vorbis"
-if [ ! -d "${libvorbis_path}/libs" ]; then
-    mkdir "${libvorbis_path}/libs"
-else
-    rm -rf "${libvorbis_path}/libs/*"
+if [ -d "${libvorbis_path}/libs" ]; then
+    rm -rf "${libvorbis_path}/libs"
 fi
+mkdir "${libvorbis_path}/libs/"
 cd "$libvorbis_path"
 if [ -f config.status ]; then
     rm config.status
