@@ -9,7 +9,9 @@ mkdir lib
 ./configure "--libdir=${libogg_path}/lib" "--includedir=${libogg_path}/lib" --disable-shared
 make clean
 make
+echo "Making install libogg" >&2
 make install
+echo "Done" >&2
 
 # compile libvorbis
 echo "Compiling libvorbis" >&2
@@ -20,7 +22,9 @@ else
     rm -rf "${libvorbis_path}/libs/*"
 fi
 cd "$libvorbis_path"
-./configure  --build=x86_64
+if [ -f config.status ]; then
+    rm config.status
+fi
 ./configure "--with-ogg=${libogg_path}" "--with-ogg-includes=${libogg_path}/lib" --build=x86_64 --enable-static "--libdir=${libvorbis_path}/libs"
 make clean
 make install
